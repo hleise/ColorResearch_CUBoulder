@@ -1,0 +1,68 @@
+/*
+ * Hunter Leise
+ * Color Research CSS
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, serif;
+    text-align: center;
+}
+
+#main-content {
+    border: 1px solid black;
+    height: 400px;
+    margin: 0px 10px;
+    min-width: 400px;
+    position: relative;
+}
+
+/* Disallows element highlighting and cursor changing when hovered */
+.non-selectable {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#options-container {
+    margin: auto;
+    width: 380px;
+}
+
+#option-one, #option-two {
+    border-radius: 25px;
+    border: 8px solid black;
+    float: left;
+    font-weight: bold;
+    height: 100px;
+    line-height: 90px;
+    width: 160px;
+}
+
+#option-one {
+    margin-right:30px;
+}
+
+#option-two {
+    margin-left: 30px;
+}
+
+#recenter-shape-filling {
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+#recenter-shape {
+    border: 1px solid black;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+
+    -moz-border-radius: 10px / 10px;
+    -webkit-border-radius: 10px / 10px;
+    border-radius: 10px / 10px;
+}
