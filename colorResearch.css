@@ -33,21 +33,29 @@
 }
 
 #option-one, #option-two {
-    border-radius: 25px;
     border: 8px solid black;
-    float: left;
-    font-size: 20pt;
-    font-weight: bold;
+    border-radius: 25px;
+    position: absolute;
+}
+
+#option-one, #option-two, #option-one-container, #option-two-container, #option-one-text, #option-two-text {
     height: 100px;
-    line-height: 90px;
     width: 160px;
 }
 
-#option-one {
+#option-one-container, #option-two-container {
+    float: left;
+    font-size: 20pt;
+    font-weight: bold;
+    line-height: 100px;
+    position: relative;
+}
+
+#option-one-container {
     margin-right:30px;
 }
 
-#option-two {
+#option-two-container {
     margin-left: 30px;
 }
 
@@ -59,11 +67,8 @@
 
 #recenter-shape {
     border: 1px solid black;
+    border-radius: 10px / 10px;
     margin: auto;
     height: 20px;
     width: 20px;
-
-    -moz-border-radius: 10px / 10px;
-    -webkit-border-radius: 10px / 10px;
-    border-radius: 10px / 10px;
 }

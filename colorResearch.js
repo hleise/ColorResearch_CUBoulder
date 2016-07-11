@@ -53,8 +53,10 @@
 
         if (randomDarker == 0) {
             $("option-one").style.filter = "brightness(90%)";
+            $("option-one").style.WebkitFilter = "brightness(90%)";
         } else {
             $("option-two").style.filter = "brightness(90%)";
+            $("option-two").style.WebkitFilter = "brightness(90%)";
         }
     }
 
@@ -72,8 +74,6 @@
         $("recenter-shape-filling").style.height = fillingDiameter + "px";
         $("recenter-shape-filling").style.width = fillingDiameter + "px";
         $("recenter-shape-filling").style.borderRadius = fillingRadius + "px";
-        $("recenter-shape-filling").style.MozBorderRadius = fillingRadius + "px";
-        $("recenter-shape-filling").style.webkitBorderRadius = fillingRadius + "px";
     }
 
     /* Changes the display settings for either the "recenter" or "testCase" state */
@@ -85,13 +85,15 @@
                 $("recenter-shape").style.display = "block";
 
                 $("shape-image").style.display = "none";
-                $("option-one").style.display = "none";
-                $("option-two").style.display = "none";
+                $("option-one-container").style.display = "none";
+                $("option-two-container").style.display = "none";
 
                 $("options-container").style.marginTop = "185px";
                 $("option-one").style.filter = "brightness(100%)";
+                $("option-one").style.WebkitFilter = "brightness(100%)";
                 $("option-two").style.filter = "brightness(100%)";
-
+                $("option-two").style.WebkitFilter = "brightness(100%)";
+                
                 break;
             case "testCase":
                 $("case-instructions").style.display = "block";
@@ -99,8 +101,8 @@
                 $("recenter-shape").style.display = "none";
 
                 $("shape-image").style.display = "inline";
-                $("option-one").style.display = "block";
-                $("option-two").style.display = "block";
+                $("option-one-container").style.display = "block";
+                $("option-two-container").style.display = "block";
 
                 $("options-container").style.marginTop = "20px";
 
@@ -113,8 +115,8 @@
     /* Sets the image and name options given the caseIterator. */
     function setTestCase() {
         $("shape-image").src = "Images/" + caseIterator + ".png";
-        $("option-one").innerHTML = testSetOne[caseIterator];
-        $("option-two").innerHTML = testSetTwo[caseIterator];
+        $("option-one-text").innerHTML = testSetOne[caseIterator];
+        $("option-two-text").innerHTML = testSetTwo[caseIterator];
     }
 
     /* Starts the timer */
