@@ -114,7 +114,7 @@
 
     /* Sets the image and name options given the caseIterator. */
     function setTestCase() {
-        $("shape-image").src = "Images/" + caseIterator + ".png";
+        $("shape-image").src = "Images/" + caseIterator + ".svg";
         $("option-one-text").innerHTML = testSetOne[caseIterator];
         $("option-two-text").innerHTML = testSetTwo[caseIterator];
     }
