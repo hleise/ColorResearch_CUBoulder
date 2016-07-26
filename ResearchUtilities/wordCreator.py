@@ -7,13 +7,10 @@ rounded = ['b', 'd', 'g', 'l', 'm', 'n', 'p', 's']
 spiky = ['k', 't', 'v', 'z']
 
 def main():
-    '''
     print("########## CVCV ##########")
-    createVaryingVowelWords(spiky)
+    createVaryingVowelWords(spiky + rounded)
     print("\n")
-    createVaryingConsonantWords(spiky)
-    '''
-    randomWords(['k', 't', 'v', 'z', 'a', 'e', 'i', 'o', 'u'], 5, 100)
+    createVaryingConsonantWords(spiky + rounded)
 
 def createVaryingVowelWords(consonants):
     for i in range(0, 4):
