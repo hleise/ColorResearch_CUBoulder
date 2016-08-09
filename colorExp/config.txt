@@ -1,0 +1,35 @@
+[HIT Configuration]
+title = Rank three compressed images from best to worst.
+description = You will be shown several screens with three compressed images. Your task is to sort the images based on how well they reconstruct an original image. The experiment should take about 10 minutes. NOTE: you can only participate in ONE (1) experiment for credit.
+amt_keywords = psychology, image judgments
+lifetime = 24
+us_only = false
+approve_requirement = 90
+contact_email_on_error = brett.roads@colorado.edu
+ad_group = perceptuallyOptimized
+psiturk_keywords = visual similarity, decision making, preference judgments
+organization_name = University of Colorado Boulder
+browser_exclude_rule = MSIE, SeaMonkey, seamonkey, mobile, tablet
+
+[Database Parameters]
+database_url = sqlite:///liveparticipants.db
+table_name = perceptually-optimized-stage1
+
+[Server Parameters]
+host = 0.0.0.0
+port = 22362
+cutoff_time = 60
+logfile = server.log
+loglevel = 0
+debug = true
+login_username = 
+login_pw = 
+threads = 4
+
+[Task Parameters]
+experiment_code_version = 2
+num_conds = 20
+num_counters = 1
+
+[Shell Parameters]
+launch_in_sandbox_mode = true

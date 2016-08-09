@@ -1,0 +1,330 @@
+/* general.css 
+*
+* Author: BD Roads
+* Date: 3-26-2015
+*
+*/
+
+/********************************************************************/
+/*  Generic                                                         */
+/********************************************************************/
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+	/* background: #373737; */ /* #212121; */
+	margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: Georgia, serif;
+}
+
+header {
+    font-family: Papyrus, fantasy;
+	background-color: none;
+	color: white;
+	text-align: center;
+	padding: 0px;
+}
+
+footer {
+	background-color: none;
+	color: white;
+	float: none;
+	text-align: center;
+	padding: 5px;
+}
+
+/********************************************************************/
+/* Slide components                                                 */
+/********************************************************************/
+
+div.slide {
+    min-width: 650px;
+    position: relative;
+    padding: 1% 2% 1% 2%;
+    margin: 0 auto;
+}
+
+div.spacer { clear: both; }
+
+div.blue {
+    background-color: #CEECF5;
+    padding: 0 1em 0 1em;
+    border: 1px solid #CEECF5;
+    position: relative;
+}
+
+div.scroll {
+    width: auto;
+    height: 310px;
+    overflow: scroll;
+}
+
+div.continue {
+    text-align: center;
+    width: 100%;
+    margin-top: 1%;
+}
+
+span.warn {
+    font-weight: bold;
+    color: blue;
+}
+
+/********************************************************************/
+/*  Consent                                                         */
+/********************************************************************/
+#consent {
+    font-size: 0.95em;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 1.5em 0;
+    text-align: justify;
+    background-color: white;
+}
+
+span.consent {
+    font-color: red;
+}
+/********************************************************************/
+/* buttons                                                          */
+/********************************************************************/
+
+button, .next {
+    background-color: white;
+    box-shadow: 1px 1px 3px;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1% 2% 1% 2%;
+    font-family: Georgia, serif; 
+    font-size: 1em;
+}
+
+button:active, .next:active {
+    background-color: #c9c9c9;
+    box-shadow: 0px 0px 3px;
+}
+
+/********************************************************************/
+/* TRIAL CONTENT                                                    */
+/********************************************************************/
+.table-heading {
+    font-size: large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.test-heading {
+    background: lightblue; 
+}
+
+.stimulus-table {
+    width: 100%;
+}
+
+.choice-heading {
+    background: #C3C3C3; 
+}
+
+.image-wrapper {
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+}
+
+.original-stimuli {
+    width: 96px;
+	height: 96px;    
+}
+
+.stimuli {
+    width: 90%;
+    min-width: 96px;
+/*	width: 96px;*/
+/*	height: 96px;*/
+}
+
+.filler-div {
+    width: 96px;
+	height: 96px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    line-height: 96px;
+}
+/********************************************************************/
+/* Trial slide components                                           */
+/********************************************************************/
+/* Progress bar */
+
+#progress {
+    margin-top: .625em;
+    margin-bottom: .625em;
+    position: relative;
+}
+
+#progress-text { position: absolute; }
+
+#indicator-container {
+    position: relative;
+    float: right;
+    width: 80%;
+    margin-bottom: .2em;
+}
+
+#indicator-outer {
+    background-color: white;
+    border: 1px solid black;
+    height: 1em;
+}
+
+#indicator-stage {
+    height: 100%;
+    background-color: navy;
+}
+
+/* Canvas */
+
+canvas.stim_canvas {
+    float: left;
+}
+
+/* Question */
+
+.question {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#choices {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#score {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Trial phases */
+
+#phase-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phase {
+/*    width: 600px;*/
+    width: 100%;
+    display: none;
+    margin: 0 auto;
+}
+
+.sort-container{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*See: https://jqueryui.com/sortable/*/
+.sortable-images-template { 
+    list-style-type: none; 
+    margin-top: 0; 
+    padding: 0; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sortable-images-template li {
+/*    border: 1px solid black;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.sortable-images-template li:hover{
+    cursor: move;
+}
+
+.sortable-images-template li span { 
+    margin-left: -1em;
+    vertical-align: middle;
+}
+
+.sortable-row-table {
+    margin-top: 0; 
+    padding: 0; 
+}
+
+.original-row{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.best-row{
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #009900;  
+    margin-left: -15px;
+}
+
+.worst-row{
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #990000;
+    margin-left: -15px;
+}
+
+.sort-symbol{
+    font-size: 2em;
+    color: gray;
+}
+
+.divider-line {
+    border-left: thick solid gray;
+    padding-left: 40px;
+}
+
+/********************************************************************/
+/* Finished slide components                                        */
+/********************************************************************/
+
+#submit_error_slide {
+    display: none;
+}
+
+#resubmit_slide {
+    display: none;
+}
+
+/********************************************************************/
+/* Error                                                            */
+/********************************************************************/
+
+#error-message {
+    background-color: #FEA;
+    padding: 0 0.625em;
+    border: 1px solid black;
+    margin: 0.625em;
+}
+
