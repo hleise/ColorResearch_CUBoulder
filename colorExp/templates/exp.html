@@ -27,6 +27,7 @@
 
       
     <link rel="stylesheet" type="text/css" href="static/css/general.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
     <script type="text/javascript">
       // Subject info, including condition and counterbalance codes.
@@ -42,16 +43,23 @@
     <script src="static/js/task.js" type="text/javascript"></script>
     
     <script>
-      $(function() {
-          $( "#sortable-images" ).sortable();
-          $( "#sortable-images" ).disableSelection();
-      });
+        $(function() {
+            $(document).on("click", "#option-one", function() {
+                alert("option-one clicked");
+            }/*optionClicked()*/);
+            $(document).on("click", "#option-two", function() {
+                alert("option-two clicked");
+            }/*optionClicked()*/);
+            $(document).on("mouseenter", "#recenter-shape", function() {
+                alert("mouse entered");
+            }/*startTimer()*/);
+            $(document).on("mouseleave", "#recenter-shape", function() {
+                alert("mouse left");
+            }/*stopTimer()*/);
+        });
         
-      $(function() {
-          $( "#ex-sortable-images" ).sortable();
-          $( "#ex-sortable-images" ).disableSelection();
-      });
-        
+        // Could be useful later if the images need to resize with the window
+        /*
         window.addEventListener("resize", function(e) {
             var stimuliWidth = $("#item1-image").width();
             $(".original-stimuli").width(stimuliWidth);
@@ -60,6 +68,7 @@
             $(".filler-div").height(stimuliWidth);
             $(".filler-div").css('line-height', "" + stimuliWidth + "px")
         });
+        */
     </script>
       
   </head>

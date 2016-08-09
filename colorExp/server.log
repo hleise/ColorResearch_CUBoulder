@@ -1829,3 +1829,2063 @@
 [2016-08-09 12:31:44 -0600] [39324] [DEBUG] Closing connection. 
 [2016-08-09 12:31:44 -0600] [39324] [INFO] Parent changed, shutting down: <Worker 39324>
 [2016-08-09 12:31:44 -0600] [39324] [INFO] Worker exiting (pid: 39324)
+[2016-08-09 13:28:06 -0600] [39515] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 13:28:06 -0600] [39515] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 13:28:06 -0600] [39515] [DEBUG] Arbiter booted
+[2016-08-09 13:28:06 -0600] [39515] [INFO] Listening at: http://0.0.0.0:22362 (39515)
+[2016-08-09 13:28:06 -0600] [39515] [INFO] Using worker: sync
+[2016-08-09 13:28:06 -0600] [39519] [INFO] Booting worker with pid: 39519
+[2016-08-09 13:28:06 -0600] [39521] [INFO] Booting worker with pid: 39521
+[2016-08-09 13:28:06 -0600] [39522] [INFO] Booting worker with pid: 39522
+[2016-08-09 13:28:06 -0600] [39515] [DEBUG] 4 workers
+[2016-08-09 13:28:06 -0600] [39523] [INFO] Booting worker with pid: 39523
+2016-08-09 13:28:06,969 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:28:06,972 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:28:07,023 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:28:07,026 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:28:07,060 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:28:07,064 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:28:07,102 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:28:07,104 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 13:28:07 -0600] [39522] [DEBUG] Closing connection. 
+[2016-08-09 13:28:09 -0600] [39523] [DEBUG] Closing connection. 
+[2016-08-09 13:28:09 -0600] [39522] [DEBUG] Closing connection. 
+[2016-08-09 13:28:10 -0600] [39522] [DEBUG] Closing connection. 
+[2016-08-09 13:28:11 -0600] [39523] [DEBUG] GET /ad
+[2016-08-09 13:28:12 -0600] [39523] [DEBUG] GET /consent
+[2016-08-09 13:28:12 -0600] [39523] [DEBUG] GET /static/css/general.css
+[2016-08-09 13:28:12 -0600] [39522] [DEBUG] GET /static/js/utils.js
+[2016-08-09 13:28:12 -0600] [39521] [DEBUG] GET /ad
+[2016-08-09 13:28:12 -0600] [39522] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 13:28:13 -0600] [39521] [DEBUG] GET /exp
+2016-08-09 13:28:13,392 Accessing /exp: debug8RMHH3 debugGV7YDM debugBLY4XV 
+2016-08-09 13:28:13,397 given Counter({(12, 0): 1, (6, 0): 1, (18, 0): 0, (9, 0): 0, (0, 0): 0, (7, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (15, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (5, 0): 0, (19, 0): 0, (10, 0): 0, (1, 0): 0, (13, 0): 0, (4, 0): 0}) chose (15, 0)
+[2016-08-09 13:28:13 -0600] [39521] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 13:28:13 -0600] [39522] [DEBUG] GET /static/js/task.js
+[2016-08-09 13:28:13 -0600] [39522] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 13:28:13 -0600] [39523] [DEBUG] GET /static/js/config.js
+[2016-08-09 13:28:13 -0600] [39519] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 13:28:13 -0600] [39521] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 13:28:13 -0600] [39521] [DEBUG] GET /static/json/trial-set-15.json
+[2016-08-09 13:28:13 -0600] [39521] [DEBUG] GET /sync/debugBLY4XV%3AdebugGV7YDM
+2016-08-09 13:28:13,586 GET /sync route with id: debugBLY4XV:debugGV7YDM
+[2016-08-09 13:28:13 -0600] [39521] [DEBUG] GET /trial.html
+[2016-08-09 13:28:13 -0600] [39522] [DEBUG] GET /submit.html
+[2016-08-09 13:28:13 -0600] [39523] [DEBUG] GET /static/images/stimuli/47_l1.png
+[2016-08-09 13:28:13 -0600] [39522] [DEBUG] GET /static/images/stimuli/47_orig.png
+[2016-08-09 13:28:13 -0600] [39521] [DEBUG] GET /static/images/stimuli/47_l2.png
+[2016-08-09 13:28:13 -0600] [39522] [DEBUG] GET /static/images/stimuli/47_mssim.png
+[2016-08-09 13:28:17 -0600] [39519] [DEBUG] POST /inexp
+[2016-08-09 13:28:17 -0600] [39522] [DEBUG] PUT /sync/debugBLY4XV%3AdebugGV7YDM
+2016-08-09 13:28:17,340 PUT /sync route with id: debugBLY4XV:debugGV7YDM
+2016-08-09 13:28:17,340 Accessing /inexp
+[2016-08-09 13:28:17 -0600] [39521] [DEBUG] GET /static/images/stimuli/4_l1.png
+[2016-08-09 13:28:17 -0600] [39523] [DEBUG] GET /static/images/stimuli/4_orig.png
+[2016-08-09 13:28:17 -0600] [39521] [DEBUG] GET /static/images/stimuli/4_l2.png
+[2016-08-09 13:28:17 -0600] [39523] [DEBUG] GET /static/images/stimuli/4_mssim.png
+2016-08-09 13:28:17,387 saved data for debugBLY4XV:debugGV7YDM (current trial: 2)
+[2016-08-09 13:28:24 -0600] [39519] [DEBUG] GET /static/images/stimuli/237_l1.png
+[2016-08-09 13:28:24 -0600] [39522] [DEBUG] GET /static/images/stimuli/237_orig.png
+[2016-08-09 13:28:24 -0600] [39521] [DEBUG] GET /static/images/stimuli/237_l2.png
+[2016-08-09 13:28:24 -0600] [39523] [DEBUG] GET /static/images/stimuli/237_mssim.png
+[2016-08-09 13:29:00 -0600] [39523] [DEBUG] PUT /sync/debugBLY4XV%3AdebugGV7YDM
+2016-08-09 13:29:00,977 PUT /sync route with id: debugBLY4XV:debugGV7YDM
+2016-08-09 13:29:00,987 saved data for debugBLY4XV:debugGV7YDM (current trial: 4)
+[2016-08-09 13:29:02 -0600] [39519] [DEBUG] POST /quitter
+[2016-08-09 13:29:09 -0600] [39521] [DEBUG] Closing connection. 
+[2016-08-09 13:29:09 -0600] [39521] [DEBUG] Closing connection. 
+[2016-08-09 13:29:10 -0600] [39521] [DEBUG] Closing connection. 
+[2016-08-09 13:29:10 -0600] [39522] [DEBUG] GET /ad
+[2016-08-09 13:29:11 -0600] [39522] [DEBUG] GET /consent
+[2016-08-09 13:29:11 -0600] [39522] [DEBUG] GET /static/js/utils.js
+[2016-08-09 13:29:11 -0600] [39521] [DEBUG] GET /static/css/general.css
+[2016-08-09 13:29:11 -0600] [39522] [DEBUG] GET /ad
+[2016-08-09 13:29:11 -0600] [39523] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 13:29:12 -0600] [39523] [DEBUG] GET /exp
+2016-08-09 13:29:12,507 Accessing /exp: debug6EXFIZ debugWRM13C debug8113H3 
+2016-08-09 13:29:12,511 given Counter({(15, 0): 1, (6, 0): 1, (18, 0): 0, (9, 0): 0, (0, 0): 0, (7, 0): 0, (12, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (5, 0): 0, (19, 0): 0, (10, 0): 0, (1, 0): 0, (13, 0): 0, (4, 0): 0}) chose (19, 0)
+[2016-08-09 13:29:12 -0600] [39522] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 13:29:12 -0600] [39519] [DEBUG] GET /static/js/utils.js
+[2016-08-09 13:29:12 -0600] [39521] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 13:29:12 -0600] [39519] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 13:29:12 -0600] [39522] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 13:29:12 -0600] [39522] [DEBUG] GET /static/js/config.js
+[2016-08-09 13:29:12 -0600] [39521] [DEBUG] GET /static/js/task.js
+[2016-08-09 13:29:12 -0600] [39521] [DEBUG] GET /static/json/trial-set-19.json
+[2016-08-09 13:29:12 -0600] [39521] [DEBUG] GET /sync/debug8113H3%3AdebugWRM13C
+2016-08-09 13:29:12,663 GET /sync route with id: debug8113H3:debugWRM13C
+[2016-08-09 13:29:12 -0600] [39521] [DEBUG] GET /trial.html
+[2016-08-09 13:29:12 -0600] [39521] [DEBUG] GET /submit.html
+[2016-08-09 13:29:12 -0600] [39521] [DEBUG] GET /static/images/stimuli/21_orig.png
+[2016-08-09 13:29:12 -0600] [39523] [DEBUG] GET /static/images/stimuli/21_l1.png
+[2016-08-09 13:29:12 -0600] [39522] [DEBUG] GET /static/images/stimuli/21_l2.png
+[2016-08-09 13:29:12 -0600] [39519] [DEBUG] GET /static/images/stimuli/21_mssim.png
+[2016-08-09 13:29:15 -0600] [39519] [DEBUG] PUT /sync/debug8113H3%3AdebugWRM13C
+[2016-08-09 13:29:15 -0600] [39521] [DEBUG] POST /inexp
+2016-08-09 13:29:15,402 PUT /sync route with id: debug8113H3:debugWRM13C
+2016-08-09 13:29:15,403 Accessing /inexp
+[2016-08-09 13:29:15 -0600] [39521] [DEBUG] GET /static/images/stimuli/6_mssim.png
+[2016-08-09 13:29:15 -0600] [39522] [DEBUG] GET /static/images/stimuli/6_orig.png
+[2016-08-09 13:29:15 -0600] [39523] [DEBUG] GET /static/images/stimuli/6_l1.png
+[2016-08-09 13:29:15 -0600] [39521] [DEBUG] GET /static/images/stimuli/6_l2.png
+2016-08-09 13:29:15,451 saved data for debug8113H3:debugWRM13C (current trial: 2)
+[2016-08-09 13:29:19 -0600] [39519] [DEBUG] GET /static/images/stimuli/746_l1.png
+[2016-08-09 13:29:19 -0600] [39522] [DEBUG] GET /static/images/stimuli/746_l2.png
+[2016-08-09 13:29:19 -0600] [39521] [DEBUG] GET /static/images/stimuli/746_orig.png
+[2016-08-09 13:29:19 -0600] [39523] [DEBUG] GET /static/images/stimuli/746_mssim.png
+[2016-08-09 13:29:22 -0600] [39523] [DEBUG] GET /static/images/stimuli/334_l2.png
+[2016-08-09 13:29:22 -0600] [39522] [DEBUG] GET /static/images/stimuli/334_orig.png
+[2016-08-09 13:29:22 -0600] [39519] [DEBUG] GET /static/images/stimuli/334_mssim.png
+[2016-08-09 13:29:22 -0600] [39521] [DEBUG] GET /static/images/stimuli/334_l1.png
+[2016-08-09 13:29:23 -0600] [39522] [DEBUG] GET /static/images/stimuli/246_l2.png
+[2016-08-09 13:29:23 -0600] [39519] [DEBUG] GET /static/images/stimuli/246_l1.png
+[2016-08-09 13:29:23 -0600] [39523] [DEBUG] GET /static/images/stimuli/246_orig.png
+[2016-08-09 13:29:23 -0600] [39521] [DEBUG] GET /static/images/stimuli/246_mssim.png
+[2016-08-09 13:29:23 -0600] [39521] [DEBUG] GET /static/images/stimuli/72_l1.png
+[2016-08-09 13:29:23 -0600] [39522] [DEBUG] GET /static/images/stimuli/72_l2.png
+[2016-08-09 13:29:23 -0600] [39523] [DEBUG] GET /static/images/stimuli/72_mssim.png
+[2016-08-09 13:29:23 -0600] [39519] [DEBUG] GET /static/images/stimuli/72_orig.png
+[2016-08-09 13:29:24 -0600] [39519] [DEBUG] GET /static/images/stimuli/509_l2.png
+[2016-08-09 13:29:24 -0600] [39521] [DEBUG] GET /static/images/stimuli/509_mssim.png
+[2016-08-09 13:29:24 -0600] [39523] [DEBUG] GET /static/images/stimuli/509_orig.png
+[2016-08-09 13:29:24 -0600] [39522] [DEBUG] GET /static/images/stimuli/509_l1.png
+[2016-08-09 13:29:24 -0600] [39522] [DEBUG] GET /static/images/stimuli/743_orig.png
+[2016-08-09 13:29:24 -0600] [39523] [DEBUG] GET /static/images/stimuli/743_l2.png
+[2016-08-09 13:29:24 -0600] [39519] [DEBUG] GET /static/images/stimuli/743_mssim.png
+[2016-08-09 13:29:24 -0600] [39521] [DEBUG] GET /static/images/stimuli/743_l1.png
+[2016-08-09 13:29:25 -0600] [39521] [DEBUG] GET /static/images/stimuli/627_l2.png
+[2016-08-09 13:29:25 -0600] [39519] [DEBUG] GET /static/images/stimuli/627_mssim.png
+[2016-08-09 13:29:25 -0600] [39522] [DEBUG] GET /static/images/stimuli/627_l1.png
+[2016-08-09 13:29:25 -0600] [39523] [DEBUG] GET /static/images/stimuli/627_orig.png
+[2016-08-09 13:29:26 -0600] [39521] [DEBUG] GET /static/images/stimuli/673_orig.png
+[2016-08-09 13:29:26 -0600] [39522] [DEBUG] GET /static/images/stimuli/673_l2.png
+[2016-08-09 13:29:26 -0600] [39523] [DEBUG] GET /static/images/stimuli/673_l1.png
+[2016-08-09 13:29:26 -0600] [39519] [DEBUG] GET /static/images/stimuli/673_mssim.png
+[2016-08-09 13:29:26 -0600] [39523] [DEBUG] GET /static/images/stimuli/433_orig.png
+[2016-08-09 13:29:26 -0600] [39522] [DEBUG] GET /static/images/stimuli/433_l2.png
+[2016-08-09 13:29:26 -0600] [39521] [DEBUG] GET /static/images/stimuli/433_l1.png
+[2016-08-09 13:29:26 -0600] [39519] [DEBUG] GET /static/images/stimuli/433_mssim.png
+[2016-08-09 13:29:27 -0600] [39519] [DEBUG] GET /static/images/stimuli/800_orig.png
+[2016-08-09 13:29:27 -0600] [39522] [DEBUG] GET /static/images/stimuli/800_mssim.png
+[2016-08-09 13:29:27 -0600] [39523] [DEBUG] GET /static/images/stimuli/800_l1.png
+[2016-08-09 13:29:27 -0600] [39521] [DEBUG] GET /static/images/stimuli/800_l2.png
+[2016-08-09 13:29:27 -0600] [39521] [DEBUG] GET /static/images/stimuli/929_mssim.png
+[2016-08-09 13:29:27 -0600] [39523] [DEBUG] GET /static/images/stimuli/929_orig.png
+[2016-08-09 13:29:27 -0600] [39519] [DEBUG] GET /static/images/stimuli/929_l2.png
+[2016-08-09 13:29:27 -0600] [39522] [DEBUG] GET /static/images/stimuli/929_l1.png
+[2016-08-09 13:29:28 -0600] [39522] [DEBUG] GET /static/images/stimuli/256_l1.png
+[2016-08-09 13:29:28 -0600] [39523] [DEBUG] GET /static/images/stimuli/256_mssim.png
+[2016-08-09 13:29:28 -0600] [39521] [DEBUG] GET /static/images/stimuli/256_orig.png
+[2016-08-09 13:29:28 -0600] [39519] [DEBUG] GET /static/images/stimuli/256_l2.png
+[2016-08-09 13:29:28 -0600] [39523] [DEBUG] GET /static/images/stimuli/643_l2.png
+[2016-08-09 13:29:28 -0600] [39522] [DEBUG] GET /static/images/stimuli/643_orig.png
+[2016-08-09 13:29:28 -0600] [39521] [DEBUG] GET /static/images/stimuli/643_l1.png
+[2016-08-09 13:29:28 -0600] [39519] [DEBUG] GET /static/images/stimuli/643_mssim.png
+[2016-08-09 13:29:29 -0600] [39519] [DEBUG] GET /static/images/stimuli/603_orig.png
+[2016-08-09 13:29:29 -0600] [39523] [DEBUG] GET /static/images/stimuli/603_mssim.png
+[2016-08-09 13:29:29 -0600] [39521] [DEBUG] GET /static/images/stimuli/603_l1.png
+[2016-08-09 13:29:29 -0600] [39522] [DEBUG] GET /static/images/stimuli/603_l2.png
+[2016-08-09 13:29:29 -0600] [39521] [DEBUG] GET /static/images/stimuli/953_mssim.png
+[2016-08-09 13:29:29 -0600] [39522] [DEBUG] GET /static/images/stimuli/953_l1.png
+[2016-08-09 13:29:29 -0600] [39523] [DEBUG] GET /static/images/stimuli/953_orig.png
+[2016-08-09 13:29:29 -0600] [39519] [DEBUG] GET /static/images/stimuli/953_l2.png
+[2016-08-09 13:29:30 -0600] [39519] [DEBUG] GET /static/images/stimuli/335_l1.png
+[2016-08-09 13:29:30 -0600] [39521] [DEBUG] GET /static/images/stimuli/335_orig.png
+[2016-08-09 13:29:30 -0600] [39523] [DEBUG] GET /static/images/stimuli/335_mssim.png
+[2016-08-09 13:29:30 -0600] [39522] [DEBUG] GET /static/images/stimuli/335_l2.png
+[2016-08-09 13:29:30 -0600] [39522] [DEBUG] GET /static/images/stimuli/424_mssim.png
+[2016-08-09 13:29:30 -0600] [39523] [DEBUG] GET /static/images/stimuli/424_orig.png
+[2016-08-09 13:29:30 -0600] [39521] [DEBUG] GET /static/images/stimuli/424_l2.png
+[2016-08-09 13:29:30 -0600] [39519] [DEBUG] GET /static/images/stimuli/424_l1.png
+[2016-08-09 13:29:31 -0600] [39523] [DEBUG] GET /static/images/stimuli/874_orig.png
+[2016-08-09 13:29:31 -0600] [39521] [DEBUG] GET /static/images/stimuli/874_mssim.png
+[2016-08-09 13:29:31 -0600] [39519] [DEBUG] GET /static/images/stimuli/874_l2.png
+[2016-08-09 13:29:31 -0600] [39522] [DEBUG] GET /static/images/stimuli/874_l1.png
+[2016-08-09 13:29:32 -0600] [39521] [DEBUG] GET /static/images/stimuli/186_mssim.png
+[2016-08-09 13:29:32 -0600] [39523] [DEBUG] GET /static/images/stimuli/186_orig.png
+[2016-08-09 13:29:32 -0600] [39522] [DEBUG] GET /static/images/stimuli/186_l2.png
+[2016-08-09 13:29:32 -0600] [39519] [DEBUG] GET /static/images/stimuli/186_l1.png
+[2016-08-09 13:29:32 -0600] [39522] [DEBUG] GET /static/images/stimuli/31_l1.png
+[2016-08-09 13:29:32 -0600] [39519] [DEBUG] GET /static/images/stimuli/31_orig.png
+[2016-08-09 13:29:32 -0600] [39523] [DEBUG] GET /static/images/stimuli/31_l2.png
+[2016-08-09 13:29:32 -0600] [39521] [DEBUG] GET /static/images/stimuli/31_mssim.png
+[2016-08-09 13:29:33 -0600] [39521] [DEBUG] GET /static/images/stimuli/52_orig.png
+[2016-08-09 13:29:33 -0600] [39523] [DEBUG] GET /static/images/stimuli/52_l2.png
+[2016-08-09 13:29:33 -0600] [39522] [DEBUG] GET /static/images/stimuli/52_l1.png
+[2016-08-09 13:29:33 -0600] [39519] [DEBUG] GET /static/images/stimuli/52_mssim.png
+[2016-08-09 13:29:33 -0600] [39523] [DEBUG] GET /static/images/stimuli/506_l2.png
+[2016-08-09 13:29:33 -0600] [39519] [DEBUG] GET /static/images/stimuli/506_mssim.png
+[2016-08-09 13:29:33 -0600] [39522] [DEBUG] GET /static/images/stimuli/506_orig.png
+[2016-08-09 13:29:33 -0600] [39521] [DEBUG] GET /static/images/stimuli/506_l1.png
+[2016-08-09 13:29:34 -0600] [39521] [DEBUG] GET /static/images/stimuli/897_orig.png
+[2016-08-09 13:29:34 -0600] [39523] [DEBUG] GET /static/images/stimuli/897_l2.png
+[2016-08-09 13:29:34 -0600] [39519] [DEBUG] GET /static/images/stimuli/897_mssim.png
+[2016-08-09 13:29:34 -0600] [39522] [DEBUG] GET /static/images/stimuli/897_l1.png
+[2016-08-09 13:29:35 -0600] [39519] [DEBUG] GET /static/images/stimuli/517_orig.png
+[2016-08-09 13:29:35 -0600] [39522] [DEBUG] GET /static/images/stimuli/517_l1.png
+[2016-08-09 13:29:35 -0600] [39521] [DEBUG] GET /static/images/stimuli/517_mssim.png
+[2016-08-09 13:29:35 -0600] [39523] [DEBUG] GET /static/images/stimuli/517_l2.png
+[2016-08-09 13:29:35 -0600] [39521] [DEBUG] GET /static/images/stimuli/173_l2.png
+[2016-08-09 13:29:35 -0600] [39522] [DEBUG] GET /static/images/stimuli/173_orig.png
+[2016-08-09 13:29:35 -0600] [39519] [DEBUG] GET /static/images/stimuli/173_l1.png
+[2016-08-09 13:29:35 -0600] [39523] [DEBUG] GET /static/images/stimuli/173_mssim.png
+[2016-08-09 13:29:36 -0600] [39523] [DEBUG] GET /static/images/stimuli/920_l2.png
+[2016-08-09 13:29:36 -0600] [39519] [DEBUG] GET /static/images/stimuli/920_mssim.png
+[2016-08-09 13:29:36 -0600] [39521] [DEBUG] GET /static/images/stimuli/920_orig.png
+[2016-08-09 13:29:36 -0600] [39522] [DEBUG] GET /static/images/stimuli/920_l1.png
+[2016-08-09 13:29:36 -0600] [39523] [DEBUG] GET /static/images/stimuli/360_orig.png
+[2016-08-09 13:29:36 -0600] [39521] [DEBUG] GET /static/images/stimuli/360_mssim.png
+[2016-08-09 13:29:36 -0600] [39522] [DEBUG] GET /static/images/stimuli/360_l2.png
+[2016-08-09 13:29:36 -0600] [39519] [DEBUG] GET /static/images/stimuli/360_l1.png
+[2016-08-09 13:29:37 -0600] [39519] [DEBUG] GET /static/images/stimuli/720_l2.png
+[2016-08-09 13:29:37 -0600] [39522] [DEBUG] GET /static/images/stimuli/720_orig.png
+[2016-08-09 13:29:37 -0600] [39521] [DEBUG] GET /static/images/stimuli/720_mssim.png
+[2016-08-09 13:29:37 -0600] [39523] [DEBUG] GET /static/images/stimuli/720_l1.png
+[2016-08-09 13:29:45 -0600] [39523] [DEBUG] GET /static/images/stimuli/944_l2.png
+[2016-08-09 13:29:45 -0600] [39522] [DEBUG] GET /static/images/stimuli/944_l1.png
+[2016-08-09 13:29:45 -0600] [39519] [DEBUG] GET /static/images/stimuli/944_mssim.png
+[2016-08-09 13:29:45 -0600] [39521] [DEBUG] GET /static/images/stimuli/944_orig.png
+[2016-08-09 13:29:55 -0600] [39522] [DEBUG] GET /static/images/stimuli/590_l2.png
+[2016-08-09 13:29:55 -0600] [39519] [DEBUG] GET /static/images/stimuli/590_mssim.png
+[2016-08-09 13:29:55 -0600] [39523] [DEBUG] GET /static/images/stimuli/590_l1.png
+[2016-08-09 13:29:55 -0600] [39521] [DEBUG] GET /static/images/stimuli/590_orig.png
+[2016-08-09 13:29:56 -0600] [39521] [DEBUG] GET /static/images/stimuli/68_orig.png
+[2016-08-09 13:29:56 -0600] [39522] [DEBUG] GET /static/images/stimuli/68_l1.png
+[2016-08-09 13:29:56 -0600] [39523] [DEBUG] GET /static/images/stimuli/68_l2.png
+[2016-08-09 13:29:56 -0600] [39519] [DEBUG] GET /static/images/stimuli/68_mssim.png
+[2016-08-09 13:29:56 -0600] [39519] [DEBUG] GET /static/images/stimuli/499_l2.png
+[2016-08-09 13:29:56 -0600] [39521] [DEBUG] GET /static/images/stimuli/499_mssim.png
+[2016-08-09 13:29:56 -0600] [39522] [DEBUG] GET /static/images/stimuli/499_l1.png
+[2016-08-09 13:29:56 -0600] [39523] [DEBUG] GET /static/images/stimuli/499_orig.png
+[2016-08-09 13:29:57 -0600] [39523] [DEBUG] GET /static/images/stimuli/593_orig.png
+[2016-08-09 13:29:57 -0600] [39521] [DEBUG] GET /static/images/stimuli/593_mssim.png
+[2016-08-09 13:29:57 -0600] [39522] [DEBUG] GET /static/images/stimuli/593_l2.png
+[2016-08-09 13:29:57 -0600] [39519] [DEBUG] GET /static/images/stimuli/593_l1.png
+[2016-08-09 13:29:59 -0600] [39519] [DEBUG] GET /static/images/stimuli/243_orig.png
+[2016-08-09 13:29:59 -0600] [39522] [DEBUG] GET /static/images/stimuli/243_l1.png
+[2016-08-09 13:29:59 -0600] [39521] [DEBUG] GET /static/images/stimuli/243_l2.png
+[2016-08-09 13:29:59 -0600] [39523] [DEBUG] GET /static/images/stimuli/243_mssim.png
+[2016-08-09 13:30:00 -0600] [39523] [DEBUG] GET /static/images/stimuli/748_mssim.png
+[2016-08-09 13:30:00 -0600] [39521] [DEBUG] GET /static/images/stimuli/748_orig.png
+[2016-08-09 13:30:00 -0600] [39519] [DEBUG] GET /static/images/stimuli/748_l2.png
+[2016-08-09 13:30:00 -0600] [39522] [DEBUG] GET /static/images/stimuli/748_l1.png
+[2016-08-09 13:30:00 -0600] [39519] [DEBUG] GET /static/images/stimuli/896_orig.png
+[2016-08-09 13:30:00 -0600] [39523] [DEBUG] GET /static/images/stimuli/896_l2.png
+[2016-08-09 13:30:00 -0600] [39521] [DEBUG] GET /static/images/stimuli/896_l1.png
+[2016-08-09 13:30:00 -0600] [39522] [DEBUG] GET /static/images/stimuli/896_mssim.png
+[2016-08-09 13:30:01 -0600] [39522] [DEBUG] GET /static/images/stimuli/833_l1.png
+[2016-08-09 13:30:01 -0600] [39523] [DEBUG] GET /static/images/stimuli/833_l2.png
+[2016-08-09 13:30:01 -0600] [39521] [DEBUG] GET /static/images/stimuli/833_mssim.png
+[2016-08-09 13:30:01 -0600] [39519] [DEBUG] GET /static/images/stimuli/833_orig.png
+[2016-08-09 13:30:08 -0600] [39519] [DEBUG] PUT /sync/debug8113H3%3AdebugWRM13C
+[2016-08-09 13:30:08 -0600] [39523] [DEBUG] POST /quitter
+2016-08-09 13:30:08,350 PUT /sync route with id: debug8113H3:debugWRM13C
+2016-08-09 13:30:08,360 saved data for debug8113H3:debugWRM13C (current trial: 40)
+[2016-08-09 13:30:23 -0600] [39522] [DEBUG] Closing connection. 
+[2016-08-09 13:30:23 -0600] [39521] [DEBUG] Closing connection. 
+[2016-08-09 13:30:23 -0600] [39522] [DEBUG] GET /ppid
+[2016-08-09 13:30:23 -0600] [39522] [INFO] Parent changed, shutting down: <Worker 39522>
+[2016-08-09 13:30:23 -0600] [39521] [INFO] Parent changed, shutting down: <Worker 39521>
+[2016-08-09 13:30:23 -0600] [39523] [INFO] Parent changed, shutting down: <Worker 39523>
+[2016-08-09 13:30:23 -0600] [39522] [INFO] Worker exiting (pid: 39522)
+[2016-08-09 13:30:23 -0600] [39523] [INFO] Worker exiting (pid: 39523)
+[2016-08-09 13:30:23 -0600] [39519] [DEBUG] Closing connection. 
+[2016-08-09 13:30:23 -0600] [39519] [INFO] Parent changed, shutting down: <Worker 39519>
+[2016-08-09 13:30:23 -0600] [39521] [INFO] Worker exiting (pid: 39521)
+[2016-08-09 13:30:23 -0600] [39519] [INFO] Worker exiting (pid: 39519)
+[2016-08-09 13:41:20 -0600] [39596] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 13:41:20 -0600] [39596] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 13:41:20 -0600] [39596] [DEBUG] Arbiter booted
+[2016-08-09 13:41:20 -0600] [39596] [INFO] Listening at: http://0.0.0.0:22362 (39596)
+[2016-08-09 13:41:20 -0600] [39596] [INFO] Using worker: sync
+[2016-08-09 13:41:20 -0600] [39600] [INFO] Booting worker with pid: 39600
+[2016-08-09 13:41:21 -0600] [39602] [INFO] Booting worker with pid: 39602
+[2016-08-09 13:41:21 -0600] [39603] [INFO] Booting worker with pid: 39603
+[2016-08-09 13:41:21 -0600] [39604] [INFO] Booting worker with pid: 39604
+[2016-08-09 13:41:21 -0600] [39596] [DEBUG] 4 workers
+2016-08-09 13:41:21,558 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:41:21,561 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:41:21,661 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:41:21,663 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:41:21,706 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:41:21,709 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:41:21,718 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:41:21,720 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 13:41:22 -0600] [39600] [DEBUG] Closing connection. 
+[2016-08-09 13:41:24 -0600] [39600] [DEBUG] Closing connection. 
+[2016-08-09 13:41:24 -0600] [39602] [DEBUG] Closing connection. 
+[2016-08-09 13:41:24 -0600] [39602] [DEBUG] Closing connection. 
+[2016-08-09 13:41:25 -0600] [39600] [DEBUG] GET /ad
+[2016-08-09 13:41:26 -0600] [39600] [DEBUG] GET /consent
+[2016-08-09 13:41:26 -0600] [39600] [DEBUG] GET /static/css/general.css
+[2016-08-09 13:41:26 -0600] [39604] [DEBUG] GET /static/js/utils.js
+[2016-08-09 13:41:26 -0600] [39600] [DEBUG] GET /ad
+[2016-08-09 13:41:26 -0600] [39602] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 13:41:27 -0600] [39602] [DEBUG] GET /exp
+2016-08-09 13:41:27,747 Accessing /exp: debugUD9BG6 debugE9PQWQ debugRSIM5Q 
+2016-08-09 13:41:27,754 given Counter({(15, 0): 1, (19, 0): 1, (18, 0): 0, (9, 0): 0, (0, 0): 0, (7, 0): 0, (12, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (6, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (5, 0): 0, (10, 0): 0, (1, 0): 0, (13, 0): 0, (4, 0): 0}) chose (5, 0)
+[2016-08-09 13:41:27 -0600] [39602] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 13:41:27 -0600] [39600] [DEBUG] GET /static/js/utils.js
+[2016-08-09 13:41:27 -0600] [39603] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 13:41:27 -0600] [39604] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 13:41:27 -0600] [39600] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 13:41:27 -0600] [39604] [DEBUG] GET /static/js/config.js
+[2016-08-09 13:41:27 -0600] [39600] [DEBUG] GET /static/js/task.js
+[2016-08-09 13:41:28 -0600] [39603] [DEBUG] GET /static/json/trial-set-5.json
+[2016-08-09 13:41:28 -0600] [39603] [DEBUG] GET /sync/debugRSIM5Q%3AdebugE9PQWQ
+2016-08-09 13:41:28,074 GET /sync route with id: debugRSIM5Q:debugE9PQWQ
+[2016-08-09 13:41:28 -0600] [39600] [DEBUG] GET /trial.html
+[2016-08-09 13:41:28 -0600] [39604] [DEBUG] GET /submit.html
+[2016-08-09 13:41:28 -0600] [39600] [DEBUG] GET /static/images/stimuli/25_l1.png
+[2016-08-09 13:41:28 -0600] [39604] [DEBUG] GET /static/images/stimuli/25_orig.png
+[2016-08-09 13:41:28 -0600] [39600] [DEBUG] GET /static/images/stimuli/25_mssim.png
+[2016-08-09 13:41:28 -0600] [39602] [DEBUG] GET /static/images/stimuli/25_l2.png
+[2016-08-09 13:42:20 -0600] [39602] [DEBUG] PUT /sync/debugRSIM5Q%3AdebugE9PQWQ
+[2016-08-09 13:42:20 -0600] [39603] [DEBUG] POST /inexp
+2016-08-09 13:42:20,573 Accessing /inexp
+2016-08-09 13:42:20,573 PUT /sync route with id: debugRSIM5Q:debugE9PQWQ
+[2016-08-09 13:42:20 -0600] [39604] [DEBUG] GET /static/images/stimuli/9_orig.png
+[2016-08-09 13:42:20 -0600] [39600] [DEBUG] GET /static/images/stimuli/9_l1.png
+[2016-08-09 13:42:20 -0600] [39604] [DEBUG] GET /static/images/stimuli/9_mssim.png
+[2016-08-09 13:42:20 -0600] [39600] [DEBUG] GET /static/images/stimuli/9_l2.png
+2016-08-09 13:42:20,607 saved data for debugRSIM5Q:debugE9PQWQ (current trial: 2)
+[2016-08-09 13:42:27 -0600] [39602] [DEBUG] GET /static/images/stimuli/992_orig.png
+[2016-08-09 13:42:27 -0600] [39604] [DEBUG] GET /static/images/stimuli/992_mssim.png
+[2016-08-09 13:42:27 -0600] [39603] [DEBUG] GET /static/images/stimuli/992_l1.png
+[2016-08-09 13:42:27 -0600] [39600] [DEBUG] GET /static/images/stimuli/992_l2.png
+[2016-08-09 13:42:31 -0600] [39604] [DEBUG] GET /static/images/stimuli/568_orig.png
+[2016-08-09 13:42:31 -0600] [39602] [DEBUG] GET /static/images/stimuli/568_l1.png
+[2016-08-09 13:42:31 -0600] [39603] [DEBUG] GET /static/images/stimuli/568_l2.png
+[2016-08-09 13:42:31 -0600] [39600] [DEBUG] GET /static/images/stimuli/568_mssim.png
+[2016-08-09 13:42:32 -0600] [39600] [DEBUG] GET /static/images/stimuli/887_l1.png
+[2016-08-09 13:42:32 -0600] [39603] [DEBUG] GET /static/images/stimuli/887_l2.png
+[2016-08-09 13:42:32 -0600] [39602] [DEBUG] GET /static/images/stimuli/887_orig.png
+[2016-08-09 13:42:32 -0600] [39604] [DEBUG] GET /static/images/stimuli/887_mssim.png
+[2016-08-09 13:42:33 -0600] [39603] [DEBUG] GET /static/images/stimuli/955_l1.png
+[2016-08-09 13:42:33 -0600] [39602] [DEBUG] GET /static/images/stimuli/955_mssim.png
+[2016-08-09 13:42:33 -0600] [39604] [DEBUG] GET /static/images/stimuli/955_orig.png
+[2016-08-09 13:42:33 -0600] [39600] [DEBUG] GET /static/images/stimuli/955_l2.png
+[2016-08-09 13:42:34 -0600] [39602] [DEBUG] GET /static/images/stimuli/447_l2.png
+[2016-08-09 13:42:34 -0600] [39600] [DEBUG] GET /static/images/stimuli/447_l1.png
+[2016-08-09 13:42:34 -0600] [39604] [DEBUG] GET /static/images/stimuli/447_orig.png
+[2016-08-09 13:42:34 -0600] [39603] [DEBUG] GET /static/images/stimuli/447_mssim.png
+[2016-08-09 13:42:35 -0600] [39603] [DEBUG] GET /static/images/stimuli/544_orig.png
+[2016-08-09 13:42:35 -0600] [39604] [DEBUG] GET /static/images/stimuli/544_l2.png
+[2016-08-09 13:42:35 -0600] [39602] [DEBUG] GET /static/images/stimuli/544_l1.png
+[2016-08-09 13:42:35 -0600] [39600] [DEBUG] GET /static/images/stimuli/544_mssim.png
+[2016-08-09 13:42:36 -0600] [39603] [DEBUG] GET /static/images/stimuli/448_l2.png
+[2016-08-09 13:42:36 -0600] [39602] [DEBUG] GET /static/images/stimuli/448_orig.png
+[2016-08-09 13:42:36 -0600] [39604] [DEBUG] GET /static/images/stimuli/448_l1.png
+[2016-08-09 13:42:36 -0600] [39600] [DEBUG] GET /static/images/stimuli/448_mssim.png
+[2016-08-09 13:42:36 -0600] [39603] [DEBUG] GET /static/images/stimuli/210_orig.png
+[2016-08-09 13:42:36 -0600] [39600] [DEBUG] GET /static/images/stimuli/210_mssim.png
+[2016-08-09 13:42:36 -0600] [39604] [DEBUG] GET /static/images/stimuli/210_l1.png
+[2016-08-09 13:42:36 -0600] [39602] [DEBUG] GET /static/images/stimuli/210_l2.png
+[2016-08-09 13:42:37 -0600] [39602] [DEBUG] GET /static/images/stimuli/290_mssim.png
+[2016-08-09 13:42:37 -0600] [39604] [DEBUG] GET /static/images/stimuli/290_l1.png
+[2016-08-09 13:42:37 -0600] [39600] [DEBUG] GET /static/images/stimuli/290_l2.png
+[2016-08-09 13:42:37 -0600] [39603] [DEBUG] GET /static/images/stimuli/290_orig.png
+[2016-08-09 13:42:38 -0600] [39603] [DEBUG] GET /static/images/stimuli/338_mssim.png
+[2016-08-09 13:42:38 -0600] [39602] [DEBUG] GET /static/images/stimuli/338_orig.png
+[2016-08-09 13:42:38 -0600] [39600] [DEBUG] GET /static/images/stimuli/338_l2.png
+[2016-08-09 13:42:38 -0600] [39604] [DEBUG] GET /static/images/stimuli/338_l1.png
+[2016-08-09 13:42:38 -0600] [39600] [DEBUG] GET /static/images/stimuli/438_orig.png
+[2016-08-09 13:42:38 -0600] [39602] [DEBUG] GET /static/images/stimuli/438_mssim.png
+[2016-08-09 13:42:38 -0600] [39603] [DEBUG] GET /static/images/stimuli/438_l1.png
+[2016-08-09 13:42:38 -0600] [39604] [DEBUG] GET /static/images/stimuli/438_l2.png
+[2016-08-09 13:42:39 -0600] [39600] [DEBUG] GET /static/images/stimuli/812_l1.png
+[2016-08-09 13:42:39 -0600] [39604] [DEBUG] GET /static/images/stimuli/812_mssim.png
+[2016-08-09 13:42:39 -0600] [39603] [DEBUG] GET /static/images/stimuli/812_l2.png
+[2016-08-09 13:42:39 -0600] [39602] [DEBUG] GET /static/images/stimuli/812_orig.png
+[2016-08-09 13:42:41 -0600] [39602] [DEBUG] PUT /sync/debugRSIM5Q%3AdebugE9PQWQ
+2016-08-09 13:42:41,588 PUT /sync route with id: debugRSIM5Q:debugE9PQWQ
+2016-08-09 13:42:41,594 saved data for debugRSIM5Q:debugE9PQWQ (current trial: 15)
+[2016-08-09 13:42:42 -0600] [39602] [DEBUG] POST /quitter
+[2016-08-09 13:48:43 -0600] [39603] [DEBUG] Closing connection. 
+[2016-08-09 13:48:43 -0600] [39603] [DEBUG] Closing connection. 
+[2016-08-09 13:48:44 -0600] [39603] [DEBUG] Closing connection. 
+[2016-08-09 13:48:45 -0600] [39602] [DEBUG] GET /ad
+[2016-08-09 13:48:46 -0600] [39600] [DEBUG] GET /consent
+[2016-08-09 13:48:46 -0600] [39602] [DEBUG] GET /static/js/utils.js
+[2016-08-09 13:48:46 -0600] [39600] [DEBUG] GET /static/css/general.css
+[2016-08-09 13:48:46 -0600] [39602] [DEBUG] GET /ad
+[2016-08-09 13:48:46 -0600] [39603] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 13:48:47 -0600] [39603] [DEBUG] GET /exp
+2016-08-09 13:48:47,480 Accessing /exp: debugEBZ93N debugM5R3X7 debug11GFF8 
+2016-08-09 13:48:47,484 given Counter({(15, 0): 1, (5, 0): 1, (19, 0): 1, (18, 0): 0, (9, 0): 0, (0, 0): 0, (7, 0): 0, (12, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (6, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (10, 0): 0, (1, 0): 0, (13, 0): 0, (4, 0): 0}) chose (7, 0)
+[2016-08-09 13:48:47 -0600] [39603] [DEBUG] GET /static/css/general.css
+[2016-08-09 13:48:47 -0600] [39604] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 13:48:47 -0600] [39600] [DEBUG] GET /static/js/utils.js
+[2016-08-09 13:48:47 -0600] [39602] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 13:48:47 -0600] [39600] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 13:48:47 -0600] [39604] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 13:48:47 -0600] [39600] [DEBUG] GET /static/js/config.js
+[2016-08-09 13:48:47 -0600] [39604] [DEBUG] GET /static/js/task.js
+[2016-08-09 13:48:47 -0600] [39600] [DEBUG] GET /static/json/trial-set-7.json
+[2016-08-09 13:48:47 -0600] [39602] [DEBUG] GET /sync/debug11GFF8%3AdebugM5R3X7
+2016-08-09 13:48:47,675 GET /sync route with id: debug11GFF8:debugM5R3X7
+[2016-08-09 13:48:47 -0600] [39604] [DEBUG] GET /trial.html
+[2016-08-09 13:48:47 -0600] [39600] [DEBUG] GET /submit.html
+[2016-08-09 13:48:47 -0600] [39600] [DEBUG] GET /static/images/stimuli/27_l2.png
+[2016-08-09 13:48:47 -0600] [39602] [DEBUG] GET /static/images/stimuli/27_l1.png
+[2016-08-09 13:48:47 -0600] [39604] [DEBUG] GET /static/images/stimuli/27_orig.png
+[2016-08-09 13:48:47 -0600] [39603] [DEBUG] GET /static/images/stimuli/27_mssim.png
+[2016-08-09 13:49:33 -0600] [39603] [DEBUG] Closing connection. 
+[2016-08-09 13:49:33 -0600] [39600] [DEBUG] Closing connection. 
+[2016-08-09 13:49:33 -0600] [39604] [DEBUG] GET /ppid
+[2016-08-09 13:49:33 -0600] [39603] [INFO] Parent changed, shutting down: <Worker 39603>
+[2016-08-09 13:49:33 -0600] [39604] [DEBUG] Closing connection. 
+[2016-08-09 13:49:33 -0600] [39602] [INFO] Parent changed, shutting down: <Worker 39602>
+[2016-08-09 13:49:33 -0600] [39600] [INFO] Parent changed, shutting down: <Worker 39600>
+[2016-08-09 13:49:33 -0600] [39603] [INFO] Worker exiting (pid: 39603)
+[2016-08-09 13:49:33 -0600] [39600] [INFO] Worker exiting (pid: 39600)
+[2016-08-09 13:49:33 -0600] [39602] [INFO] Worker exiting (pid: 39602)
+[2016-08-09 13:49:33 -0600] [39604] [INFO] Parent changed, shutting down: <Worker 39604>
+[2016-08-09 13:49:33 -0600] [39604] [INFO] Worker exiting (pid: 39604)
+[2016-08-09 13:50:12 -0600] [39742] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 13:50:12 -0600] [39742] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 13:50:12 -0600] [39742] [DEBUG] Arbiter booted
+[2016-08-09 13:50:12 -0600] [39742] [INFO] Listening at: http://0.0.0.0:22362 (39742)
+[2016-08-09 13:50:12 -0600] [39742] [INFO] Using worker: sync
+[2016-08-09 13:50:12 -0600] [39745] [INFO] Booting worker with pid: 39745
+[2016-08-09 13:50:12 -0600] [39748] [INFO] Booting worker with pid: 39748
+[2016-08-09 13:50:12 -0600] [39749] [INFO] Booting worker with pid: 39749
+[2016-08-09 13:50:12 -0600] [39750] [INFO] Booting worker with pid: 39750
+[2016-08-09 13:50:12 -0600] [39742] [DEBUG] 4 workers
+2016-08-09 13:50:13,027 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:50:13,028 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:50:13,028 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:50:13,028 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 13:50:13,031 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:50:13,031 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:50:13,031 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 13:50:13,031 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 13:50:13 -0600] [39745] [DEBUG] Closing connection. 
+[2016-08-09 13:50:18 -0600] [39745] [DEBUG] Closing connection. 
+[2016-08-09 13:50:26 -0600] [39749] [DEBUG] Closing connection. 
+[2016-08-09 13:51:12 -0600] [39745] [DEBUG] Closing connection. 
+[2016-08-09 13:51:12 -0600] [39745] [DEBUG] Closing connection. 
+[2016-08-09 13:51:12 -0600] [39745] [DEBUG] Closing connection. 
+[2016-08-09 13:51:12 -0600] [39745] [DEBUG] GET /ad
+[2016-08-09 13:51:27 -0600] [39748] [DEBUG] GET /ad
+[2016-08-09 13:51:27 -0600] [39750] [DEBUG] GET /favicon.ico
+[2016-08-09 13:51:27 -0600] [39749] [DEBUG] GET /favicon.ico
+[2016-08-09 13:51:31 -0600] [39745] [DEBUG] GET /consent
+[2016-08-09 13:51:31 -0600] [39745] [DEBUG] GET /ad
+[2016-08-09 13:51:31 -0600] [39750] [DEBUG] GET /static/js/utils.js
+[2016-08-09 13:51:31 -0600] [39745] [DEBUG] GET /static/css/general.css
+[2016-08-09 13:51:31 -0600] [39748] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 13:51:36 -0600] [39750] [DEBUG] GET /exp
+2016-08-09 13:51:36,511 Accessing /exp: debugEYAH96 debug5OFQZ3 debugTULR6I 
+2016-08-09 13:51:36,520 given Counter({(7, 0): 1, (15, 0): 1, (5, 0): 1, (19, 0): 1, (18, 0): 0, (9, 0): 0, (0, 0): 0, (12, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (6, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (10, 0): 0, (1, 0): 0, (13, 0): 0, (4, 0): 0}) chose (1, 0)
+[2016-08-09 13:51:36 -0600] [39750] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 13:51:36 -0600] [39750] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 13:51:36 -0600] [39745] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 13:51:36 -0600] [39750] [DEBUG] GET /static/js/config.js
+[2016-08-09 13:51:36 -0600] [39748] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 13:51:36 -0600] [39749] [DEBUG] GET /static/js/task.js
+[2016-08-09 13:51:37 -0600] [39750] [DEBUG] GET /static/json/trial-set-1.json
+[2016-08-09 13:51:37 -0600] [39745] [DEBUG] GET /sync/debugTULR6I%3Adebug5OFQZ3
+2016-08-09 13:51:37,817 GET /sync route with id: debugTULR6I:debug5OFQZ3
+[2016-08-09 13:51:37 -0600] [39745] [DEBUG] GET /trial.html
+[2016-08-09 13:51:37 -0600] [39748] [DEBUG] GET /submit.html
+[2016-08-09 13:51:37 -0600] [39748] [DEBUG] GET /static/images/stimuli/84_orig.png
+[2016-08-09 13:51:37 -0600] [39749] [DEBUG] GET /static/images/stimuli/84_mssim.png
+[2016-08-09 13:51:37 -0600] [39745] [DEBUG] GET /static/images/stimuli/84_l1.png
+[2016-08-09 13:51:37 -0600] [39750] [DEBUG] GET /static/images/stimuli/84_l2.png
+[2016-08-09 13:51:43 -0600] [39749] [DEBUG] Closing connection. 
+[2016-08-09 13:51:43 -0600] [39748] [DEBUG] Closing connection. 
+[2016-08-09 13:56:43 -0600] [39748] [DEBUG] Closing connection. 
+[2016-08-09 13:56:43 -0600] [39750] [DEBUG] Closing connection. 
+[2016-08-09 13:56:43 -0600] [39745] [DEBUG] GET /ppid
+[2016-08-09 13:56:43 -0600] [39750] [INFO] Parent changed, shutting down: <Worker 39750>
+[2016-08-09 13:56:43 -0600] [39748] [INFO] Parent changed, shutting down: <Worker 39748>
+[2016-08-09 13:56:43 -0600] [39749] [INFO] Parent changed, shutting down: <Worker 39749>
+[2016-08-09 13:56:43 -0600] [39745] [DEBUG] Closing connection. 
+[2016-08-09 13:56:43 -0600] [39749] [INFO] Worker exiting (pid: 39749)
+[2016-08-09 13:56:43 -0600] [39748] [INFO] Worker exiting (pid: 39748)
+[2016-08-09 13:56:43 -0600] [39750] [INFO] Worker exiting (pid: 39750)
+[2016-08-09 13:56:43 -0600] [39745] [INFO] Parent changed, shutting down: <Worker 39745>
+[2016-08-09 13:56:43 -0600] [39745] [INFO] Worker exiting (pid: 39745)
+[2016-08-09 14:17:22 -0600] [39881] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 14:17:22 -0600] [39881] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 14:17:22 -0600] [39881] [DEBUG] Arbiter booted
+[2016-08-09 14:17:22 -0600] [39881] [INFO] Listening at: http://0.0.0.0:22362 (39881)
+[2016-08-09 14:17:22 -0600] [39881] [INFO] Using worker: sync
+[2016-08-09 14:17:22 -0600] [39885] [INFO] Booting worker with pid: 39885
+[2016-08-09 14:17:22 -0600] [39887] [INFO] Booting worker with pid: 39887
+[2016-08-09 14:17:22 -0600] [39888] [INFO] Booting worker with pid: 39888
+[2016-08-09 14:17:23 -0600] [39889] [INFO] Booting worker with pid: 39889
+[2016-08-09 14:17:23 -0600] [39881] [DEBUG] 4 workers
+2016-08-09 14:17:23,707 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:17:23,710 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:17:23,725 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:17:23,728 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:17:23,740 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:17:23,742 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:17:23,749 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:17:23,752 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 14:17:24 -0600] [39887] [DEBUG] Closing connection. 
+[2016-08-09 14:17:26 -0600] [39888] [DEBUG] Closing connection. 
+[2016-08-09 14:17:26 -0600] [39885] [DEBUG] Closing connection. 
+[2016-08-09 14:17:26 -0600] [39885] [DEBUG] Closing connection. 
+[2016-08-09 14:17:26 -0600] [39889] [DEBUG] GET /ad
+[2016-08-09 14:17:27 -0600] [39889] [DEBUG] GET /consent
+[2016-08-09 14:17:27 -0600] [39888] [DEBUG] GET /static/js/utils.js
+[2016-08-09 14:17:27 -0600] [39885] [DEBUG] GET /ad
+[2016-08-09 14:17:27 -0600] [39889] [DEBUG] GET /static/css/general.css
+[2016-08-09 14:17:27 -0600] [39888] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 14:17:28 -0600] [39885] [DEBUG] GET /exp
+2016-08-09 14:17:28,758 Accessing /exp: debugQAPBKW debugQ7N6CS debugR2FG0Y 
+2016-08-09 14:17:28,762 given Counter({(7, 0): 1, (15, 0): 1, (5, 0): 1, (19, 0): 1, (1, 0): 1, (18, 0): 0, (9, 0): 0, (0, 0): 0, (12, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (6, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (10, 0): 0, (13, 0): 0, (4, 0): 0}) chose (13, 0)
+[2016-08-09 14:17:28 -0600] [39885] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 14:17:28 -0600] [39887] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 14:17:28 -0600] [39888] [DEBUG] GET /static/js/utils.js
+[2016-08-09 14:17:28 -0600] [39888] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 14:17:28 -0600] [39889] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 14:17:28 -0600] [39888] [DEBUG] GET /static/js/config.js
+[2016-08-09 14:17:28 -0600] [39885] [DEBUG] GET /static/js/task.js
+[2016-08-09 14:17:28 -0600] [39887] [DEBUG] GET /static/json/trial-set-13.json
+[2016-08-09 14:17:28 -0600] [39887] [DEBUG] GET /sync/debugR2FG0Y%3AdebugQ7N6CS
+2016-08-09 14:17:28,931 GET /sync route with id: debugR2FG0Y:debugQ7N6CS
+[2016-08-09 14:17:28 -0600] [39889] [DEBUG] GET /trial.html
+[2016-08-09 14:17:28 -0600] [39889] [DEBUG] GET /submit.html
+[2016-08-09 14:17:28 -0600] [39889] [DEBUG] GET /static/images/stimuli/12_orig.png
+[2016-08-09 14:17:28 -0600] [39888] [DEBUG] GET /static/images/stimuli/12_l1.png
+[2016-08-09 14:17:28 -0600] [39885] [DEBUG] GET /static/images/stimuli/12_l2.png
+[2016-08-09 14:17:30 -0600] [39889] [DEBUG] GET /static/images/stimuli/12_mssim.png
+[2016-08-09 14:18:06 -0600] [39888] [DEBUG] Closing connection. 
+[2016-08-09 14:18:06 -0600] [39888] [DEBUG] Closing connection. 
+[2016-08-09 14:18:07 -0600] [39888] [DEBUG] Closing connection. 
+[2016-08-09 14:18:07 -0600] [39887] [DEBUG] GET /ad
+[2016-08-09 14:18:08 -0600] [39887] [DEBUG] GET /consent
+[2016-08-09 14:18:08 -0600] [39887] [DEBUG] GET /static/js/utils.js
+[2016-08-09 14:18:08 -0600] [39885] [DEBUG] GET /static/css/general.css
+[2016-08-09 14:18:08 -0600] [39888] [DEBUG] GET /ad
+[2016-08-09 14:18:08 -0600] [39885] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 14:18:09 -0600] [39885] [DEBUG] GET /exp
+2016-08-09 14:18:09,305 Accessing /exp: debugRXUV9W debugBNDJCV debug9OD1YO 
+2016-08-09 14:18:09,310 given Counter({(7, 0): 1, (15, 0): 1, (5, 0): 1, (19, 0): 1, (1, 0): 1, (13, 0): 1, (18, 0): 0, (9, 0): 0, (0, 0): 0, (12, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (6, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (10, 0): 0, (4, 0): 0}) chose (0, 0)
+[2016-08-09 14:18:09 -0600] [39888] [DEBUG] GET /static/js/utils.js
+[2016-08-09 14:18:09 -0600] [39885] [DEBUG] GET /static/css/general.css
+[2016-08-09 14:18:09 -0600] [39887] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 14:18:09 -0600] [39889] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 14:18:09 -0600] [39885] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 14:18:09 -0600] [39888] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 14:18:09 -0600] [39888] [DEBUG] GET /static/js/task.js
+[2016-08-09 14:18:09 -0600] [39885] [DEBUG] GET /static/js/config.js
+[2016-08-09 14:18:09 -0600] [39888] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-09 14:18:09 -0600] [39888] [DEBUG] GET /sync/debug9OD1YO%3AdebugBNDJCV
+2016-08-09 14:18:09,460 GET /sync route with id: debug9OD1YO:debugBNDJCV
+[2016-08-09 14:18:09 -0600] [39888] [DEBUG] GET /trial.html
+[2016-08-09 14:18:09 -0600] [39888] [DEBUG] GET /submit.html
+[2016-08-09 14:18:09 -0600] [39889] [DEBUG] GET /static/images/stimuli/51_l1.png
+[2016-08-09 14:18:09 -0600] [39888] [DEBUG] GET /static/images/stimuli/51_orig.png
+[2016-08-09 14:18:09 -0600] [39885] [DEBUG] GET /static/images/stimuli/51_l2.png
+[2016-08-09 14:18:09 -0600] [39887] [DEBUG] GET /static/images/stimuli/51_mssim.png
+[2016-08-09 14:19:44 -0600] [39887] [DEBUG] GET /consent
+[2016-08-09 14:19:44 -0600] [39887] [DEBUG] GET /static/js/utils.js
+[2016-08-09 14:19:44 -0600] [39888] [DEBUG] GET /static/css/general.css
+[2016-08-09 14:19:44 -0600] [39888] [DEBUG] GET /ad
+[2016-08-09 14:19:44 -0600] [39889] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 14:19:45 -0600] [39887] [DEBUG] GET /exp
+2016-08-09 14:19:45,424 Accessing /exp: debugRXUV9W debugBNDJCV debug9OD1YO 
+[2016-08-09 14:19:45 -0600] [39885] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 14:19:45 -0600] [39888] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 14:19:45 -0600] [39887] [DEBUG] GET /static/js/config.js
+[2016-08-09 14:19:45 -0600] [39885] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 14:19:45 -0600] [39888] [DEBUG] GET /static/js/task.js
+[2016-08-09 14:19:45 -0600] [39889] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 14:19:45 -0600] [39885] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-09 14:19:45 -0600] [39887] [DEBUG] GET /sync/debug9OD1YO%3AdebugBNDJCV
+2016-08-09 14:19:45,522 GET /sync route with id: debug9OD1YO:debugBNDJCV
+[2016-08-09 14:19:45 -0600] [39888] [DEBUG] GET /trial.html
+[2016-08-09 14:19:45 -0600] [39888] [DEBUG] GET /submit.html
+[2016-08-09 14:19:45 -0600] [39885] [DEBUG] GET /static/images/stimuli/51_l2.png
+[2016-08-09 14:19:45 -0600] [39888] [DEBUG] GET /static/images/stimuli/51_l1.png
+[2016-08-09 14:19:45 -0600] [39887] [DEBUG] GET /static/images/stimuli/51_orig.png
+[2016-08-09 14:19:45 -0600] [39888] [DEBUG] GET /static/images/stimuli/51_mssim.png
+[2016-08-09 14:20:03 -0600] [39887] [DEBUG] Closing connection. 
+[2016-08-09 14:20:03 -0600] [39885] [DEBUG] Closing connection. 
+[2016-08-09 14:20:03 -0600] [39887] [DEBUG] GET /ppid
+[2016-08-09 14:20:03 -0600] [39887] [DEBUG] Closing connection. 
+[2016-08-09 14:20:03 -0600] [39889] [INFO] Parent changed, shutting down: <Worker 39889>
+[2016-08-09 14:20:03 -0600] [39888] [INFO] Parent changed, shutting down: <Worker 39888>
+[2016-08-09 14:20:03 -0600] [39887] [INFO] Parent changed, shutting down: <Worker 39887>
+[2016-08-09 14:20:03 -0600] [39888] [INFO] Worker exiting (pid: 39888)
+[2016-08-09 14:20:03 -0600] [39887] [INFO] Worker exiting (pid: 39887)
+[2016-08-09 14:20:03 -0600] [39889] [INFO] Worker exiting (pid: 39889)
+[2016-08-09 14:20:04 -0600] [39885] [DEBUG] Closing connection. 
+[2016-08-09 14:20:04 -0600] [39885] [INFO] Parent changed, shutting down: <Worker 39885>
+[2016-08-09 14:20:04 -0600] [39885] [INFO] Worker exiting (pid: 39885)
+[2016-08-09 14:32:21 -0600] [40121] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 14:32:21 -0600] [40121] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 14:32:21 -0600] [40121] [DEBUG] Arbiter booted
+[2016-08-09 14:32:21 -0600] [40121] [INFO] Listening at: http://0.0.0.0:22362 (40121)
+[2016-08-09 14:32:21 -0600] [40121] [INFO] Using worker: sync
+[2016-08-09 14:32:21 -0600] [40125] [INFO] Booting worker with pid: 40125
+[2016-08-09 14:32:21 -0600] [40127] [INFO] Booting worker with pid: 40127
+[2016-08-09 14:32:21 -0600] [40128] [INFO] Booting worker with pid: 40128
+[2016-08-09 14:32:21 -0600] [40129] [INFO] Booting worker with pid: 40129
+[2016-08-09 14:32:21 -0600] [40121] [DEBUG] 4 workers
+2016-08-09 14:32:22,219 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:32:22,222 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:32:22,263 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:32:22,266 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:32:22,282 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:32:22,285 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:32:22,293 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:32:22,295 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 14:32:23 -0600] [40127] [DEBUG] Closing connection. 
+[2016-08-09 14:32:26 -0600] [40125] [DEBUG] Closing connection. 
+[2016-08-09 14:32:26 -0600] [40125] [DEBUG] Closing connection. 
+[2016-08-09 14:32:26 -0600] [40125] [DEBUG] Closing connection. 
+[2016-08-09 14:32:27 -0600] [40127] [DEBUG] GET /ad
+[2016-08-09 14:32:36 -0600] [40127] [DEBUG] GET /ad
+[2016-08-09 14:32:37 -0600] [40129] [DEBUG] GET /favicon.ico
+[2016-08-09 14:32:37 -0600] [40125] [DEBUG] GET /favicon.ico
+[2016-08-09 14:32:40 -0600] [40129] [DEBUG] GET /consent
+[2016-08-09 14:32:40 -0600] [40129] [DEBUG] GET /ad
+[2016-08-09 14:32:40 -0600] [40127] [DEBUG] GET /static/js/utils.js
+[2016-08-09 14:32:40 -0600] [40129] [DEBUG] GET /static/css/general.css
+[2016-08-09 14:32:40 -0600] [40127] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 14:32:44 -0600] [40125] [DEBUG] Closing connection. 
+[2016-08-09 14:32:44 -0600] [40129] [DEBUG] Closing connection. 
+[2016-08-09 14:32:44 -0600] [40129] [DEBUG] GET /ppid
+[2016-08-09 14:32:44 -0600] [40127] [INFO] Parent changed, shutting down: <Worker 40127>
+[2016-08-09 14:32:44 -0600] [40125] [DEBUG] Closing connection. 
+[2016-08-09 14:32:44 -0600] [40129] [INFO] Parent changed, shutting down: <Worker 40129>
+[2016-08-09 14:32:44 -0600] [40127] [INFO] Worker exiting (pid: 40127)
+[2016-08-09 14:32:44 -0600] [40125] [INFO] Parent changed, shutting down: <Worker 40125>
+[2016-08-09 14:32:44 -0600] [40129] [INFO] Worker exiting (pid: 40129)
+[2016-08-09 14:32:44 -0600] [40125] [INFO] Worker exiting (pid: 40125)
+[2016-08-09 14:32:45 -0600] [40128] [DEBUG] Closing connection. 
+[2016-08-09 14:32:45 -0600] [40128] [INFO] Parent changed, shutting down: <Worker 40128>
+[2016-08-09 14:32:45 -0600] [40128] [INFO] Worker exiting (pid: 40128)
+[2016-08-09 14:32:48 -0600] [40184] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 14:32:48 -0600] [40184] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 14:32:48 -0600] [40184] [DEBUG] Arbiter booted
+[2016-08-09 14:32:48 -0600] [40184] [INFO] Listening at: http://0.0.0.0:22362 (40184)
+[2016-08-09 14:32:48 -0600] [40184] [INFO] Using worker: sync
+[2016-08-09 14:32:48 -0600] [40187] [INFO] Booting worker with pid: 40187
+[2016-08-09 14:32:48 -0600] [40188] [INFO] Booting worker with pid: 40188
+[2016-08-09 14:32:48 -0600] [40189] [INFO] Booting worker with pid: 40189
+[2016-08-09 14:32:48 -0600] [40190] [INFO] Booting worker with pid: 40190
+[2016-08-09 14:32:48 -0600] [40184] [DEBUG] 4 workers
+2016-08-09 14:32:48,788 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:32:48,791 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:32:48,817 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:32:48,819 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:32:48,825 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:32:48,830 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 14:32:48,862 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 14:32:48,864 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 14:32:49 -0600] [40187] [DEBUG] Closing connection. 
+[2016-08-09 14:32:52 -0600] [40188] [DEBUG] GET /ad
+[2016-08-09 14:32:53 -0600] [40190] [DEBUG] GET /consent
+[2016-08-09 14:32:53 -0600] [40187] [DEBUG] Closing connection. 
+[2016-08-09 14:32:53 -0600] [40188] [DEBUG] Closing connection. 
+[2016-08-09 14:32:53 -0600] [40187] [DEBUG] GET /ad
+[2016-08-09 14:32:53 -0600] [40187] [DEBUG] GET /static/js/utils.js
+[2016-08-09 14:32:53 -0600] [40188] [DEBUG] GET /static/css/general.css
+[2016-08-09 14:32:53 -0600] [40188] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 14:32:58 -0600] [40188] [DEBUG] Closing connection. 
+[2016-08-09 14:32:58 -0600] [40187] [DEBUG] Closing connection. 
+[2016-08-09 14:32:58 -0600] [40188] [DEBUG] GET /ppid
+[2016-08-09 14:32:58 -0600] [40188] [INFO] Parent changed, shutting down: <Worker 40188>
+[2016-08-09 14:32:58 -0600] [40189] [DEBUG] Closing connection. 
+[2016-08-09 14:32:58 -0600] [40187] [INFO] Parent changed, shutting down: <Worker 40187>
+[2016-08-09 14:32:58 -0600] [40188] [INFO] Worker exiting (pid: 40188)
+[2016-08-09 14:32:58 -0600] [40187] [INFO] Worker exiting (pid: 40187)
+[2016-08-09 14:32:58 -0600] [40189] [INFO] Parent changed, shutting down: <Worker 40189>
+[2016-08-09 14:32:58 -0600] [40189] [INFO] Worker exiting (pid: 40189)
+[2016-08-09 14:32:59 -0600] [40190] [DEBUG] Closing connection. 
+[2016-08-09 14:32:59 -0600] [40190] [INFO] Parent changed, shutting down: <Worker 40190>
+[2016-08-09 14:32:59 -0600] [40190] [INFO] Worker exiting (pid: 40190)
+[2016-08-09 16:49:50 -0600] [40273] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10282a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10282a668>
+  pre_fork: <function pre_fork at 0x10282a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10282a500>
+  pre_exec: <function pre_exec at 0x10282aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10282aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1028305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1028300c8>
+  post_request: <function post_request at 0x1028301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10282ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x102830320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10282a398>
+  worker_abort: <function worker_abort at 0x10282ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x102830488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 16:49:50 -0600] [40273] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 16:49:50 -0600] [40273] [DEBUG] Arbiter booted
+[2016-08-09 16:49:50 -0600] [40273] [INFO] Listening at: http://0.0.0.0:22362 (40273)
+[2016-08-09 16:49:50 -0600] [40273] [INFO] Using worker: sync
+[2016-08-09 16:49:50 -0600] [40277] [INFO] Booting worker with pid: 40277
+[2016-08-09 16:49:50 -0600] [40279] [INFO] Booting worker with pid: 40279
+[2016-08-09 16:49:50 -0600] [40280] [INFO] Booting worker with pid: 40280
+[2016-08-09 16:49:50 -0600] [40281] [INFO] Booting worker with pid: 40281
+[2016-08-09 16:49:50 -0600] [40273] [DEBUG] 4 workers
+2016-08-09 16:49:50,861 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 16:49:50,865 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 16:49:50,925 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 16:49:50,927 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 16:49:50,930 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 16:49:50,931 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 16:49:50,937 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 16:49:50,939 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 16:49:51 -0600] [40280] [DEBUG] Closing connection. 
+[2016-08-09 16:49:53 -0600] [40281] [DEBUG] Closing connection. 
+[2016-08-09 16:49:53 -0600] [40280] [DEBUG] Closing connection. 
+[2016-08-09 16:49:53 -0600] [40280] [DEBUG] Closing connection. 
+[2016-08-09 16:49:54 -0600] [40277] [DEBUG] GET /ad
+[2016-08-09 16:49:55 -0600] [40277] [DEBUG] GET /consent
+[2016-08-09 16:49:55 -0600] [40277] [DEBUG] GET /static/css/general.css
+[2016-08-09 16:49:55 -0600] [40280] [DEBUG] GET /static/js/utils.js
+[2016-08-09 16:49:55 -0600] [40280] [DEBUG] GET /ad
+[2016-08-09 16:49:55 -0600] [40277] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 16:49:56 -0600] [40277] [DEBUG] GET /exp
+2016-08-09 16:49:56,632 Accessing /exp: debugF517ZT debugL6GUYG debugCD53FF 
+2016-08-09 16:49:56,636 given Counter({(18, 0): 0, (9, 0): 0, (0, 0): 0, (7, 0): 0, (12, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (15, 0): 0, (6, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (5, 0): 0, (19, 0): 0, (10, 0): 0, (1, 0): 0, (13, 0): 0, (4, 0): 0}) chose (0, 0)
+[2016-08-09 16:49:56 -0600] [40279] [DEBUG] GET /static/js/utils.js
+[2016-08-09 16:49:56 -0600] [40277] [DEBUG] GET /static/css/general.css
+[2016-08-09 16:49:56 -0600] [40280] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 16:49:56 -0600] [40277] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 16:49:56 -0600] [40280] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 16:49:56 -0600] [40280] [DEBUG] GET /static/js/task.js
+[2016-08-09 16:49:56 -0600] [40281] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 16:49:56 -0600] [40277] [DEBUG] GET /static/js/config.js
+[2016-08-09 16:49:56 -0600] [40279] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-09 16:49:56 -0600] [40279] [DEBUG] GET /sync/debugCD53FF%3AdebugL6GUYG
+2016-08-09 16:49:56,791 GET /sync route with id: debugCD53FF:debugL6GUYG
+[2016-08-09 16:49:56 -0600] [40279] [DEBUG] GET /trial.html
+[2016-08-09 16:49:56 -0600] [40279] [DEBUG] GET /submit.html
+[2016-08-09 16:49:56 -0600] [40279] [DEBUG] GET /static/images/stimuli/51_orig.png
+[2016-08-09 16:49:56 -0600] [40281] [DEBUG] GET /static/images/stimuli/51_l2.png
+[2016-08-09 16:49:56 -0600] [40280] [DEBUG] GET /static/images/stimuli/51_l1.png
+[2016-08-09 16:49:56 -0600] [40277] [DEBUG] GET /static/images/stimuli/51_mssim.png
+[2016-08-09 16:50:02 -0600] [40281] [DEBUG] PUT /sync/debugCD53FF%3AdebugL6GUYG
+[2016-08-09 16:50:02 -0600] [40279] [DEBUG] POST /inexp
+2016-08-09 16:50:02,806 PUT /sync route with id: debugCD53FF:debugL6GUYG
+2016-08-09 16:50:02,808 Accessing /inexp
+[2016-08-09 16:50:02 -0600] [40280] [DEBUG] GET /static/images/stimuli/31_orig.png
+[2016-08-09 16:50:02 -0600] [40277] [DEBUG] GET /static/images/stimuli/31_l2.png
+[2016-08-09 16:50:02 -0600] [40280] [DEBUG] GET /static/images/stimuli/31_mssim.png
+[2016-08-09 16:50:02 -0600] [40277] [DEBUG] GET /static/images/stimuli/31_l1.png
+2016-08-09 16:50:02,851 saved data for debugCD53FF:debugL6GUYG (current trial: 2)
+[2016-08-09 16:50:09 -0600] [40279] [DEBUG] PUT /sync/debugCD53FF%3AdebugL6GUYG
+2016-08-09 16:50:09,600 PUT /sync route with id: debugCD53FF:debugL6GUYG
+2016-08-09 16:50:09,606 saved data for debugCD53FF:debugL6GUYG (current trial: 2)
+[2016-08-09 16:50:10 -0600] [40279] [DEBUG] POST /quitter
+[2016-08-09 16:52:40 -0600] [40281] [DEBUG] GET /ad
+[2016-08-09 16:52:41 -0600] [40279] [DEBUG] GET /consent
+[2016-08-09 16:52:42 -0600] [40279] [DEBUG] GET /ad
+[2016-08-09 16:52:42 -0600] [40279] [DEBUG] GET /static/js/utils.js
+[2016-08-09 16:52:42 -0600] [40279] [DEBUG] GET /static/css/general.css
+[2016-08-09 16:52:42 -0600] [40280] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 16:52:43 -0600] [40281] [DEBUG] GET /exp
+2016-08-09 16:52:43,393 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+2016-08-09 16:52:43,415 given Counter({(0, 0): 1, (18, 0): 0, (9, 0): 0, (7, 0): 0, (12, 0): 0, (3, 0): 0, (17, 0): 0, (8, 0): 0, (15, 0): 0, (6, 0): 0, (11, 0): 0, (2, 0): 0, (16, 0): 0, (14, 0): 0, (5, 0): 0, (19, 0): 0, (10, 0): 0, (1, 0): 0, (13, 0): 0, (4, 0): 0}) chose (10, 0)
+[2016-08-09 16:52:43 -0600] [40280] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 16:52:43 -0600] [40277] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 16:52:43 -0600] [40279] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 16:52:43 -0600] [40277] [DEBUG] GET /static/js/config.js
+[2016-08-09 16:52:43 -0600] [40280] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 16:52:43 -0600] [40279] [DEBUG] GET /static/js/task.js
+[2016-08-09 16:52:43 -0600] [40277] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 16:52:43 -0600] [40280] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:52:43,677 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:52:43 -0600] [40280] [DEBUG] GET /trial.html
+[2016-08-09 16:52:43 -0600] [40280] [DEBUG] GET /submit.html
+[2016-08-09 16:52:43 -0600] [40277] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 16:52:43 -0600] [40281] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 16:52:43 -0600] [40280] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 16:52:43 -0600] [40281] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 16:52:49 -0600] [40277] [DEBUG] Closing connection. 
+[2016-08-09 16:52:51 -0600] [40280] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:52:51,058 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:52:51 -0600] [40277] [DEBUG] POST /inexp
+2016-08-09 16:52:51,060 Accessing /inexp
+2016-08-09 16:52:51,069 saved data for debugSIHK1D:debugPX7WJY (current trial: 2)
+[2016-08-09 16:52:51 -0600] [40281] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 16:52:51 -0600] [40279] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 16:52:51 -0600] [40280] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 16:52:51 -0600] [40279] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 16:52:57 -0600] [40281] [DEBUG] Closing connection. 
+[2016-08-09 16:53:03 -0600] [40279] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:53:03,139 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:53:03 -0600] [40277] [DEBUG] POST /quitter
+2016-08-09 16:53:03,146 saved data for debugSIHK1D:debugPX7WJY (current trial: 2)
+[2016-08-09 16:53:46 -0600] [40279] [DEBUG] Closing connection. 
+[2016-08-09 16:53:46 -0600] [40280] [DEBUG] Closing connection. 
+[2016-08-09 16:53:46 -0600] [40279] [DEBUG] GET /ppid
+[2016-08-09 16:53:46 -0600] [40281] [INFO] Parent changed, shutting down: <Worker 40281>
+[2016-08-09 16:53:46 -0600] [40277] [DEBUG] Closing connection. 
+[2016-08-09 16:53:46 -0600] [40279] [INFO] Parent changed, shutting down: <Worker 40279>
+[2016-08-09 16:53:46 -0600] [40281] [INFO] Worker exiting (pid: 40281)
+[2016-08-09 16:53:46 -0600] [40277] [INFO] Parent changed, shutting down: <Worker 40277>
+[2016-08-09 16:53:46 -0600] [40279] [INFO] Worker exiting (pid: 40279)
+[2016-08-09 16:53:46 -0600] [40277] [INFO] Worker exiting (pid: 40277)
+[2016-08-09 16:53:46 -0600] [40280] [DEBUG] Closing connection. 
+[2016-08-09 16:53:46 -0600] [40280] [INFO] Parent changed, shutting down: <Worker 40280>
+[2016-08-09 16:53:46 -0600] [40280] [INFO] Worker exiting (pid: 40280)
+[2016-08-09 16:53:49 -0600] [40346] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10282a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10282a668>
+  pre_fork: <function pre_fork at 0x10282a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10282a500>
+  pre_exec: <function pre_exec at 0x10282aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10282aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1028305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1028300c8>
+  post_request: <function post_request at 0x1028301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10282ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x102830320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10282a398>
+  worker_abort: <function worker_abort at 0x10282ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x102830488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 16:53:49 -0600] [40346] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 16:53:49 -0600] [40346] [DEBUG] Arbiter booted
+[2016-08-09 16:53:49 -0600] [40346] [INFO] Listening at: http://0.0.0.0:22362 (40346)
+[2016-08-09 16:53:49 -0600] [40346] [INFO] Using worker: sync
+[2016-08-09 16:53:49 -0600] [40350] [INFO] Booting worker with pid: 40350
+[2016-08-09 16:53:49 -0600] [40352] [INFO] Booting worker with pid: 40352
+[2016-08-09 16:53:49 -0600] [40353] [INFO] Booting worker with pid: 40353
+[2016-08-09 16:53:49 -0600] [40354] [INFO] Booting worker with pid: 40354
+[2016-08-09 16:53:49 -0600] [40346] [DEBUG] 4 workers
+2016-08-09 16:53:50,332 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 16:53:50,333 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 16:53:50,336 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 16:53:50,337 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 16:53:50,344 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 16:53:50,346 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 16:53:50,361 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 16:53:50,363 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 16:53:51 -0600] [40353] [DEBUG] Closing connection. 
+[2016-08-09 16:54:05 -0600] [40352] [DEBUG] GET /ad
+[2016-08-09 16:54:06 -0600] [40350] [DEBUG] GET /favicon.ico
+[2016-08-09 16:54:06 -0600] [40350] [DEBUG] GET /favicon.ico
+[2016-08-09 16:54:07 -0600] [40352] [DEBUG] GET /consent
+[2016-08-09 16:54:08 -0600] [40352] [DEBUG] GET /ad
+[2016-08-09 16:54:08 -0600] [40354] [DEBUG] GET /static/js/utils.js
+[2016-08-09 16:54:08 -0600] [40352] [DEBUG] GET /static/css/general.css
+[2016-08-09 16:54:08 -0600] [40354] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 16:54:09 -0600] [40354] [DEBUG] GET /exp
+2016-08-09 16:54:09,344 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 16:54:09 -0600] [40354] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 16:54:09 -0600] [40352] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 16:54:09 -0600] [40353] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 16:54:09 -0600] [40352] [DEBUG] GET /static/js/config.js
+[2016-08-09 16:54:09 -0600] [40350] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 16:54:09 -0600] [40352] [DEBUG] GET /static/js/task.js
+[2016-08-09 16:54:09 -0600] [40350] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 16:54:09 -0600] [40354] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:54:09,579 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:54:09 -0600] [40354] [DEBUG] GET /trial.html
+[2016-08-09 16:54:09 -0600] [40354] [DEBUG] GET /submit.html
+[2016-08-09 16:54:09 -0600] [40350] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 16:54:09 -0600] [40354] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 16:54:09 -0600] [40352] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 16:54:09 -0600] [40350] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 16:54:18 -0600] [40353] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:54:18,016 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:54:18 -0600] [40350] [DEBUG] POST /inexp
+2016-08-09 16:54:18,018 Accessing /inexp
+2016-08-09 16:54:18,031 saved data for debugSIHK1D:debugPX7WJY (current trial: 4)
+[2016-08-09 16:54:18 -0600] [40350] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 16:54:18 -0600] [40353] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 16:54:18 -0600] [40354] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 16:54:18 -0600] [40350] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 16:54:27 -0600] [40354] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:54:27,083 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:54:27 -0600] [40352] [DEBUG] POST /quitter
+2016-08-09 16:54:27,090 saved data for debugSIHK1D:debugPX7WJY (current trial: 4)
+[2016-08-09 16:55:09 -0600] [40353] [DEBUG] GET /consent
+[2016-08-09 16:55:09 -0600] [40353] [DEBUG] GET /ad
+[2016-08-09 16:55:09 -0600] [40350] [DEBUG] GET /static/js/utils.js
+[2016-08-09 16:55:09 -0600] [40353] [DEBUG] GET /static/css/general.css
+[2016-08-09 16:55:09 -0600] [40354] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 16:55:11 -0600] [40350] [DEBUG] GET /exp
+2016-08-09 16:55:11,075 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 16:55:11 -0600] [40350] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 16:55:11 -0600] [40353] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 16:55:11 -0600] [40352] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 16:55:11 -0600] [40354] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 16:55:11 -0600] [40350] [DEBUG] GET /static/js/config.js
+[2016-08-09 16:55:11 -0600] [40353] [DEBUG] GET /static/js/task.js
+[2016-08-09 16:55:11 -0600] [40354] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 16:55:11 -0600] [40354] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:55:11,328 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:55:11 -0600] [40354] [DEBUG] GET /trial.html
+[2016-08-09 16:55:11 -0600] [40354] [DEBUG] GET /submit.html
+[2016-08-09 16:55:11 -0600] [40354] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 16:55:11 -0600] [40352] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 16:55:11 -0600] [40353] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 16:55:11 -0600] [40350] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 16:55:15 -0600] [40352] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:55:15,401 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:55:15 -0600] [40353] [DEBUG] POST /inexp
+2016-08-09 16:55:15,403 Accessing /inexp
+[2016-08-09 16:55:15 -0600] [40354] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 16:55:15 -0600] [40353] [DEBUG] GET /static/images/stimuli/63_l1.png
+2016-08-09 16:55:15,413 saved data for debugSIHK1D:debugPX7WJY (current trial: 6)
+[2016-08-09 16:55:15 -0600] [40352] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 16:55:15 -0600] [40350] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 16:55:20 -0600] [40353] [DEBUG] Closing connection. 
+[2016-08-09 16:55:20 -0600] [40354] [DEBUG] Closing connection. 
+[2016-08-09 16:55:24 -0600] [40354] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:55:24,207 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:55:24 -0600] [40353] [DEBUG] POST /quitter
+2016-08-09 16:55:24,213 saved data for debugSIHK1D:debugPX7WJY (current trial: 6)
+[2016-08-09 16:59:16 -0600] [40352] [DEBUG] GET /ad
+[2016-08-09 16:59:16 -0600] [40352] [DEBUG] GET /favicon.ico
+[2016-08-09 16:59:16 -0600] [40352] [DEBUG] GET /favicon.ico
+[2016-08-09 16:59:17 -0600] [40352] [DEBUG] GET /consent
+[2016-08-09 16:59:17 -0600] [40352] [DEBUG] GET /ad
+[2016-08-09 16:59:17 -0600] [40350] [DEBUG] GET /static/js/utils.js
+[2016-08-09 16:59:17 -0600] [40352] [DEBUG] GET /static/css/general.css
+[2016-08-09 16:59:17 -0600] [40352] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 16:59:19 -0600] [40353] [DEBUG] GET /exp
+2016-08-09 16:59:19,413 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 16:59:19 -0600] [40352] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 16:59:19 -0600] [40350] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 16:59:19 -0600] [40354] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 16:59:19 -0600] [40354] [DEBUG] GET /static/js/config.js
+[2016-08-09 16:59:19 -0600] [40352] [DEBUG] GET /static/js/task.js
+[2016-08-09 16:59:19 -0600] [40350] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 16:59:19 -0600] [40354] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 16:59:19 -0600] [40354] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:59:19,608 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:59:19 -0600] [40352] [DEBUG] GET /trial.html
+[2016-08-09 16:59:19 -0600] [40352] [DEBUG] GET /submit.html
+[2016-08-09 16:59:19 -0600] [40354] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 16:59:19 -0600] [40352] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 16:59:19 -0600] [40353] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 16:59:19 -0600] [40352] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 16:59:23 -0600] [40350] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:59:23,047 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:59:23 -0600] [40354] [DEBUG] POST /inexp
+2016-08-09 16:59:23,048 Accessing /inexp
+2016-08-09 16:59:23,057 saved data for debugSIHK1D:debugPX7WJY (current trial: 8)
+[2016-08-09 16:59:23 -0600] [40353] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 16:59:23 -0600] [40353] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 16:59:23 -0600] [40353] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 16:59:23 -0600] [40354] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 16:59:28 -0600] [40353] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 16:59:28,633 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 16:59:28 -0600] [40354] [DEBUG] POST /quitter
+2016-08-09 16:59:28,640 saved data for debugSIHK1D:debugPX7WJY (current trial: 8)
+[2016-08-09 16:59:35 -0600] [40354] [DEBUG] Closing connection. 
+[2016-08-09 16:59:35 -0600] [40352] [DEBUG] Closing connection. 
+[2016-08-09 16:59:35 -0600] [40352] [DEBUG] GET /ppid
+[2016-08-09 16:59:35 -0600] [40350] [INFO] Parent changed, shutting down: <Worker 40350>
+[2016-08-09 16:59:35 -0600] [40352] [INFO] Parent changed, shutting down: <Worker 40352>
+[2016-08-09 16:59:35 -0600] [40354] [INFO] Parent changed, shutting down: <Worker 40354>
+[2016-08-09 16:59:35 -0600] [40353] [DEBUG] Closing connection. 
+[2016-08-09 16:59:35 -0600] [40352] [INFO] Worker exiting (pid: 40352)
+[2016-08-09 16:59:35 -0600] [40350] [INFO] Worker exiting (pid: 40350)
+[2016-08-09 16:59:35 -0600] [40354] [INFO] Worker exiting (pid: 40354)
+[2016-08-09 16:59:35 -0600] [40353] [INFO] Parent changed, shutting down: <Worker 40353>
+[2016-08-09 16:59:35 -0600] [40353] [INFO] Worker exiting (pid: 40353)
+[2016-08-09 17:02:08 -0600] [40405] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 17:02:08 -0600] [40405] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 17:02:08 -0600] [40405] [DEBUG] Arbiter booted
+[2016-08-09 17:02:08 -0600] [40405] [INFO] Listening at: http://0.0.0.0:22362 (40405)
+[2016-08-09 17:02:08 -0600] [40405] [INFO] Using worker: sync
+[2016-08-09 17:02:08 -0600] [40409] [INFO] Booting worker with pid: 40409
+[2016-08-09 17:02:08 -0600] [40411] [INFO] Booting worker with pid: 40411
+[2016-08-09 17:02:09 -0600] [40412] [INFO] Booting worker with pid: 40412
+[2016-08-09 17:02:09 -0600] [40413] [INFO] Booting worker with pid: 40413
+[2016-08-09 17:02:09 -0600] [40405] [DEBUG] 4 workers
+2016-08-09 17:02:09,642 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:02:09,645 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:02:09,700 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:02:09,703 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:02:09,714 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:02:09,717 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:02:09,720 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:02:09,723 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 17:02:10 -0600] [40413] [DEBUG] Closing connection. 
+[2016-08-09 17:02:15 -0600] [40409] [DEBUG] GET /consent
+[2016-08-09 17:02:16 -0600] [40409] [DEBUG] GET /ad
+[2016-08-09 17:02:16 -0600] [40413] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:02:16 -0600] [40409] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:02:16 -0600] [40411] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:02:17 -0600] [40411] [DEBUG] GET /exp
+2016-08-09 17:02:17,377 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:02:17 -0600] [40412] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:02:17 -0600] [40413] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:02:17 -0600] [40411] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:02:17 -0600] [40409] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:02:17 -0600] [40411] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:02:17 -0600] [40413] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:02:17 -0600] [40412] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:02:17 -0600] [40413] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:02:17,616 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:02:17 -0600] [40411] [DEBUG] GET /trial.html
+[2016-08-09 17:02:17 -0600] [40411] [DEBUG] GET /submit.html
+[2016-08-09 17:02:17 -0600] [40409] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:02:17 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:02:17 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:02:17 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:02:23 -0600] [40411] [DEBUG] Closing connection. 
+[2016-08-09 17:02:36 -0600] [40412] [DEBUG] GET /consent
+[2016-08-09 17:02:36 -0600] [40412] [DEBUG] GET /ad
+[2016-08-09 17:02:36 -0600] [40413] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:02:36 -0600] [40412] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:02:36 -0600] [40412] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:02:38 -0600] [40412] [DEBUG] GET /exp
+2016-08-09 17:02:38,143 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:02:38 -0600] [40411] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:02:38 -0600] [40413] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:02:38 -0600] [40412] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:02:38 -0600] [40409] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:02:38 -0600] [40413] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:02:38 -0600] [40411] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:02:38 -0600] [40409] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:02:38 -0600] [40409] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:02:38,318 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:02:38 -0600] [40409] [DEBUG] GET /trial.html
+[2016-08-09 17:02:38 -0600] [40409] [DEBUG] GET /submit.html
+[2016-08-09 17:02:38 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:02:38 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:02:38 -0600] [40409] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:02:38 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:02:44 -0600] [40411] [DEBUG] Closing connection. 
+[2016-08-09 17:02:45 -0600] [40411] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:02:45,147 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:02:45 -0600] [40413] [DEBUG] POST /inexp
+2016-08-09 17:02:45,151 Accessing /inexp
+[2016-08-09 17:02:45 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_orig.png
+2016-08-09 17:02:45,161 saved data for debugSIHK1D:debugPX7WJY (current trial: 10)
+[2016-08-09 17:02:45 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:02:45 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:02:45 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:02:51 -0600] [40412] [DEBUG] Closing connection. 
+[2016-08-09 17:03:04 -0600] [40409] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:03:04,469 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:03:04 -0600] [40412] [DEBUG] POST /quitter
+2016-08-09 17:03:04,477 saved data for debugSIHK1D:debugPX7WJY (current trial: 10)
+[2016-08-09 17:03:57 -0600] [40409] [DEBUG] GET /consent
+[2016-08-09 17:03:57 -0600] [40409] [DEBUG] GET /ad
+[2016-08-09 17:03:58 -0600] [40413] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:03:58 -0600] [40409] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:03:58 -0600] [40411] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:03:58 -0600] [40412] [DEBUG] GET /exp
+2016-08-09 17:03:58,756 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:03:58 -0600] [40412] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:03:58 -0600] [40409] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:03:58 -0600] [40413] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:03:58 -0600] [40409] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:03:58 -0600] [40413] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:03:58 -0600] [40412] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:03:58 -0600] [40411] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:03:58 -0600] [40409] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:03:58,960 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:03:58 -0600] [40409] [DEBUG] GET /trial.html
+[2016-08-09 17:03:59 -0600] [40409] [DEBUG] GET /submit.html
+[2016-08-09 17:03:59 -0600] [40409] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:03:59 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:03:59 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:03:59 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:04:01 -0600] [40412] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:04:01,107 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:04:01 -0600] [40411] [DEBUG] POST /inexp
+2016-08-09 17:04:01,109 Accessing /inexp
+[2016-08-09 17:04:01 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 17:04:01 -0600] [40413] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:04:01 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:04:01 -0600] [40413] [DEBUG] GET /static/images/stimuli/63_l2.png
+2016-08-09 17:04:01,124 saved data for debugSIHK1D:debugPX7WJY (current trial: 12)
+[2016-08-09 17:04:06 -0600] [40413] [DEBUG] Closing connection. 
+[2016-08-09 17:05:21 -0600] [40413] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:05:21,873 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:05:21 -0600] [40411] [DEBUG] POST /quitter
+2016-08-09 17:05:21,882 saved data for debugSIHK1D:debugPX7WJY (current trial: 12)
+[2016-08-09 17:05:24 -0600] [40412] [DEBUG] GET /consent
+[2016-08-09 17:05:24 -0600] [40412] [DEBUG] GET /ad
+[2016-08-09 17:05:24 -0600] [40413] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:05:24 -0600] [40409] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:05:24 -0600] [40413] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:05:25 -0600] [40413] [DEBUG] GET /exp
+2016-08-09 17:05:25,653 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:05:25 -0600] [40413] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:05:25 -0600] [40412] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:05:25 -0600] [40409] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:05:25 -0600] [40412] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:05:25 -0600] [40409] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:05:25 -0600] [40411] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:05:25 -0600] [40412] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:05:25 -0600] [40413] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:05:25,855 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:05:25 -0600] [40411] [DEBUG] GET /trial.html
+[2016-08-09 17:05:25 -0600] [40411] [DEBUG] GET /submit.html
+[2016-08-09 17:05:25 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:05:25 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:05:25 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:05:25 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:05:27 -0600] [40412] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:05:27,731 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:05:27 -0600] [40409] [DEBUG] POST /inexp
+2016-08-09 17:05:27,735 Accessing /inexp
+2016-08-09 17:05:27,739 saved data for debugSIHK1D:debugPX7WJY (current trial: 14)
+[2016-08-09 17:05:27 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 17:05:27 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:05:27 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:05:27 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:05:31 -0600] [40412] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:05:31,482 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:05:31 -0600] [40409] [DEBUG] POST /quitter
+2016-08-09 17:05:31,492 saved data for debugSIHK1D:debugPX7WJY (current trial: 14)
+[2016-08-09 17:05:44 -0600] [40411] [DEBUG] GET /ad
+[2016-08-09 17:05:45 -0600] [40409] [DEBUG] GET /consent
+[2016-08-09 17:05:45 -0600] [40409] [DEBUG] GET /ad
+[2016-08-09 17:05:45 -0600] [40413] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:05:45 -0600] [40409] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:05:46 -0600] [40409] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:05:47 -0600] [40412] [DEBUG] GET /exp
+2016-08-09 17:05:47,476 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:05:47 -0600] [40411] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:05:47 -0600] [40409] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:05:47 -0600] [40413] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:05:47 -0600] [40409] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:05:47 -0600] [40413] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:05:47 -0600] [40412] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:05:47 -0600] [40413] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:05:47 -0600] [40413] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:05:47,652 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:05:47 -0600] [40411] [DEBUG] GET /trial.html
+[2016-08-09 17:05:47 -0600] [40413] [DEBUG] GET /submit.html
+[2016-08-09 17:05:47 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:05:47 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:05:47 -0600] [40409] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:05:47 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:05:49 -0600] [40413] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:05:49,609 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:05:49 -0600] [40412] [DEBUG] POST /inexp
+2016-08-09 17:05:49,611 Accessing /inexp
+[2016-08-09 17:05:49 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_orig.png
+2016-08-09 17:05:49,620 saved data for debugSIHK1D:debugPX7WJY (current trial: 16)
+[2016-08-09 17:05:49 -0600] [40413] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:05:49 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:05:49 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:05:54 -0600] [40409] [DEBUG] Closing connection. 
+[2016-08-09 17:07:29 -0600] [40413] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:07:29,762 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:07:29 -0600] [40409] [DEBUG] POST /quitter
+2016-08-09 17:07:29,771 saved data for debugSIHK1D:debugPX7WJY (current trial: 16)
+[2016-08-09 17:07:34 -0600] [40412] [DEBUG] GET /consent
+[2016-08-09 17:07:34 -0600] [40411] [DEBUG] GET /ad
+[2016-08-09 17:07:34 -0600] [40412] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:07:34 -0600] [40411] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:07:34 -0600] [40409] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:07:35 -0600] [40411] [DEBUG] GET /exp
+2016-08-09 17:07:35,415 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:07:35 -0600] [40411] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:07:35 -0600] [40413] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:07:35 -0600] [40411] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:07:35 -0600] [40412] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:07:35 -0600] [40409] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:07:35 -0600] [40409] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:07:35 -0600] [40411] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:07:35 -0600] [40412] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:07:35,680 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:07:35 -0600] [40413] [DEBUG] GET /trial.html
+[2016-08-09 17:07:35 -0600] [40413] [DEBUG] GET /submit.html
+[2016-08-09 17:07:35 -0600] [40409] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:07:35 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:07:35 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:07:35 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:07:37 -0600] [40413] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:07:37,301 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:07:37 -0600] [40412] [DEBUG] POST /inexp
+2016-08-09 17:07:37,302 Accessing /inexp
+2016-08-09 17:07:37,310 saved data for debugSIHK1D:debugPX7WJY (current trial: 18)
+[2016-08-09 17:07:37 -0600] [40413] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:07:37 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:07:37 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 17:07:37 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:07:40 -0600] [40409] [DEBUG] GET /static/images/stimuli/266_orig.png
+[2016-08-09 17:07:40 -0600] [40413] [DEBUG] GET /static/images/stimuli/266_l1.png
+[2016-08-09 17:07:40 -0600] [40412] [DEBUG] GET /static/images/stimuli/266_l2.png
+[2016-08-09 17:07:40 -0600] [40412] [DEBUG] GET /static/images/stimuli/266_mssim.png
+[2016-08-09 17:07:43 -0600] [40413] [DEBUG] GET /static/images/stimuli/621_orig.png
+[2016-08-09 17:07:43 -0600] [40412] [DEBUG] GET /static/images/stimuli/621_l2.png
+[2016-08-09 17:07:43 -0600] [40409] [DEBUG] GET /static/images/stimuli/621_mssim.png
+[2016-08-09 17:07:43 -0600] [40411] [DEBUG] GET /static/images/stimuli/621_l1.png
+[2016-08-09 17:07:43 -0600] [40412] [DEBUG] GET /static/images/stimuli/946_orig.png
+[2016-08-09 17:07:43 -0600] [40411] [DEBUG] GET /static/images/stimuli/946_l2.png
+[2016-08-09 17:07:43 -0600] [40413] [DEBUG] GET /static/images/stimuli/946_l1.png
+[2016-08-09 17:07:43 -0600] [40412] [DEBUG] GET /static/images/stimuli/946_mssim.png
+[2016-08-09 17:07:49 -0600] [40409] [DEBUG] Closing connection. 
+[2016-08-09 17:07:54 -0600] [40413] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:07:54,743 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:07:54 -0600] [40409] [DEBUG] POST /quitter
+2016-08-09 17:07:54,751 saved data for debugSIHK1D:debugPX7WJY (current trial: 22)
+[2016-08-09 17:08:08 -0600] [40411] [DEBUG] GET /consent
+[2016-08-09 17:08:08 -0600] [40412] [DEBUG] GET /ad
+[2016-08-09 17:08:08 -0600] [40413] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:08:08 -0600] [40411] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:08:08 -0600] [40411] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:08:09 -0600] [40409] [DEBUG] GET /exp
+2016-08-09 17:08:09,781 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:08:09 -0600] [40409] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:08:09 -0600] [40411] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:08:09 -0600] [40412] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:08:09 -0600] [40412] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:08:09 -0600] [40411] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:08:09 -0600] [40409] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:08:09 -0600] [40411] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:08:09 -0600] [40411] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:08:09,969 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:08:09 -0600] [40411] [DEBUG] GET /trial.html
+[2016-08-09 17:08:09 -0600] [40411] [DEBUG] GET /submit.html
+[2016-08-09 17:08:10 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:08:10 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:08:10 -0600] [40409] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:08:10 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:08:12 -0600] [40412] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:08:12,318 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:08:12 -0600] [40413] [DEBUG] POST /inexp
+2016-08-09 17:08:12,319 Accessing /inexp
+[2016-08-09 17:08:12 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_orig.png
+2016-08-09 17:08:12,329 saved data for debugSIHK1D:debugPX7WJY (current trial: 24)
+[2016-08-09 17:08:12 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:08:12 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:08:12 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:08:17 -0600] [40412] [DEBUG] Closing connection. 
+[2016-08-09 17:08:19 -0600] [40409] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:08:19,502 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:08:19 -0600] [40412] [DEBUG] POST /quitter
+2016-08-09 17:08:19,508 saved data for debugSIHK1D:debugPX7WJY (current trial: 24)
+[2016-08-09 17:09:35 -0600] [40412] [DEBUG] GET /consent
+[2016-08-09 17:09:35 -0600] [40413] [DEBUG] GET /ad
+[2016-08-09 17:09:36 -0600] [40409] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:09:36 -0600] [40413] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:09:36 -0600] [40413] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:09:36 -0600] [40413] [DEBUG] GET /exp
+2016-08-09 17:09:36,948 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:09:36 -0600] [40413] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:09:36 -0600] [40412] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:09:36 -0600] [40411] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:09:36 -0600] [40409] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:09:36 -0600] [40411] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:09:36 -0600] [40412] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:09:37 -0600] [40409] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:09:37 -0600] [40413] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:09:37,258 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:09:37 -0600] [40413] [DEBUG] GET /trial.html
+[2016-08-09 17:09:37 -0600] [40413] [DEBUG] GET /submit.html
+[2016-08-09 17:09:37 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:09:37 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:09:37 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:09:37 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:09:39 -0600] [40409] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:09:39,062 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:09:39 -0600] [40412] [DEBUG] POST /inexp
+2016-08-09 17:09:39,063 Accessing /inexp
+[2016-08-09 17:09:39 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_l1.png
+2016-08-09 17:09:39,077 saved data for debugSIHK1D:debugPX7WJY (current trial: 26)
+[2016-08-09 17:09:39 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 17:09:39 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:09:39 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:09:44 -0600] [40412] [DEBUG] Closing connection. 
+[2016-08-09 17:09:45 -0600] [40413] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:09:45,145 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:09:45 -0600] [40409] [DEBUG] POST /quitter
+2016-08-09 17:09:45,152 saved data for debugSIHK1D:debugPX7WJY (current trial: 26)
+[2016-08-09 17:09:49 -0600] [40413] [DEBUG] GET /ad
+[2016-08-09 17:09:50 -0600] [40413] [DEBUG] GET /consent
+[2016-08-09 17:09:51 -0600] [40409] [DEBUG] GET /ad
+[2016-08-09 17:09:51 -0600] [40413] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:09:51 -0600] [40409] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:09:51 -0600] [40411] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:09:52 -0600] [40409] [DEBUG] GET /exp
+2016-08-09 17:09:52,292 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:09:52 -0600] [40409] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:09:52 -0600] [40412] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:09:52 -0600] [40413] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:09:52 -0600] [40412] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:09:52 -0600] [40413] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:09:52 -0600] [40411] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:09:52 -0600] [40412] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:09:52 -0600] [40412] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:09:52,514 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:09:52 -0600] [40412] [DEBUG] GET /trial.html
+[2016-08-09 17:09:52 -0600] [40412] [DEBUG] GET /submit.html
+[2016-08-09 17:09:52 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:09:52 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:09:52 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:09:52 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:09:57 -0600] [40409] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:09:57,067 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:09:57 -0600] [40412] [DEBUG] POST /inexp
+2016-08-09 17:09:57,069 Accessing /inexp
+2016-08-09 17:09:57,079 saved data for debugSIHK1D:debugPX7WJY (current trial: 28)
+[2016-08-09 17:09:57 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 17:09:57 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:09:57 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:09:57 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:10:01 -0600] [40409] [DEBUG] GET /static/images/stimuli/266_orig.png
+[2016-08-09 17:10:01 -0600] [40412] [DEBUG] GET /static/images/stimuli/266_l1.png
+[2016-08-09 17:10:01 -0600] [40409] [DEBUG] GET /static/images/stimuli/266_l2.png
+[2016-08-09 17:10:01 -0600] [40412] [DEBUG] GET /static/images/stimuli/266_mssim.png
+[2016-08-09 17:10:10 -0600] [40411] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:10:10,279 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:10:10 -0600] [40409] [DEBUG] POST /quitter
+2016-08-09 17:10:10,290 saved data for debugSIHK1D:debugPX7WJY (current trial: 30)
+[2016-08-09 17:10:23 -0600] [40411] [DEBUG] GET /consent
+[2016-08-09 17:10:23 -0600] [40411] [DEBUG] GET /ad
+[2016-08-09 17:10:23 -0600] [40412] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:10:23 -0600] [40411] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:10:24 -0600] [40411] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:10:25 -0600] [40409] [DEBUG] GET /exp
+2016-08-09 17:10:25,026 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:10:25 -0600] [40409] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:10:25 -0600] [40412] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:10:25 -0600] [40411] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:10:25 -0600] [40411] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:10:25 -0600] [40409] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:10:25 -0600] [40413] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:10:25 -0600] [40411] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:10:25 -0600] [40409] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:10:25,248 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:10:25 -0600] [40409] [DEBUG] GET /trial.html
+[2016-08-09 17:10:25 -0600] [40409] [DEBUG] GET /submit.html
+[2016-08-09 17:10:25 -0600] [40409] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:10:25 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:10:25 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:10:25 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:10:27 -0600] [40411] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:10:27,134 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:10:27 -0600] [40412] [DEBUG] POST /inexp
+2016-08-09 17:10:27,136 Accessing /inexp
+2016-08-09 17:10:27,144 saved data for debugSIHK1D:debugPX7WJY (current trial: 32)
+[2016-08-09 17:10:27 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 17:10:27 -0600] [40413] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:10:27 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:10:27 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:10:33 -0600] [40413] [DEBUG] Closing connection. 
+[2016-08-09 17:10:39 -0600] [40413] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:10:39,144 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:10:39 -0600] [40409] [DEBUG] POST /quitter
+2016-08-09 17:10:39,153 saved data for debugSIHK1D:debugPX7WJY (current trial: 32)
+[2016-08-09 17:10:41 -0600] [40411] [DEBUG] GET /ad
+[2016-08-09 17:10:42 -0600] [40412] [DEBUG] GET /consent
+[2016-08-09 17:10:43 -0600] [40412] [DEBUG] GET /ad
+[2016-08-09 17:10:43 -0600] [40409] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:10:43 -0600] [40412] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:10:43 -0600] [40409] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:10:44 -0600] [40409] [DEBUG] GET /exp
+2016-08-09 17:10:44,061 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:10:44 -0600] [40413] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:10:44 -0600] [40409] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:10:44 -0600] [40412] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:10:44 -0600] [40413] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:10:44 -0600] [40411] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:10:44 -0600] [40412] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:10:44 -0600] [40409] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:10:44 -0600] [40409] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:10:44,331 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:10:44 -0600] [40412] [DEBUG] GET /trial.html
+[2016-08-09 17:10:44 -0600] [40412] [DEBUG] GET /submit.html
+[2016-08-09 17:10:44 -0600] [40411] [DEBUG] GET /static/images/stimuli/87_orig.png
+[2016-08-09 17:10:44 -0600] [40412] [DEBUG] GET /static/images/stimuli/87_l1.png
+[2016-08-09 17:10:44 -0600] [40413] [DEBUG] GET /static/images/stimuli/87_l2.png
+[2016-08-09 17:10:44 -0600] [40409] [DEBUG] GET /static/images/stimuli/87_mssim.png
+[2016-08-09 17:10:46 -0600] [40412] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:10:46,281 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:10:46 -0600] [40409] [DEBUG] POST /inexp
+2016-08-09 17:10:46,282 Accessing /inexp
+2016-08-09 17:10:46,292 saved data for debugSIHK1D:debugPX7WJY (current trial: 34)
+[2016-08-09 17:10:46 -0600] [40409] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 17:10:46 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:10:46 -0600] [40411] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:10:46 -0600] [40412] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:10:52 -0600] [40413] [DEBUG] Closing connection. 
+[2016-08-09 17:10:53 -0600] [40412] [DEBUG] GET /static/images/stimuli/266_orig.png
+[2016-08-09 17:10:53 -0600] [40413] [DEBUG] GET /static/images/stimuli/266_l1.png
+[2016-08-09 17:10:53 -0600] [40411] [DEBUG] GET /static/images/stimuli/266_l2.png
+[2016-08-09 17:10:53 -0600] [40413] [DEBUG] GET /static/images/stimuli/266_mssim.png
+[2016-08-09 17:10:55 -0600] [40409] [DEBUG] GET /static/images/stimuli/621_orig.png
+[2016-08-09 17:10:55 -0600] [40413] [DEBUG] GET /static/images/stimuli/621_l2.png
+[2016-08-09 17:10:55 -0600] [40412] [DEBUG] GET /static/images/stimuli/621_mssim.png
+[2016-08-09 17:10:55 -0600] [40413] [DEBUG] GET /static/images/stimuli/621_l1.png
+[2016-08-09 17:10:59 -0600] [40412] [DEBUG] GET /static/images/stimuli/946_orig.png
+[2016-08-09 17:10:59 -0600] [40413] [DEBUG] GET /static/images/stimuli/946_l2.png
+[2016-08-09 17:10:59 -0600] [40412] [DEBUG] GET /static/images/stimuli/946_l1.png
+[2016-08-09 17:10:59 -0600] [40409] [DEBUG] GET /static/images/stimuli/946_mssim.png
+[2016-08-09 17:11:02 -0600] [40409] [DEBUG] GET /static/images/stimuli/636_orig.png
+[2016-08-09 17:11:02 -0600] [40411] [DEBUG] GET /static/images/stimuli/636_mssim.png
+[2016-08-09 17:11:02 -0600] [40409] [DEBUG] GET /static/images/stimuli/636_l1.png
+[2016-08-09 17:11:02 -0600] [40412] [DEBUG] GET /static/images/stimuli/636_l2.png
+[2016-08-09 17:11:03 -0600] [40413] [DEBUG] GET /static/images/stimuli/565_orig.png
+[2016-08-09 17:11:03 -0600] [40412] [DEBUG] GET /static/images/stimuli/565_l2.png
+[2016-08-09 17:11:03 -0600] [40409] [DEBUG] GET /static/images/stimuli/565_l1.png
+[2016-08-09 17:11:04 -0600] [40413] [DEBUG] GET /static/images/stimuli/565_mssim.png
+[2016-08-09 17:11:07 -0600] [40411] [DEBUG] GET /static/images/stimuli/284_orig.png
+[2016-08-09 17:11:07 -0600] [40413] [DEBUG] GET /static/images/stimuli/284_l2.png
+[2016-08-09 17:11:07 -0600] [40412] [DEBUG] GET /static/images/stimuli/284_mssim.png
+[2016-08-09 17:11:07 -0600] [40411] [DEBUG] GET /static/images/stimuli/284_l1.png
+[2016-08-09 17:11:09 -0600] [40413] [DEBUG] GET /static/images/stimuli/287_orig.png
+[2016-08-09 17:11:09 -0600] [40411] [DEBUG] GET /static/images/stimuli/287_l2.png
+[2016-08-09 17:11:09 -0600] [40409] [DEBUG] GET /static/images/stimuli/287_mssim.png
+[2016-08-09 17:11:09 -0600] [40413] [DEBUG] GET /static/images/stimuli/287_l1.png
+[2016-08-09 17:11:12 -0600] [40411] [DEBUG] GET /static/images/stimuli/632_orig.png
+[2016-08-09 17:11:12 -0600] [40412] [DEBUG] GET /static/images/stimuli/632_l1.png
+[2016-08-09 17:11:12 -0600] [40413] [DEBUG] GET /static/images/stimuli/632_mssim.png
+[2016-08-09 17:11:12 -0600] [40409] [DEBUG] GET /static/images/stimuli/632_l2.png
+[2016-08-09 17:11:13 -0600] [40413] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:11:13,462 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:11:13 -0600] [40409] [DEBUG] POST /quitter
+2016-08-09 17:11:13,473 saved data for debugSIHK1D:debugPX7WJY (current trial: 43)
+[2016-08-09 17:11:32 -0600] [40409] [DEBUG] Closing connection. 
+[2016-08-09 17:11:32 -0600] [40413] [DEBUG] Closing connection. 
+[2016-08-09 17:11:32 -0600] [40411] [DEBUG] GET /ppid
+[2016-08-09 17:11:32 -0600] [40412] [INFO] Parent changed, shutting down: <Worker 40412>
+[2016-08-09 17:11:32 -0600] [40411] [INFO] Parent changed, shutting down: <Worker 40411>
+[2016-08-09 17:11:32 -0600] [40413] [INFO] Parent changed, shutting down: <Worker 40413>
+[2016-08-09 17:11:32 -0600] [40409] [DEBUG] Closing connection. 
+[2016-08-09 17:11:32 -0600] [40412] [INFO] Worker exiting (pid: 40412)
+[2016-08-09 17:11:32 -0600] [40413] [INFO] Worker exiting (pid: 40413)
+[2016-08-09 17:11:32 -0600] [40411] [INFO] Worker exiting (pid: 40411)
+[2016-08-09 17:11:32 -0600] [40409] [INFO] Parent changed, shutting down: <Worker 40409>
+[2016-08-09 17:11:32 -0600] [40409] [INFO] Worker exiting (pid: 40409)

@@ -9,7 +9,12 @@
 /*  Generic                                                         */
 /********************************************************************/
 
+* {
+    box-sizing: border-box;
+}
+
 .unselectable {
+    cursor: default;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -23,11 +28,10 @@ body {
 	margin-left: auto;
     margin-right: auto;
     width: 75%;
-    font-family: Georgia, serif;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
 header {
-    font-family: Papyrus, fantasy;
 	background-color: none;
 	color: white;
 	text-align: center;
@@ -104,7 +108,7 @@ button, .next {
     border: 1px solid black;
     margin: 1%;
     padding: 1% 2% 1% 2%;
-    font-family: Georgia, serif; 
+    font-family: 'Open Sans', 'Roboto', sans-serif;
     font-size: 1em;
 }
 
@@ -190,7 +194,7 @@ button:active, .next:active {
 
 #indicator-stage {
     height: 100%;
-    background-color: navy;
+    background-color: gray;
 }
 
 /* Canvas */
@@ -303,6 +307,64 @@ canvas.stim_canvas {
 .divider-line {
     border-left: thick solid gray;
     padding-left: 40px;
+}
+
+/********************************************************************/
+/* Experiment CSS                                                   */
+/********************************************************************/
+
+#main-content {
+    border: 1px solid black;
+    height: 400px;
+    min-width: 400px;
+    position: relative;
+    text-align: center;
+}
+
+#options-container {
+    margin: auto;
+    width: 380px;
+}
+
+#option-one, #option-two {
+    border: 8px solid black;
+    border-radius: 25px;
+    position: absolute;
+}
+
+#option-one, #option-two, #option-one-container, #option-two-container, #option-one-text, #option-two-text {
+    height: 100px;
+    width: 160px;
+}
+
+#option-one-container, #option-two-container {
+    float: left;
+    font-size: 20pt;
+    font-weight: bold;
+    line-height: 100px;
+    position: relative;
+}
+
+#option-one-container {
+    margin-right:30px;
+}
+
+#option-two-container {
+    margin-left: 30px;
+}
+
+#recenter-shape-filling {
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+#recenter-shape {
+    border: 1px solid black;
+    border-radius: 10px / 10px;
+    margin: auto;
+    height: 20px;
+    width: 20px;
 }
 
 /********************************************************************/

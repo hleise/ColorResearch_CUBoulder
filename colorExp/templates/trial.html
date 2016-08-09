@@ -3,55 +3,31 @@
     <div class="blue">
         <p>In this experiment, you will make judgments about compressed images. On each trial, you will see four images.</p>
         <p>The image on the left is the <b>original image</b>. The three images on the right are the <b>compressed images</b>. Your task is to <b>rank the compressed images</b> based on how well they resemble the original image. To rank the compressed images, <b>click and drag</b> the best image to the top and the worst image to the bottom. If you feel two images are tied, do not worry about their ranking.</p> 
-    
-        <div class="container sort-container">
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-4">
-                    <table class="sortable-row-table">
-                        <tr>
-                            <td><div class="filler-div"></div></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="original-row">Original</div>
-                                <img class="original-stimuli" id="ex-original-image"></img>
-                            </td>
-                        </tr>
-                        <tr><td></td></tr>
-                    </table>
-                </div>
-                <div class="col-md-5">
-                    <div class="divider-line">
-                        <ul id="ex-sortable-images" class="sortable-images-template">
-                            <li id="ex-item1" class="ui-state-default"><span class="glyphicon glyphicon-resize-vertical sort-symbol"></span>
-                                <img class="stimuli" id="ex-item1-image"></img>
-                            </li>
-                            <li id="ex-item2"  class="ui-state-default"><span class="glyphicon glyphicon-resize-vertical sort-symbol"></span>
-                                <img class="stimuli" id="ex-item2-image"></img>
-                            </li>
-                            <li id="ex-item3" class="ui-state-default"><span class="glyphicon glyphicon-resize-vertical sort-symbol"></span>
-                                <img class="stimuli" id="ex-item3-image"></img>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <table class="sortable-row-table">
-                        <tr>
-                            <td><div class="filler-div"><span class="best-row">Best</span></div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="filler-div"></div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="filler-div"><span class="worst-row">Worst</span></div></td>
-                        </tr>
-                    </table>
-                </div>
+    </div>
+    <br />
+    <div id="main-content">
+        <p id="case-instructions" class="unselectable">Which name seems more appropriate for this shape?</p>
+        <p id="recenter-instructions" class="unselectable">Hover the mouse pointer over the circle.</p>
+
+        <div id="shape">
+            <img alt="shape-image" id="shape-image" class="unselectable" />
+        </div>
+
+        <div id="options-container">
+            <div id="option-one-container" class="unselectable">
+                <div id="option-one"></div>
+                <div id="option-one-text"></div>
+            </div>
+
+            <div id="recenter-shape">
+                <div id="recenter-shape-filling"></div>
+            </div>
+
+            <div id="option-two-container" class="unselectable">
+                <div id="option-two"></div>
+                <div id="option-two-text"></div>
             </div>
         </div>
-        <br />
     </div>
     <div class="continue">
         <button type="button" class="next">Continue</button>
@@ -80,18 +56,6 @@
     </div>
 </div>
 
-
-<div class="slide" id="instructions-experiment-2">
-  <h1>Instructions</h1>
-  <div class="blue">
-    <p>You're 1/2 done! Now for the second block of trials.</p>
-  </div>
-
-  <div class="continue">
-    <button type="button" class="next">Start</button>
-  </div>
-</div>
-
 <div class="slide" id="instructions-debriefing">
     <h1>Debriefing</h1>
     <div class="blue">
@@ -114,74 +78,33 @@
         </div>
         <div class="spacer"></div>
     </div>
-    <div id="phase-container" class="blue">
-        <div id="prestim" class="phase">
+    <div id="main-content">
+        <p id="case-instructions" class="unselectable">Which name seems more appropriate for this shape?</p>
+        <p id="recenter-instructions" class="unselectable">Hover the mouse pointer over the circle.</p>
+
+        <div id="shape">
+            <img alt="shape-image" id="shape-image" class="unselectable" />
         </div>
-        
-        <div id="stim" class="phase">
-            <div class="container sort-container">
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-4">
-                        <table class="sortable-row-table">
-                            <tr>
-                                <td>
-                                    <div class="filler-div">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="original-row">Original</div>
-                                    <img class="stimuli" id="original-image"></img>
-                                </td>
-                            </tr>
-                            <tr><td></td></tr>
-                        </table>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="divider-line">
-                            <ul id="sortable-images" class="sortable-images-template">
-                                <li id="item1" class="ui-state-default"><span class="glyphicon glyphicon-resize-vertical sort-symbol"></span>
-                                    <img class="stimuli" id="item1-image"></img>
-                                </li>
-                                <li id="item2"  class="ui-state-default"><span class="glyphicon glyphicon-resize-vertical sort-symbol"></span>
-                                    <img class="stimuli" id="item2-image"></img>
-                                </li>
-                                <li id="item3" class="ui-state-default"><span class="glyphicon glyphicon-resize-vertical sort-symbol"></span>
-                                    <img class="stimuli" id="item3-image"></img>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <table class="sortable-row-table">
-                            <tr>
-                                <td>
-                                    <div class="filler-div"><span class="best-row">Best</span></div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="filler-div"></div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="filler-div"><span class="worst-row">Worst</span></div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+
+        <div id="options-container">
+            <div id="option-one-container" class="unselectable">
+                <div id="option-one"></div>
+                <div id="option-one-text"></div>
             </div>
-            <div class="continue">
-                <button id="submit-trial-button" type="button" class="next">Submit</button>
+
+            <div id="recenter-shape">
+                <div id="recenter-shape-filling"></div>
             </div>
-            <p style="text-align: center">Rank the images from best (top) to worst (bottom) and then click Submit.</p>
-        </div>
-        
-        <div id="feedback" class="phase">
+
+            <div id="option-two-container" class="unselectable">
+                <div id="option-two"></div>
+                <div id="option-two-text"></div>
+            </div>
         </div>
     </div>
+    <div class="continue">
+        <button id="submit-trial-button" type="button" class="next">Submit</button>
+    </div>
+        
+    <div id="feedback" class="phase"></div>
 </div>
