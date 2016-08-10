@@ -3889,3 +3889,715 @@
 [2016-08-09 17:11:32 -0600] [40411] [INFO] Worker exiting (pid: 40411)
 [2016-08-09 17:11:32 -0600] [40409] [INFO] Parent changed, shutting down: <Worker 40409>
 [2016-08-09 17:11:32 -0600] [40409] [INFO] Worker exiting (pid: 40409)
+[2016-08-09 17:48:15 -0600] [40531] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10282a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10282a668>
+  pre_fork: <function pre_fork at 0x10282a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10282a500>
+  pre_exec: <function pre_exec at 0x10282aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10282aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1028305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1028300c8>
+  post_request: <function post_request at 0x1028301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10282ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x102830320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10282a398>
+  worker_abort: <function worker_abort at 0x10282ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x102830488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 17:48:15 -0600] [40531] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 17:48:15 -0600] [40531] [DEBUG] Arbiter booted
+[2016-08-09 17:48:15 -0600] [40531] [INFO] Listening at: http://0.0.0.0:22362 (40531)
+[2016-08-09 17:48:15 -0600] [40531] [INFO] Using worker: sync
+[2016-08-09 17:48:15 -0600] [40535] [INFO] Booting worker with pid: 40535
+[2016-08-09 17:48:15 -0600] [40537] [INFO] Booting worker with pid: 40537
+[2016-08-09 17:48:15 -0600] [40538] [INFO] Booting worker with pid: 40538
+[2016-08-09 17:48:15 -0600] [40539] [INFO] Booting worker with pid: 40539
+[2016-08-09 17:48:15 -0600] [40531] [DEBUG] 4 workers
+2016-08-09 17:48:15,960 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:48:15,963 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:48:15,993 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:48:15,995 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:48:15,996 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:48:15,997 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:48:16,031 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:48:16,034 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 17:48:16 -0600] [40538] [DEBUG] Closing connection. 
+[2016-08-09 17:48:18 -0600] [40535] [DEBUG] GET /consent
+[2016-08-09 17:48:18 -0600] [40535] [DEBUG] GET /ad
+[2016-08-09 17:48:19 -0600] [40537] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:48:19 -0600] [40535] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:48:19 -0600] [40537] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:48:20 -0600] [40539] [DEBUG] GET /exp
+2016-08-09 17:48:20,278 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:48:20 -0600] [40535] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:48:20 -0600] [40535] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:48:20 -0600] [40538] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:48:20 -0600] [40538] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:48:20 -0600] [40537] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:48:20 -0600] [40535] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:48:20 -0600] [40537] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:48:20 -0600] [40537] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:48:20,466 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:48:20 -0600] [40537] [DEBUG] GET /trial.html
+[2016-08-09 17:48:20 -0600] [40537] [DEBUG] GET /submit.html
+[2016-08-09 17:48:24 -0600] [40539] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:48:24,880 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:48:24 -0600] [40535] [DEBUG] POST /inexp
+2016-08-09 17:48:24,884 Accessing /inexp
+2016-08-09 17:48:24,895 saved data for debugSIHK1D:debugPX7WJY (current trial: 45)
+[2016-08-09 17:48:24 -0600] [40539] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 17:48:24 -0600] [40537] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 17:48:24 -0600] [40538] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 17:48:24 -0600] [40535] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 17:48:31 -0600] [40539] [DEBUG] GET /static/images/stimuli/266_orig.png
+[2016-08-09 17:48:31 -0600] [40538] [DEBUG] GET /static/images/stimuli/266_l1.png
+[2016-08-09 17:48:31 -0600] [40539] [DEBUG] GET /static/images/stimuli/266_l2.png
+[2016-08-09 17:48:31 -0600] [40537] [DEBUG] GET /static/images/stimuli/266_mssim.png
+[2016-08-09 17:48:57 -0600] [40539] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:48:57,321 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:48:57 -0600] [40538] [DEBUG] POST /quitter
+2016-08-09 17:48:57,333 saved data for debugSIHK1D:debugPX7WJY (current trial: 47)
+[2016-08-09 17:49:04 -0600] [40535] [DEBUG] Closing connection. 
+[2016-08-09 17:49:04 -0600] [40539] [DEBUG] Closing connection. 
+[2016-08-09 17:49:04 -0600] [40537] [DEBUG] GET /ppid
+[2016-08-09 17:49:04 -0600] [40538] [INFO] Parent changed, shutting down: <Worker 40538>
+[2016-08-09 17:49:04 -0600] [40539] [DEBUG] Closing connection. 
+[2016-08-09 17:49:04 -0600] [40537] [INFO] Parent changed, shutting down: <Worker 40537>
+[2016-08-09 17:49:04 -0600] [40538] [INFO] Worker exiting (pid: 40538)
+[2016-08-09 17:49:04 -0600] [40537] [INFO] Worker exiting (pid: 40537)
+[2016-08-09 17:49:04 -0600] [40539] [INFO] Parent changed, shutting down: <Worker 40539>
+[2016-08-09 17:49:04 -0600] [40539] [INFO] Worker exiting (pid: 40539)
+[2016-08-09 17:49:04 -0600] [40535] [DEBUG] Closing connection. 
+[2016-08-09 17:49:04 -0600] [40535] [INFO] Parent changed, shutting down: <Worker 40535>
+[2016-08-09 17:49:04 -0600] [40535] [INFO] Worker exiting (pid: 40535)
+[2016-08-09 17:50:14 -0600] [40575] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 17:50:14 -0600] [40575] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 17:50:14 -0600] [40575] [DEBUG] Arbiter booted
+[2016-08-09 17:50:14 -0600] [40575] [INFO] Listening at: http://0.0.0.0:22362 (40575)
+[2016-08-09 17:50:14 -0600] [40575] [INFO] Using worker: sync
+[2016-08-09 17:50:14 -0600] [40579] [INFO] Booting worker with pid: 40579
+[2016-08-09 17:50:14 -0600] [40581] [INFO] Booting worker with pid: 40581
+[2016-08-09 17:50:15 -0600] [40582] [INFO] Booting worker with pid: 40582
+[2016-08-09 17:50:15 -0600] [40583] [INFO] Booting worker with pid: 40583
+[2016-08-09 17:50:15 -0600] [40575] [DEBUG] 4 workers
+2016-08-09 17:50:15,650 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:50:15,653 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:50:15,661 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:50:15,665 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:50:15,679 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:50:15,681 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 17:50:15,706 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 17:50:15,708 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 17:50:16 -0600] [40582] [DEBUG] Closing connection. 
+[2016-08-09 17:50:18 -0600] [40582] [DEBUG] GET /consent
+[2016-08-09 17:50:19 -0600] [40582] [DEBUG] GET /ad
+[2016-08-09 17:50:19 -0600] [40579] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:50:19 -0600] [40582] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:50:19 -0600] [40583] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:50:20 -0600] [40581] [DEBUG] GET /exp
+2016-08-09 17:50:20,168 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:50:20 -0600] [40581] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:50:20 -0600] [40579] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:50:20 -0600] [40579] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:50:20 -0600] [40581] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:50:20 -0600] [40582] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:50:20 -0600] [40581] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:50:20 -0600] [40581] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:50:20 -0600] [40581] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:50:20,428 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:50:20 -0600] [40581] [DEBUG] GET /trial.html
+[2016-08-09 17:50:20 -0600] [40581] [DEBUG] GET /submit.html
+[2016-08-09 17:50:36 -0600] [40581] [DEBUG] GET /consent
+[2016-08-09 17:50:36 -0600] [40581] [DEBUG] GET /ad
+[2016-08-09 17:50:36 -0600] [40583] [DEBUG] GET /static/js/utils.js
+[2016-08-09 17:50:36 -0600] [40581] [DEBUG] GET /static/css/general.css
+[2016-08-09 17:50:36 -0600] [40581] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 17:50:37 -0600] [40581] [DEBUG] GET /exp
+2016-08-09 17:50:37,353 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 17:50:37 -0600] [40581] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 17:50:37 -0600] [40582] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 17:50:37 -0600] [40583] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 17:50:37 -0600] [40582] [DEBUG] GET /static/js/config.js
+[2016-08-09 17:50:37 -0600] [40579] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 17:50:37 -0600] [40581] [DEBUG] GET /static/js/task.js
+[2016-08-09 17:50:37 -0600] [40582] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 17:50:37 -0600] [40581] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 17:50:37,635 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 17:50:37 -0600] [40581] [DEBUG] GET /trial.html
+[2016-08-09 17:50:37 -0600] [40581] [DEBUG] GET /submit.html
+[2016-08-09 17:51:03 -0600] [40579] [DEBUG] Closing connection. 
+[2016-08-09 17:51:03 -0600] [40583] [DEBUG] Closing connection. 
+[2016-08-09 17:51:03 -0600] [40581] [DEBUG] GET /ppid
+[2016-08-09 17:51:03 -0600] [40583] [INFO] Parent changed, shutting down: <Worker 40583>
+[2016-08-09 17:51:03 -0600] [40582] [INFO] Parent changed, shutting down: <Worker 40582>
+[2016-08-09 17:51:03 -0600] [40581] [DEBUG] Closing connection. 
+[2016-08-09 17:51:03 -0600] [40583] [INFO] Worker exiting (pid: 40583)
+[2016-08-09 17:51:03 -0600] [40582] [INFO] Worker exiting (pid: 40582)
+[2016-08-09 17:51:03 -0600] [40581] [INFO] Parent changed, shutting down: <Worker 40581>
+[2016-08-09 17:51:03 -0600] [40581] [INFO] Worker exiting (pid: 40581)
+[2016-08-09 17:51:04 -0600] [40579] [DEBUG] Closing connection. 
+[2016-08-09 17:51:04 -0600] [40579] [INFO] Parent changed, shutting down: <Worker 40579>
+[2016-08-09 17:51:04 -0600] [40579] [INFO] Worker exiting (pid: 40579)
+[2016-08-09 18:05:55 -0600] [40623] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 18:05:55 -0600] [40623] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 18:05:55 -0600] [40623] [DEBUG] Arbiter booted
+[2016-08-09 18:05:55 -0600] [40623] [INFO] Listening at: http://0.0.0.0:22362 (40623)
+[2016-08-09 18:05:55 -0600] [40623] [INFO] Using worker: sync
+[2016-08-09 18:05:55 -0600] [40627] [INFO] Booting worker with pid: 40627
+[2016-08-09 18:05:55 -0600] [40629] [INFO] Booting worker with pid: 40629
+[2016-08-09 18:05:55 -0600] [40630] [INFO] Booting worker with pid: 40630
+[2016-08-09 18:05:55 -0600] [40631] [INFO] Booting worker with pid: 40631
+[2016-08-09 18:05:55 -0600] [40623] [DEBUG] 4 workers
+2016-08-09 18:05:55,720 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 18:05:55,723 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 18:05:55,847 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 18:05:55,850 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 18:05:55,859 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 18:05:55,861 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 18:05:55,899 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 18:05:55,903 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 18:05:56 -0600] [40630] [DEBUG] Closing connection. 
+[2016-08-09 18:06:03 -0600] [40629] [DEBUG] GET /ad
+[2016-08-09 18:06:04 -0600] [40631] [DEBUG] GET /consent
+[2016-08-09 18:06:04 -0600] [40631] [DEBUG] GET /ad
+[2016-08-09 18:06:04 -0600] [40630] [DEBUG] GET /static/js/utils.js
+[2016-08-09 18:06:04 -0600] [40631] [DEBUG] GET /static/css/general.css
+[2016-08-09 18:06:04 -0600] [40630] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 18:06:05 -0600] [40627] [DEBUG] GET /exp
+2016-08-09 18:06:05,713 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 18:06:05 -0600] [40627] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 18:06:05 -0600] [40627] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 18:06:05 -0600] [40631] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 18:06:05 -0600] [40631] [DEBUG] GET /static/js/config.js
+[2016-08-09 18:06:05 -0600] [40627] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 18:06:05 -0600] [40629] [DEBUG] GET /static/js/task.js
+[2016-08-09 18:06:23 -0600] [40629] [DEBUG] GET /static/lib/underscore-min.map
+[2016-08-09 18:06:23 -0600] [40630] [DEBUG] GET /static/lib/backbone-min.map
+[2016-08-09 18:06:23 -0600] [40629] [DEBUG] GET /static/lib/backbone.js
+[2016-08-09 18:07:50 -0600] [40630] [DEBUG] GET /consent
+[2016-08-09 18:07:51 -0600] [40627] [DEBUG] GET /ad
+[2016-08-09 18:07:51 -0600] [40630] [DEBUG] GET /static/js/utils.js
+[2016-08-09 18:07:51 -0600] [40627] [DEBUG] GET /static/css/general.css
+[2016-08-09 18:07:51 -0600] [40627] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 18:07:52 -0600] [40631] [DEBUG] GET /exp
+2016-08-09 18:07:52,637 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 18:07:52 -0600] [40631] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 18:07:52 -0600] [40629] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 18:07:52 -0600] [40631] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 18:07:52 -0600] [40629] [DEBUG] GET /static/js/config.js
+[2016-08-09 18:07:52 -0600] [40631] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 18:07:52 -0600] [40627] [DEBUG] GET /static/js/task.js
+[2016-08-09 18:07:52 -0600] [40627] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 18:07:52 -0600] [40627] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:07:52,816 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:07:52 -0600] [40630] [DEBUG] GET /trial.html
+[2016-08-09 18:07:52 -0600] [40631] [DEBUG] GET /submit.html
+[2016-08-09 18:08:32 -0600] [40629] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:08:32,362 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:08:32 -0600] [40631] [DEBUG] POST /inexp
+2016-08-09 18:08:32,364 Accessing /inexp
+2016-08-09 18:08:32,377 saved data for debugSIHK1D:debugPX7WJY (current trial: 49)
+[2016-08-09 18:08:32 -0600] [40631] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 18:08:32 -0600] [40629] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 18:08:32 -0600] [40631] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 18:08:32 -0600] [40629] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 18:08:38 -0600] [40627] [DEBUG] GET /static/images/stimuli/266_orig.png
+[2016-08-09 18:08:38 -0600] [40631] [DEBUG] GET /static/images/stimuli/266_l1.png
+[2016-08-09 18:08:38 -0600] [40630] [DEBUG] GET /static/images/stimuli/266_l2.png
+[2016-08-09 18:08:38 -0600] [40629] [DEBUG] GET /static/images/stimuli/266_mssim.png
+[2016-08-09 18:08:50 -0600] [40630] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:08:50,546 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:08:50 -0600] [40629] [DEBUG] POST /quitter
+2016-08-09 18:08:50,561 saved data for debugSIHK1D:debugPX7WJY (current trial: 51)
+[2016-08-09 18:12:26 -0600] [40631] [DEBUG] GET /ad
+[2016-08-09 18:12:27 -0600] [40629] [DEBUG] GET /consent
+[2016-08-09 18:12:27 -0600] [40630] [DEBUG] GET /ad
+[2016-08-09 18:12:27 -0600] [40629] [DEBUG] GET /static/js/utils.js
+[2016-08-09 18:12:27 -0600] [40630] [DEBUG] GET /static/css/general.css
+[2016-08-09 18:12:27 -0600] [40630] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 18:12:28 -0600] [40631] [DEBUG] GET /exp
+2016-08-09 18:12:28,667 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 18:12:28 -0600] [40631] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 18:12:28 -0600] [40630] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 18:12:28 -0600] [40630] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 18:12:28 -0600] [40631] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 18:12:28 -0600] [40630] [DEBUG] GET /static/js/config.js
+[2016-08-09 18:12:28 -0600] [40629] [DEBUG] GET /static/js/task.js
+[2016-08-09 18:12:28 -0600] [40630] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 18:12:28 -0600] [40627] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:12:28,961 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:12:28 -0600] [40631] [DEBUG] GET /trial.html
+[2016-08-09 18:12:29 -0600] [40631] [DEBUG] GET /submit.html
+[2016-08-09 18:12:34 -0600] [40627] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:12:34,221 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:12:34 -0600] [40629] [DEBUG] POST /inexp
+2016-08-09 18:12:34,226 Accessing /inexp
+2016-08-09 18:12:34,235 saved data for debugSIHK1D:debugPX7WJY (current trial: 53)
+[2016-08-09 18:12:46 -0600] [40629] [DEBUG] GET /static/lib/backbone-min.map
+[2016-08-09 18:12:46 -0600] [40631] [DEBUG] GET /static/lib/underscore-min.map
+[2016-08-09 18:12:47 -0600] [40630] [DEBUG] GET /static/lib/backbone.js
+[2016-08-09 18:12:59 -0600] [40627] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:12:59,483 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:12:59 -0600] [40629] [DEBUG] POST /quitter
+2016-08-09 18:12:59,495 saved data for debugSIHK1D:debugPX7WJY (current trial: 53)
+[2016-08-09 18:13:07 -0600] [40630] [DEBUG] GET /consent
+[2016-08-09 18:13:07 -0600] [40630] [DEBUG] GET /ad
+[2016-08-09 18:13:07 -0600] [40629] [DEBUG] GET /static/css/general.css
+[2016-08-09 18:13:07 -0600] [40630] [DEBUG] GET /static/js/utils.js
+[2016-08-09 18:13:07 -0600] [40630] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 18:13:09 -0600] [40631] [DEBUG] GET /exp
+2016-08-09 18:13:09,106 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 18:13:09 -0600] [40631] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 18:13:09 -0600] [40629] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 18:13:09 -0600] [40629] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 18:13:09 -0600] [40631] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 18:13:09 -0600] [40629] [DEBUG] GET /static/js/config.js
+[2016-08-09 18:13:09 -0600] [40630] [DEBUG] GET /static/js/task.js
+[2016-08-09 18:13:09 -0600] [40629] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 18:13:09 -0600] [40629] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:13:09,332 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:13:09 -0600] [40631] [DEBUG] GET /trial.html
+[2016-08-09 18:13:09 -0600] [40631] [DEBUG] GET /submit.html
+[2016-08-09 18:13:39 -0600] [40630] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:13:39,426 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:13:39 -0600] [40627] [DEBUG] POST /inexp
+2016-08-09 18:13:39,428 Accessing /inexp
+2016-08-09 18:13:39,442 saved data for debugSIHK1D:debugPX7WJY (current trial: 55)
+[2016-08-09 18:13:39 -0600] [40627] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 18:13:39 -0600] [40630] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 18:13:39 -0600] [40629] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 18:13:39 -0600] [40630] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 18:15:21 -0600] [40631] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:15:21,593 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:15:21 -0600] [40627] [DEBUG] POST /quitter
+2016-08-09 18:15:21,606 saved data for debugSIHK1D:debugPX7WJY (current trial: 55)
+[2016-08-09 18:15:23 -0600] [40630] [DEBUG] GET /consent
+[2016-08-09 18:15:24 -0600] [40631] [DEBUG] GET /ad
+[2016-08-09 18:15:24 -0600] [40630] [DEBUG] GET /static/js/utils.js
+[2016-08-09 18:15:24 -0600] [40631] [DEBUG] GET /static/css/general.css
+[2016-08-09 18:15:24 -0600] [40631] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 18:15:25 -0600] [40629] [DEBUG] GET /exp
+2016-08-09 18:15:25,151 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 18:15:25 -0600] [40629] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 18:15:25 -0600] [40631] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 18:15:25 -0600] [40630] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 18:15:25 -0600] [40630] [DEBUG] GET /static/js/config.js
+[2016-08-09 18:15:25 -0600] [40631] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 18:15:25 -0600] [40627] [DEBUG] GET /static/js/task.js
+[2016-08-09 18:15:25 -0600] [40627] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 18:15:25 -0600] [40629] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:15:25,348 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:15:25 -0600] [40629] [DEBUG] GET /trial.html
+[2016-08-09 18:15:25 -0600] [40629] [DEBUG] GET /submit.html
+[2016-08-09 18:15:29 -0600] [40631] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:15:29,175 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:15:29 -0600] [40630] [DEBUG] POST /inexp
+2016-08-09 18:15:29,178 Accessing /inexp
+2016-08-09 18:15:29,189 saved data for debugSIHK1D:debugPX7WJY (current trial: 57)
+[2016-08-09 18:15:29 -0600] [40630] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 18:15:29 -0600] [40631] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 18:15:29 -0600] [40629] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 18:15:29 -0600] [40627] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 18:17:21 -0600] [40629] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:17:21,668 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:17:21 -0600] [40631] [DEBUG] POST /quitter
+2016-08-09 18:17:21,683 saved data for debugSIHK1D:debugPX7WJY (current trial: 57)
+[2016-08-09 18:17:25 -0600] [40629] [DEBUG] Closing connection. 
+[2016-08-09 18:17:25 -0600] [40631] [DEBUG] Closing connection. 
+[2016-08-09 18:17:25 -0600] [40631] [DEBUG] GET /ppid
+[2016-08-09 18:17:25 -0600] [40627] [INFO] Parent changed, shutting down: <Worker 40627>
+[2016-08-09 18:17:25 -0600] [40630] [DEBUG] Closing connection. 
+[2016-08-09 18:17:25 -0600] [40629] [INFO] Parent changed, shutting down: <Worker 40629>
+[2016-08-09 18:17:25 -0600] [40631] [INFO] Parent changed, shutting down: <Worker 40631>
+[2016-08-09 18:17:25 -0600] [40627] [INFO] Worker exiting (pid: 40627)
+[2016-08-09 18:17:25 -0600] [40629] [INFO] Worker exiting (pid: 40629)
+[2016-08-09 18:17:25 -0600] [40631] [INFO] Worker exiting (pid: 40631)
+[2016-08-09 18:17:25 -0600] [40630] [INFO] Parent changed, shutting down: <Worker 40630>
+[2016-08-09 18:17:25 -0600] [40630] [INFO] Worker exiting (pid: 40630)
+[2016-08-09 18:17:29 -0600] [40664] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x102ff5938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x102ff5668>
+  pre_fork: <function pre_fork at 0x102ff57d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x102ff5500>
+  pre_exec: <function pre_exec at 0x102ff5ed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x102ff5aa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x102ffb5f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x102ffb0c8>
+  post_request: <function post_request at 0x102ffb1b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x102ff5c08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x102ffb320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x102ff5398>
+  worker_abort: <function worker_abort at 0x102ff5d70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x102ffb488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-09 18:17:29 -0600] [40664] [INFO] Starting gunicorn 19.6.0
+[2016-08-09 18:17:29 -0600] [40664] [DEBUG] Arbiter booted
+[2016-08-09 18:17:29 -0600] [40664] [INFO] Listening at: http://0.0.0.0:22362 (40664)
+[2016-08-09 18:17:29 -0600] [40664] [INFO] Using worker: sync
+[2016-08-09 18:17:29 -0600] [40668] [INFO] Booting worker with pid: 40668
+[2016-08-09 18:17:29 -0600] [40670] [INFO] Booting worker with pid: 40670
+[2016-08-09 18:17:29 -0600] [40671] [INFO] Booting worker with pid: 40671
+[2016-08-09 18:17:29 -0600] [40672] [INFO] Booting worker with pid: 40672
+[2016-08-09 18:17:29 -0600] [40664] [DEBUG] 4 workers
+2016-08-09 18:17:30,345 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 18:17:30,348 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 18:17:30,459 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 18:17:30,461 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 18:17:30,463 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 18:17:30,466 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-09 18:17:30,470 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-09 18:17:30,472 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-09 18:17:31 -0600] [40671] [DEBUG] Closing connection. 
+[2016-08-09 18:17:32 -0600] [40671] [DEBUG] GET /ad
+[2016-08-09 18:17:33 -0600] [40668] [DEBUG] GET /consent
+[2016-08-09 18:17:33 -0600] [40668] [DEBUG] GET /ad
+[2016-08-09 18:17:33 -0600] [40670] [DEBUG] GET /static/js/utils.js
+[2016-08-09 18:17:33 -0600] [40668] [DEBUG] GET /static/css/general.css
+[2016-08-09 18:17:33 -0600] [40670] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 18:17:34 -0600] [40672] [DEBUG] GET /exp
+2016-08-09 18:17:34,651 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 18:17:34 -0600] [40668] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 18:17:34 -0600] [40670] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 18:17:34 -0600] [40668] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 18:17:34 -0600] [40671] [DEBUG] GET /static/js/config.js
+[2016-08-09 18:17:34 -0600] [40668] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 18:17:34 -0600] [40670] [DEBUG] GET /static/js/task.js
+[2016-08-09 18:17:35 -0600] [40671] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 18:17:35 -0600] [40670] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:17:35,085 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:17:35 -0600] [40670] [DEBUG] GET /trial.html
+[2016-08-09 18:17:35 -0600] [40670] [DEBUG] GET /submit.html
+[2016-08-09 18:17:46 -0600] [40672] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:17:46,348 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:17:46 -0600] [40668] [DEBUG] POST /inexp
+2016-08-09 18:17:46,349 Accessing /inexp
+2016-08-09 18:17:46,364 saved data for debugSIHK1D:debugPX7WJY (current trial: 59)
+[2016-08-09 18:17:46 -0600] [40668] [DEBUG] GET /static/images/stimuli/63_orig.png
+[2016-08-09 18:17:46 -0600] [40672] [DEBUG] GET /static/images/stimuli/63_l1.png
+[2016-08-09 18:17:46 -0600] [40670] [DEBUG] GET /static/images/stimuli/63_l2.png
+[2016-08-09 18:17:46 -0600] [40672] [DEBUG] GET /static/images/stimuli/63_mssim.png
+[2016-08-09 18:19:01 -0600] [40672] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:19:01,602 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:19:01 -0600] [40671] [DEBUG] POST /quitter
+2016-08-09 18:19:01,615 saved data for debugSIHK1D:debugPX7WJY (current trial: 59)
+[2016-08-09 18:19:48 -0600] [40672] [DEBUG] GET /ad
+[2016-08-09 18:19:49 -0600] [40672] [DEBUG] GET /consent
+[2016-08-09 18:19:49 -0600] [40672] [DEBUG] GET /ad
+[2016-08-09 18:19:49 -0600] [40671] [DEBUG] GET /static/js/utils.js
+[2016-08-09 18:19:49 -0600] [40672] [DEBUG] GET /static/css/general.css
+[2016-08-09 18:19:49 -0600] [40670] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 18:19:50 -0600] [40671] [DEBUG] GET /exp
+2016-08-09 18:19:50,687 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 18:19:50 -0600] [40671] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 18:19:50 -0600] [40671] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 18:19:50 -0600] [40668] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 18:19:50 -0600] [40668] [DEBUG] GET /static/js/config.js
+[2016-08-09 18:19:50 -0600] [40672] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 18:19:50 -0600] [40670] [DEBUG] GET /static/js/task.js
+[2016-08-09 18:21:04 -0600] [40668] [DEBUG] GET /ad
+[2016-08-09 18:21:05 -0600] [40672] [DEBUG] GET /consent
+[2016-08-09 18:21:05 -0600] [40670] [DEBUG] GET /ad
+[2016-08-09 18:21:06 -0600] [40672] [DEBUG] GET /static/js/utils.js
+[2016-08-09 18:21:06 -0600] [40670] [DEBUG] GET /static/css/general.css
+[2016-08-09 18:21:06 -0600] [40672] [DEBUG] GET /static/images/university.jpg
+[2016-08-09 18:21:07 -0600] [40672] [DEBUG] GET /exp
+2016-08-09 18:21:07,106 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-09 18:21:07 -0600] [40672] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-09 18:21:07 -0600] [40668] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-09 18:21:07 -0600] [40671] [DEBUG] GET /static/js/config.js
+[2016-08-09 18:21:07 -0600] [40668] [DEBUG] GET /static/js/psiturk.js
+[2016-08-09 18:21:07 -0600] [40672] [DEBUG] GET /static/js/task.js
+[2016-08-09 18:21:07 -0600] [40671] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-09 18:21:07 -0600] [40668] [DEBUG] GET /static/json/trial-set-10.json
+[2016-08-09 18:21:07 -0600] [40668] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:21:07,343 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:21:07 -0600] [40668] [DEBUG] GET /trial.html
+[2016-08-09 18:21:07 -0600] [40668] [DEBUG] GET /submit.html
+[2016-08-09 18:21:11 -0600] [40672] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:21:11,390 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:21:11 -0600] [40670] [DEBUG] POST /inexp
+2016-08-09 18:21:11,392 Accessing /inexp
+2016-08-09 18:21:11,434 saved data for debugSIHK1D:debugPX7WJY (current trial: 61)
+[2016-08-09 18:21:26 -0600] [40670] [DEBUG] PUT /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-09 18:21:26,714 PUT /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-09 18:21:26 -0600] [40668] [DEBUG] POST /quitter
+2016-08-09 18:21:26,724 saved data for debugSIHK1D:debugPX7WJY (current trial: 61)
+[2016-08-09 18:22:12 -0600] [40668] [DEBUG] Closing connection. 
+[2016-08-09 18:22:12 -0600] [40671] [DEBUG] Closing connection. 
+[2016-08-09 18:22:12 -0600] [40672] [DEBUG] GET /ppid
+[2016-08-09 18:22:12 -0600] [40672] [INFO] Parent changed, shutting down: <Worker 40672>
+[2016-08-09 18:22:12 -0600] [40670] [INFO] Parent changed, shutting down: <Worker 40670>
+[2016-08-09 18:22:12 -0600] [40668] [DEBUG] Closing connection. 
+[2016-08-09 18:22:12 -0600] [40671] [INFO] Parent changed, shutting down: <Worker 40671>
+[2016-08-09 18:22:12 -0600] [40671] [INFO] Worker exiting (pid: 40671)
+[2016-08-09 18:22:12 -0600] [40670] [INFO] Worker exiting (pid: 40670)
+[2016-08-09 18:22:12 -0600] [40672] [INFO] Worker exiting (pid: 40672)
+[2016-08-09 18:22:12 -0600] [40668] [INFO] Parent changed, shutting down: <Worker 40668>
+[2016-08-09 18:22:12 -0600] [40668] [INFO] Worker exiting (pid: 40668)

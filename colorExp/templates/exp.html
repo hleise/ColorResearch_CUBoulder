@@ -45,30 +45,18 @@
     <script>
         $(function() {
             $(document).on("click", "#option-one", function() {
-                alert("option-one clicked");
-            }/*optionClicked()*/);
+                optionClicked();
+            });
             $(document).on("click", "#option-two", function() {
-                alert("option-two clicked");
-            }/*optionClicked()*/);
+                optionClicked();
+            });
             $(document).on("mouseenter", "#recenter-shape", function() {
-                alert("mouse entered");
-            }/*startTimer()*/);
+                startTimer();
+            });
             $(document).on("mouseleave", "#recenter-shape", function() {
-                alert("mouse left");
-            }/*stopTimer()*/);
+                stopTimer();
+            });
         });
-        
-        // Could be useful later if the images need to resize with the window
-        /*
-        window.addEventListener("resize", function(e) {
-            var stimuliWidth = $("#item1-image").width();
-            $(".original-stimuli").width(stimuliWidth);
-            $(".original-stimuli").height(stimuliWidth);
-            $(".filler-div").width(stimuliWidth);
-            $(".filler-div").height(stimuliWidth);
-            $(".filler-div").css('line-height', "" + stimuliWidth + "px")
-        });
-        */
     </script>
       
   </head>
