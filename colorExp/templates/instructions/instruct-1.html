@@ -1,0 +1,54 @@
+<script>
+    $(function() {
+        resetPage();
+        
+        $(document).on("click", "#option-one", function() {
+            optionClicked();
+        });
+        $(document).on("click", "#option-two", function() {
+            optionClicked();
+        });
+        $(document).on("mouseenter", "#recenter-shape", function() {
+            startTimer();
+        });
+        $(document).on("mouseleave", "#recenter-shape", function() {
+            stopTimer();
+        });
+    });
+</script>
+
+<div class="slide">
+    <h1>Instructions</h1>
+    <div class="blue">
+        <p>In this experiment, you will make judgments about the names of shapes. On each trial, you will see a shape and two words. Your job is to click on the word you believe corresponds best to the given shape.</p>
+        <p>To begin each trial, hover your mouse over the circle in the middle of the screen. Feel free to give it a try below. Once you feel comfortable, click the continue button.</p> 
+    </div>
+    <br />
+    <div id="main-content">
+        <p id="case-instructions" class="unselectable">Which name seems more appropriate for this shape?</p>
+        <p id="recenter-instructions" class="unselectable">Hover the mouse pointer over the circle.</p>
+
+        <div id="shape">
+            <img alt="shape-image" id="shape-image" class="unselectable" />
+        </div>
+
+        <div id="options-container">
+            <div id="option-one-container" class="unselectable">
+                <div id="option-one"></div>
+                <div id="option-one-text"></div>
+            </div>
+
+            <div id="recenter-shape">
+                <div id="recenter-shape-filling"></div>
+            </div>
+
+            <div id="option-two-container" class="unselectable">
+                <div id="option-two"></div>
+                <div id="option-two-text"></div>
+            </div>
+        </div>
+    </div>
+    <div class="buttonContainer">
+        <button type="button" class="continue nextButton">Continue</button>
+    </div>
+</div>

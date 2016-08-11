@@ -1,0 +1,52 @@
+<script>
+    $(function() {
+        $(document).on("click", "#option-one", function() {
+            optionClicked();
+        });
+        $(document).on("click", "#option-two", function() {
+            optionClicked();
+        });
+        $(document).on("mouseenter", "#recenter-shape", function() {
+            startTimer();
+        });
+        $(document).on("mouseleave", "#recenter-shape", function() {
+            stopTimer();
+        });
+    });
+</script>
+
+<div class="slide" id="trial">
+    <div id="progress">
+        <div id="progress-text">Progress</div>
+        <div id="indicator-container">
+            <div id="indicator-outer">
+                <div id="indicator-stage"></div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </div>
+    <div id="main-content">
+        <p id="case-instructions" class="unselectable">Which name seems more appropriate for this shape?</p>
+        <p id="recenter-instructions" class="unselectable">Hover the mouse pointer over the circle.</p>
+
+        <div id="shape">
+            <img alt="shape-image" id="shape-image" class="unselectable" />
+        </div>
+
+        <div id="options-container">
+            <div id="option-one-container" class="unselectable">
+                <div id="option-one"></div>
+                <div id="option-one-text"></div>
+            </div>
+
+            <div id="recenter-shape">
+                <div id="recenter-shape-filling"></div>
+            </div>
+
+            <div id="option-two-container" class="unselectable">
+                <div id="option-two"></div>
+                <div id="option-two-text"></div>
+            </div>
+        </div>
+    </div>
+</div>
