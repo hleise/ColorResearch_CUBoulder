@@ -137,7 +137,7 @@ button:active, .nextButton:active, .backButton:active {
 /* Experiment CSS                                                   */
 /********************************************************************/
 
-#case-instructions, #recenter-instructions {
+#task-instructions, #recenter-instructions {
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -154,18 +154,18 @@ button:active, .nextButton:active, .backButton:active {
     width: 380px;
 }
 
-#option-one, #option-two {
+#left-option, #right-option {
     border: 8px solid black;
     border-radius: 25px;
     position: absolute;
 }
 
-#option-one, #option-two, #option-one-container, #option-two-container, #option-one-text, #option-two-text {
+#left-option, #right-option, #left-option-container, #right-option-container, #left-option-text, #right-option-text {
     height: 100px;
     width: 160px;
 }
 
-#option-one-container, #option-two-container {
+#left-option-container, #right-option-container {
     float: left;
     font-size: 20pt;
     font-weight: bold;
@@ -173,11 +173,11 @@ button:active, .nextButton:active, .backButton:active {
     position: relative;
 }
 
-#option-one-container {
+#left-option-container {
     margin-right:30px;
 }
 
-#option-two-container {
+#right-option-container {
     margin-left: 30px;
 }
 

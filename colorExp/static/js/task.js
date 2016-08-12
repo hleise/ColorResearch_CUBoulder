@@ -31,6 +31,9 @@ var instructionPages = [ // add as a list as many pages as you like
 
 var timer = null;
 var time = 0;
+var isTrial = false;
+
+// Variables used for the instructions version of the experiment
 var caseIterator = 0;
 var testSetOne = ["Takete", "Bouba", "Tikubo", "Maluma"];
 var testSetTwo = ["Tekete", "Boaba", "Takehbi", "Maloma"];
@@ -40,6 +43,7 @@ var testSetTwo = ["Tekete", "Boaba", "Takehbi", "Maloma"];
  *************************/
 
 var colorExperiment = function() {
+    isTrial = true;
     psiTurk.showPage("stage.html");
     resetPage();
     next();
@@ -70,15 +74,15 @@ var colorExperiment = function() {
         var randomColor = getRandomColor();
         var randomDarker = Math.floor(Math.random() * 2);
 
-        $("#option-one").css("borderColor", randomColor);
-        $("#option-two").css("borderColor", randomColor);
+        $("#left-option").css("borderColor", randomColor);
+        $("#right-option").css("borderColor", randomColor);
 
         if (randomDarker == 0) {
-            $("#option-one").css("filter", "brightness(90%)");
-            $("#option-one").css("WebkitFilter", "brightness(90%)");
+            $("#left-option").css("filter", "brightness(90%)");
+            $("#left-option").css("WebkitFilter", "brightness(90%)");
         } else {
-            $("#option-two").css("filter", "brightness(90%)");
-            $("#option-two").css("WebkitFilter", "brightness(90%)");
+            $("#right-option").css("filter", "brightness(90%)");
+            $("#right-option").css("WebkitFilter", "brightness(90%)");
         }
     }
 
@@ -102,29 +106,29 @@ var colorExperiment = function() {
     function setStateDisplay(state) {
         switch (state) {
             case "recenter":
-                $("#case-instructions").css("display", "none");
+                $("#task-instructions").css("display", "none");
                 $("#recenter-instructions").css("display", "block");
                 $("#recenter-shape").css("display", "block");
 
                 $("#shape-image").css("display", "none");
-                $("#option-one-container").css("display", "none");
-                $("#option-two-container").css("display", "none");
+                $("#left-option-container").css("display", "none");
+                $("#right-option-container").css("display", "none");
 
                 $("#options-container").css("marginTop", "185px");
-                $("#option-one").css("filter", "brightness(100%)");
-                $("#option-one").css("WebkitFilter", "brightness(100%)");
-                $("#option-two").css("filter", "brightness(100%)");
-                $("#option-two").css("WebkitFilter", "brightness(100%)");
+                $("#left-option").css("filter", "brightness(100%)");
+                $("#left-option").css("WebkitFilter", "brightness(100%)");
+                $("#right-option").css("filter", "brightness(100%)");
+                $("#right-option").css("WebkitFilter", "brightness(100%)");
                 
                 break;
             case "testCase":
-                $("#case-instructions").css("display", "block");
+                $("#task-instructions").css("display", "block");
                 $("#recenter-instructions").css("display", "none");
                 $("#recenter-shape").css("display", "none");
 
                 $("#shape-image").css("display", "inline");
-                $("#option-one-container").css("display", "block");
-                $("#option-two-container").css("display", "block");
+                $("#left-option-container").css("display", "block");
+                $("#right-option-container").css("display", "block");
 
                 $("#options-container").css("marginTop", "20px");
 
@@ -136,9 +140,17 @@ var colorExperiment = function() {
 
     /* Sets the image and name options given the caseIterator. */
     function setTestCase() {
-        $("#shape-image").attr("src", "/static/images/instruct-" + caseIterator + ".svg");
-        $("#option-one-text").html(testSetOne[caseIterator]);
-        $("#option-two-text").html(testSetTwo[caseIterator]);
+        assert(isTrial == true || isTrial == false, "isTrial is set to " + isTrial + "not true or false as expected");
+
+        if (!isTrial) { // when it is the instructions example
+            $("#shape-image").attr("src", "/static/images/instruct-" + caseIterator + ".svg");
+            $("#left-option-text").html(testSetOne[caseIterator]);
+            $("#right-option-text").html(testSetTwo[caseIterator]);
+        } else { // when it is a real trial
+            $("#shape-image").attr("src", "/static/images/shapes/" + caseIterator + "-rounded.svg");
+            $("#left-option-text").html(testSetOne[caseIterator]);
+            $("#right-option-text").html(testSetTwo[caseIterator]);
+        }
     }
 
     /* Starts the timer */
