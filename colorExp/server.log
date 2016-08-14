@@ -554,3 +554,901 @@ OSError: [Errno 57] Socket is not connected
 [2016-08-12 13:32:49 -0600] [44182] [INFO] Worker exiting (pid: 44182)
 [2016-08-12 13:32:49 -0600] [44178] [INFO] Parent changed, shutting down: <Worker 44178>
 [2016-08-12 13:32:49 -0600] [44178] [INFO] Worker exiting (pid: 44178)
+[2016-08-13 21:47:52 -0600] [45045] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-13 21:47:52 -0600] [45045] [INFO] Starting gunicorn 19.6.0
+[2016-08-13 21:47:52 -0600] [45045] [DEBUG] Arbiter booted
+[2016-08-13 21:47:52 -0600] [45045] [INFO] Listening at: http://0.0.0.0:22362 (45045)
+[2016-08-13 21:47:52 -0600] [45045] [INFO] Using worker: sync
+[2016-08-13 21:47:52 -0600] [45048] [INFO] Booting worker with pid: 45048
+[2016-08-13 21:47:52 -0600] [45051] [INFO] Booting worker with pid: 45051
+[2016-08-13 21:47:52 -0600] [45052] [INFO] Booting worker with pid: 45052
+[2016-08-13 21:47:52 -0600] [45053] [INFO] Booting worker with pid: 45053
+[2016-08-13 21:47:53 -0600] [45045] [DEBUG] 4 workers
+2016-08-13 21:47:53,566 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 21:47:53,572 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 21:47:53,614 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 21:47:53,618 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 21:47:53,631 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 21:47:53,635 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 21:47:53,656 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 21:47:53,659 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-13 21:47:54 -0600] [45053] [DEBUG] Closing connection. 
+[2016-08-13 21:47:55 -0600] [45053] [DEBUG] GET /ad
+[2016-08-13 21:47:55 -0600] [45053] [DEBUG] GET /favicon.ico
+[2016-08-13 21:47:56 -0600] [45053] [DEBUG] GET /consent
+[2016-08-13 21:47:57 -0600] [45053] [DEBUG] GET /ad
+[2016-08-13 21:47:57 -0600] [45051] [DEBUG] GET /static/js/utils.js
+[2016-08-13 21:47:57 -0600] [45053] [DEBUG] GET /static/css/general.css
+[2016-08-13 21:47:57 -0600] [45053] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 21:47:58 -0600] [45048] [DEBUG] GET /exp
+2016-08-13 21:47:58,300 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 21:47:58 -0600] [45048] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 21:47:58 -0600] [45052] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 21:47:58 -0600] [45051] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 21:47:58 -0600] [45051] [DEBUG] GET /static/js/config.js
+[2016-08-13 21:47:58 -0600] [45048] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 21:47:58 -0600] [45052] [DEBUG] GET /static/js/task.js
+[2016-08-13 21:47:59 -0600] [45048] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 21:47:59 -0600] [45048] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 21:47:59,492 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 21:47:59 -0600] [45052] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 21:47:59 -0600] [45048] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 21:47:59 -0600] [45053] [DEBUG] GET /stage.html
+[2016-08-13 21:47:59 -0600] [45053] [DEBUG] GET /debriefing.html
+[2016-08-13 21:47:59 -0600] [45052] [DEBUG] GET /static/images/instruct-0.svg
+[2016-08-13 21:50:10 -0600] [45053] [DEBUG] GET /consent
+[2016-08-13 21:50:10 -0600] [45053] [DEBUG] GET /ad
+[2016-08-13 21:50:10 -0600] [45048] [DEBUG] GET /static/js/utils.js
+[2016-08-13 21:50:10 -0600] [45053] [DEBUG] GET /static/css/general.css
+[2016-08-13 21:50:10 -0600] [45052] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 21:50:11 -0600] [45052] [DEBUG] GET /exp
+2016-08-13 21:50:11,701 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 21:50:11 -0600] [45052] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 21:50:11 -0600] [45048] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 21:50:11 -0600] [45052] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 21:50:11 -0600] [45053] [DEBUG] GET /static/js/config.js
+[2016-08-13 21:50:11 -0600] [45051] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 21:50:11 -0600] [45052] [DEBUG] GET /static/js/task.js
+[2016-08-13 21:50:11 -0600] [45053] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 21:50:11 -0600] [45051] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 21:50:11,950 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 21:50:11 -0600] [45051] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 21:50:11 -0600] [45051] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 21:50:11 -0600] [45051] [DEBUG] GET /stage.html
+[2016-08-13 21:50:11 -0600] [45051] [DEBUG] GET /debriefing.html
+[2016-08-13 22:00:53 -0600] [45052] [DEBUG] GET /consent
+[2016-08-13 22:00:53 -0600] [45052] [DEBUG] GET /ad
+[2016-08-13 22:00:54 -0600] [45053] [DEBUG] GET /static/js/utils.js
+[2016-08-13 22:00:54 -0600] [45051] [DEBUG] GET /static/css/general.css
+[2016-08-13 22:00:54 -0600] [45052] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 22:00:55 -0600] [45052] [DEBUG] GET /exp
+2016-08-13 22:00:55,175 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 22:00:55 -0600] [45052] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 22:00:55 -0600] [45048] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 22:00:55 -0600] [45053] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 22:00:55 -0600] [45053] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 22:00:55 -0600] [45052] [DEBUG] GET /static/js/config.js
+[2016-08-13 22:00:55 -0600] [45048] [DEBUG] GET /static/js/task.js
+[2016-08-13 22:01:00 -0600] [45051] [DEBUG] Closing connection. 
+[2016-08-13 22:01:00 -0600] [45052] [DEBUG] Closing connection. 
+[2016-08-13 22:01:15 -0600] [45053] [DEBUG] GET /consent
+[2016-08-13 22:01:15 -0600] [45053] [DEBUG] GET /ad
+[2016-08-13 22:01:15 -0600] [45051] [DEBUG] GET /static/js/utils.js
+[2016-08-13 22:01:15 -0600] [45053] [DEBUG] GET /static/css/general.css
+[2016-08-13 22:01:15 -0600] [45053] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 22:01:16 -0600] [45052] [DEBUG] GET /exp
+2016-08-13 22:01:16,860 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 22:01:16 -0600] [45051] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 22:01:16 -0600] [45053] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 22:01:16 -0600] [45052] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 22:01:16 -0600] [45053] [DEBUG] GET /static/js/config.js
+[2016-08-13 22:01:16 -0600] [45048] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 22:01:16 -0600] [45051] [DEBUG] GET /static/js/task.js
+[2016-08-13 22:01:17 -0600] [45048] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 22:03:25 -0600] [45048] [DEBUG] Closing connection. 
+[2016-08-13 22:03:25 -0600] [45052] [DEBUG] Closing connection. 
+[2016-08-13 22:03:25 -0600] [45053] [DEBUG] GET /ppid
+[2016-08-13 22:03:25 -0600] [45052] [INFO] Parent changed, shutting down: <Worker 45052>
+[2016-08-13 22:03:25 -0600] [45051] [INFO] Parent changed, shutting down: <Worker 45051>
+[2016-08-13 22:03:25 -0600] [45053] [DEBUG] Closing connection. 
+[2016-08-13 22:03:25 -0600] [45052] [INFO] Worker exiting (pid: 45052)
+[2016-08-13 22:03:25 -0600] [45051] [INFO] Worker exiting (pid: 45051)
+[2016-08-13 22:03:25 -0600] [45053] [INFO] Parent changed, shutting down: <Worker 45053>
+[2016-08-13 22:03:25 -0600] [45053] [INFO] Worker exiting (pid: 45053)
+[2016-08-13 22:03:25 -0600] [45048] [DEBUG] Closing connection. 
+[2016-08-13 22:03:25 -0600] [45048] [INFO] Parent changed, shutting down: <Worker 45048>
+[2016-08-13 22:03:25 -0600] [45048] [INFO] Worker exiting (pid: 45048)
+[2016-08-13 22:03:27 -0600] [45111] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-13 22:03:27 -0600] [45111] [INFO] Starting gunicorn 19.6.0
+[2016-08-13 22:03:27 -0600] [45111] [DEBUG] Arbiter booted
+[2016-08-13 22:03:27 -0600] [45111] [INFO] Listening at: http://0.0.0.0:22362 (45111)
+[2016-08-13 22:03:27 -0600] [45111] [INFO] Using worker: sync
+[2016-08-13 22:03:27 -0600] [45115] [INFO] Booting worker with pid: 45115
+[2016-08-13 22:03:28 -0600] [45117] [INFO] Booting worker with pid: 45117
+[2016-08-13 22:03:28 -0600] [45118] [INFO] Booting worker with pid: 45118
+[2016-08-13 22:03:28 -0600] [45119] [INFO] Booting worker with pid: 45119
+[2016-08-13 22:03:28 -0600] [45111] [DEBUG] 4 workers
+2016-08-13 22:03:28,627 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 22:03:28,630 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 22:03:28,722 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 22:03:28,725 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 22:03:28,757 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 22:03:28,759 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 22:03:28,802 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 22:03:28,804 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-13 22:03:29 -0600] [45119] [DEBUG] Closing connection. 
+[2016-08-13 22:03:32 -0600] [45119] [DEBUG] GET /consent
+[2016-08-13 22:03:32 -0600] [45115] [DEBUG] GET /ad
+[2016-08-13 22:03:32 -0600] [45118] [DEBUG] GET /static/js/utils.js
+[2016-08-13 22:03:32 -0600] [45115] [DEBUG] GET /static/css/general.css
+[2016-08-13 22:03:32 -0600] [45118] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 22:03:33 -0600] [45118] [DEBUG] GET /exp
+2016-08-13 22:03:33,719 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 22:03:33 -0600] [45118] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 22:03:33 -0600] [45117] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 22:03:33 -0600] [45118] [DEBUG] GET /static/js/config.js
+[2016-08-13 22:03:33 -0600] [45119] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 22:03:33 -0600] [45115] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 22:03:33 -0600] [45118] [DEBUG] GET /static/js/task.js
+[2016-08-13 22:03:33 -0600] [45115] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 22:05:45 -0600] [45115] [DEBUG] GET /consent
+[2016-08-13 22:05:45 -0600] [45115] [DEBUG] GET /ad
+[2016-08-13 22:05:45 -0600] [45118] [DEBUG] GET /static/js/utils.js
+[2016-08-13 22:05:45 -0600] [45115] [DEBUG] GET /static/css/general.css
+[2016-08-13 22:05:45 -0600] [45115] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 22:05:46 -0600] [45119] [DEBUG] GET /exp
+2016-08-13 22:05:46,616 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 22:05:46 -0600] [45119] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 22:05:46 -0600] [45118] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 22:05:46 -0600] [45117] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 22:05:46 -0600] [45115] [DEBUG] GET /static/js/config.js
+[2016-08-13 22:05:46 -0600] [45118] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 22:05:46 -0600] [45119] [DEBUG] GET /static/js/task.js
+[2016-08-13 22:05:46 -0600] [45117] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 22:06:49 -0600] [45117] [DEBUG] GET /consent
+[2016-08-13 22:06:50 -0600] [45117] [DEBUG] GET /ad
+[2016-08-13 22:06:50 -0600] [45118] [DEBUG] GET /static/js/utils.js
+[2016-08-13 22:06:50 -0600] [45117] [DEBUG] GET /static/css/general.css
+[2016-08-13 22:06:50 -0600] [45118] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 22:06:51 -0600] [45119] [DEBUG] GET /exp
+2016-08-13 22:06:51,382 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 22:06:51 -0600] [45119] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 22:06:51 -0600] [45115] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 22:06:51 -0600] [45117] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 22:06:51 -0600] [45118] [DEBUG] GET /static/js/config.js
+[2016-08-13 22:06:51 -0600] [45117] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 22:06:51 -0600] [45115] [DEBUG] GET /static/js/task.js
+[2016-08-13 22:06:51 -0600] [45117] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 22:07:12 -0600] [45118] [DEBUG] GET /consent
+[2016-08-13 22:07:12 -0600] [45118] [DEBUG] GET /ad
+[2016-08-13 22:07:12 -0600] [45115] [DEBUG] GET /static/js/utils.js
+[2016-08-13 22:07:12 -0600] [45118] [DEBUG] GET /static/css/general.css
+[2016-08-13 22:07:12 -0600] [45119] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 22:07:13 -0600] [45117] [DEBUG] GET /exp
+2016-08-13 22:07:13,881 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 22:07:13 -0600] [45117] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 22:07:13 -0600] [45115] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 22:07:13 -0600] [45119] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 22:07:13 -0600] [45115] [DEBUG] GET /static/js/config.js
+[2016-08-13 22:07:13 -0600] [45118] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 22:07:13 -0600] [45119] [DEBUG] GET /static/js/task.js
+[2016-08-13 22:07:14 -0600] [45118] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 22:07:14 -0600] [45117] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 22:07:14,077 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 22:07:14 -0600] [45117] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 22:07:14 -0600] [45115] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 22:07:14 -0600] [45115] [DEBUG] GET /stage.html
+[2016-08-13 22:07:14 -0600] [45115] [DEBUG] GET /debriefing.html
+[2016-08-13 22:07:14 -0600] [45119] [DEBUG] GET /instruct0-rounded.svg
+[2016-08-13 22:07:14,122] ERROR in app: Exception on /instruct0-rounded.svg [GET]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: instruct0-rounded.svg
+2016-08-13 22:07:14,122 Exception on /instruct0-rounded.svg [GET]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: instruct0-rounded.svg
+[2016-08-13 22:09:36 -0600] [45118] [DEBUG] GET /consent
+[2016-08-13 22:09:36 -0600] [45118] [DEBUG] GET /ad
+[2016-08-13 22:09:36 -0600] [45119] [DEBUG] GET /static/js/utils.js
+[2016-08-13 22:09:36 -0600] [45118] [DEBUG] GET /static/css/general.css
+[2016-08-13 22:09:36 -0600] [45118] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 22:09:37 -0600] [45118] [DEBUG] GET /exp
+2016-08-13 22:09:37,470 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 22:09:37 -0600] [45118] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 22:09:37 -0600] [45115] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 22:09:37 -0600] [45117] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 22:09:37 -0600] [45119] [DEBUG] GET /static/js/config.js
+[2016-08-13 22:09:37 -0600] [45115] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 22:09:37 -0600] [45117] [DEBUG] GET /static/js/task.js
+[2016-08-13 22:09:37 -0600] [45118] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 22:09:43 -0600] [45119] [DEBUG] Closing connection. 
+[2016-08-13 22:09:59 -0600] [45115] [DEBUG] Closing connection. 
+[2016-08-13 22:09:59 -0600] [45118] [DEBUG] Closing connection. 
+[2016-08-13 22:09:59 -0600] [45115] [DEBUG] GET /ppid
+[2016-08-13 22:09:59 -0600] [45118] [INFO] Parent changed, shutting down: <Worker 45118>
+[2016-08-13 22:09:59 -0600] [45115] [INFO] Parent changed, shutting down: <Worker 45115>
+[2016-08-13 22:09:59 -0600] [45117] [INFO] Parent changed, shutting down: <Worker 45117>
+[2016-08-13 22:09:59 -0600] [45119] [DEBUG] Closing connection. 
+[2016-08-13 22:09:59 -0600] [45118] [INFO] Worker exiting (pid: 45118)
+[2016-08-13 22:09:59 -0600] [45115] [INFO] Worker exiting (pid: 45115)
+[2016-08-13 22:09:59 -0600] [45117] [INFO] Worker exiting (pid: 45117)
+[2016-08-13 22:09:59 -0600] [45119] [INFO] Parent changed, shutting down: <Worker 45119>
+[2016-08-13 22:09:59 -0600] [45119] [INFO] Worker exiting (pid: 45119)
+[2016-08-13 23:27:04 -0600] [45252] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10312a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10312a668>
+  pre_fork: <function pre_fork at 0x10312a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10312a500>
+  pre_exec: <function pre_exec at 0x10312aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10312aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1031305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1031300c8>
+  post_request: <function post_request at 0x1031301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10312ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103130320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10312a398>
+  worker_abort: <function worker_abort at 0x10312ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103130488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-13 23:27:04 -0600] [45252] [INFO] Starting gunicorn 19.6.0
+[2016-08-13 23:27:04 -0600] [45252] [DEBUG] Arbiter booted
+[2016-08-13 23:27:04 -0600] [45252] [INFO] Listening at: http://0.0.0.0:22362 (45252)
+[2016-08-13 23:27:04 -0600] [45252] [INFO] Using worker: sync
+[2016-08-13 23:27:04 -0600] [45255] [INFO] Booting worker with pid: 45255
+[2016-08-13 23:27:04 -0600] [45256] [INFO] Booting worker with pid: 45256
+[2016-08-13 23:27:04 -0600] [45259] [INFO] Booting worker with pid: 45259
+[2016-08-13 23:27:04 -0600] [45260] [INFO] Booting worker with pid: 45260
+[2016-08-13 23:27:04 -0600] [45252] [DEBUG] 4 workers
+2016-08-13 23:27:05,306 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 23:27:05,307 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 23:27:05,307 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 23:27:05,309 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 23:27:05,310 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 23:27:05,311 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 23:27:05,311 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 23:27:05,312 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-13 23:27:05 -0600] [45255] [DEBUG] Closing connection. 
+[2016-08-13 23:27:08 -0600] [45256] [DEBUG] GET /consent
+[2016-08-13 23:27:08 -0600] [45255] [DEBUG] GET /ad
+[2016-08-13 23:27:08 -0600] [45256] [DEBUG] GET /static/js/utils.js
+[2016-08-13 23:27:08 -0600] [45255] [DEBUG] GET /static/css/general.css
+[2016-08-13 23:27:08 -0600] [45255] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 23:27:10 -0600] [45259] [DEBUG] GET /exp
+2016-08-13 23:27:10,036 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 23:27:10 -0600] [45259] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 23:27:10 -0600] [45256] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 23:27:10 -0600] [45260] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 23:27:10 -0600] [45255] [DEBUG] GET /static/js/config.js
+[2016-08-13 23:27:10 -0600] [45256] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 23:27:10 -0600] [45255] [DEBUG] GET /static/js/task.js
+[2016-08-13 23:27:10 -0600] [45260] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 23:27:10 -0600] [45260] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 23:27:10,226 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 23:27:10 -0600] [45260] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 23:27:10 -0600] [45259] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 23:27:10 -0600] [45259] [DEBUG] GET /stage.html
+[2016-08-13 23:27:10 -0600] [45260] [DEBUG] GET /debriefing.html
+[2016-08-13 23:34:41 -0600] [45255] [DEBUG] GET /consent
+[2016-08-13 23:34:41 -0600] [45255] [DEBUG] GET /ad
+[2016-08-13 23:34:41 -0600] [45255] [DEBUG] GET /static/js/utils.js
+[2016-08-13 23:34:41 -0600] [45260] [DEBUG] GET /static/css/general.css
+[2016-08-13 23:34:41 -0600] [45255] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 23:34:42 -0600] [45255] [DEBUG] GET /exp
+2016-08-13 23:34:42,619 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 23:34:42 -0600] [45255] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 23:34:42 -0600] [45259] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 23:34:42 -0600] [45256] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 23:34:42 -0600] [45256] [DEBUG] GET /static/js/config.js
+[2016-08-13 23:34:42 -0600] [45255] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 23:34:42 -0600] [45260] [DEBUG] GET /static/js/task.js
+[2016-08-13 23:34:42 -0600] [45260] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 23:34:42 -0600] [45256] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 23:34:42,812 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 23:34:42 -0600] [45256] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 23:34:42 -0600] [45256] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 23:34:42 -0600] [45256] [DEBUG] GET /stage.html
+[2016-08-13 23:34:42 -0600] [45260] [DEBUG] GET /debriefing.html
+[2016-08-13 23:34:42 -0600] [45260] [DEBUG] GET /static/images/shapes/0-rounded.svg
+[2016-08-13 23:35:23 -0600] [45260] [DEBUG] GET /consent
+[2016-08-13 23:35:23 -0600] [45260] [DEBUG] GET /ad
+[2016-08-13 23:35:23 -0600] [45255] [DEBUG] GET /static/js/utils.js
+[2016-08-13 23:35:23 -0600] [45260] [DEBUG] GET /static/css/general.css
+[2016-08-13 23:35:23 -0600] [45256] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 23:35:24 -0600] [45255] [DEBUG] GET /exp
+2016-08-13 23:35:24,389 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 23:35:24 -0600] [45255] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 23:35:24 -0600] [45260] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 23:35:24 -0600] [45260] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 23:35:24 -0600] [45255] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 23:35:24 -0600] [45259] [DEBUG] GET /static/js/config.js
+[2016-08-13 23:35:24 -0600] [45260] [DEBUG] GET /static/js/task.js
+[2016-08-13 23:35:24 -0600] [45255] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 23:35:24 -0600] [45255] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 23:35:24,616 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 23:35:24 -0600] [45259] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 23:35:24 -0600] [45259] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 23:35:24 -0600] [45260] [DEBUG] GET /stage.html
+[2016-08-13 23:35:24 -0600] [45260] [DEBUG] GET /debriefing.html
+[2016-08-13 23:35:24 -0600] [45259] [DEBUG] GET /instruct1-spiky.svg
+[2016-08-13 23:35:24,729] ERROR in app: Exception on /instruct1-spiky.svg [GET]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: instruct1-spiky.svg
+2016-08-13 23:35:24,729 Exception on /instruct1-spiky.svg [GET]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: instruct1-spiky.svg
+[2016-08-13 23:36:09 -0600] [45259] [DEBUG] GET /consent
+[2016-08-13 23:36:09 -0600] [45259] [DEBUG] GET /ad
+[2016-08-13 23:36:09 -0600] [45256] [DEBUG] GET /static/js/utils.js
+[2016-08-13 23:36:09 -0600] [45259] [DEBUG] GET /static/css/general.css
+[2016-08-13 23:36:09 -0600] [45260] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 23:36:10 -0600] [45260] [DEBUG] GET /exp
+2016-08-13 23:36:10,799 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 23:36:10 -0600] [45260] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 23:36:10 -0600] [45255] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 23:36:10 -0600] [45260] [DEBUG] GET /static/js/config.js
+[2016-08-13 23:36:10 -0600] [45256] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 23:36:10 -0600] [45259] [DEBUG] GET /static/js/task.js
+[2016-08-13 23:36:10 -0600] [45260] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 23:36:11 -0600] [45256] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 23:36:11 -0600] [45256] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 23:36:11,044 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 23:36:11 -0600] [45256] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 23:36:11 -0600] [45259] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 23:36:11 -0600] [45259] [DEBUG] GET /stage.html
+[2016-08-13 23:36:11 -0600] [45259] [DEBUG] GET /debriefing.html
+[2016-08-13 23:36:11 -0600] [45259] [DEBUG] GET /instruct1-spiky.svg
+[2016-08-13 23:36:11,092] ERROR in app: Exception on /instruct1-spiky.svg [GET]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: instruct1-spiky.svg
+2016-08-13 23:36:11,092 Exception on /instruct1-spiky.svg [GET]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Library/Python/2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Library/Python/2.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: instruct1-spiky.svg
+[2016-08-13 23:37:28 -0600] [45259] [DEBUG] GET /consent
+[2016-08-13 23:37:28 -0600] [45255] [DEBUG] GET /ad
+[2016-08-13 23:37:28 -0600] [45259] [DEBUG] GET /static/js/utils.js
+[2016-08-13 23:37:28 -0600] [45255] [DEBUG] GET /static/css/general.css
+[2016-08-13 23:37:28 -0600] [45256] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 23:37:29 -0600] [45256] [DEBUG] GET /exp
+2016-08-13 23:37:29,785 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 23:37:29 -0600] [45256] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 23:37:29 -0600] [45255] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 23:37:29 -0600] [45256] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 23:37:29 -0600] [45255] [DEBUG] GET /static/js/task.js
+[2016-08-13 23:37:29 -0600] [45260] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 23:37:29 -0600] [45255] [DEBUG] GET /static/js/config.js
+[2016-08-13 23:37:29 -0600] [45259] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 23:37:29 -0600] [45256] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 23:37:29,995 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 23:37:30 -0600] [45256] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 23:37:30 -0600] [45256] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 23:37:30 -0600] [45256] [DEBUG] GET /stage.html
+[2016-08-13 23:37:30 -0600] [45256] [DEBUG] GET /debriefing.html
+[2016-08-13 23:37:30 -0600] [45256] [DEBUG] GET /static/images/shapes/instruct1-spiky.svg
+[2016-08-13 23:37:47 -0600] [45255] [DEBUG] Closing connection. 
+[2016-08-13 23:37:47 -0600] [45259] [DEBUG] Closing connection. 
+[2016-08-13 23:37:47 -0600] [45255] [DEBUG] GET /ppid
+[2016-08-13 23:37:47 -0600] [45259] [DEBUG] Closing connection. 
+[2016-08-13 23:37:47 -0600] [45260] [INFO] Parent changed, shutting down: <Worker 45260>
+[2016-08-13 23:37:47 -0600] [45255] [INFO] Parent changed, shutting down: <Worker 45255>
+[2016-08-13 23:37:47 -0600] [45260] [INFO] Worker exiting (pid: 45260)
+[2016-08-13 23:37:47 -0600] [45259] [INFO] Parent changed, shutting down: <Worker 45259>
+[2016-08-13 23:37:47 -0600] [45255] [INFO] Worker exiting (pid: 45255)
+[2016-08-13 23:37:47 -0600] [45259] [INFO] Worker exiting (pid: 45259)
+[2016-08-13 23:37:48 -0600] [45256] [DEBUG] Closing connection. 
+[2016-08-13 23:37:48 -0600] [45256] [INFO] Parent changed, shutting down: <Worker 45256>
+[2016-08-13 23:37:48 -0600] [45256] [INFO] Worker exiting (pid: 45256)
+[2016-08-13 23:48:00 -0600] [45314] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-13 23:48:00 -0600] [45314] [INFO] Starting gunicorn 19.6.0
+[2016-08-13 23:48:00 -0600] [45314] [DEBUG] Arbiter booted
+[2016-08-13 23:48:00 -0600] [45314] [INFO] Listening at: http://0.0.0.0:22362 (45314)
+[2016-08-13 23:48:00 -0600] [45314] [INFO] Using worker: sync
+[2016-08-13 23:48:00 -0600] [45318] [INFO] Booting worker with pid: 45318
+[2016-08-13 23:48:00 -0600] [45320] [INFO] Booting worker with pid: 45320
+[2016-08-13 23:48:00 -0600] [45321] [INFO] Booting worker with pid: 45321
+[2016-08-13 23:48:00 -0600] [45322] [INFO] Booting worker with pid: 45322
+[2016-08-13 23:48:00 -0600] [45314] [DEBUG] 4 workers
+2016-08-13 23:48:00,852 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 23:48:00,855 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 23:48:00,878 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 23:48:00,881 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 23:48:00,973 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 23:48:00,974 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-13 23:48:00,975 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-13 23:48:00,976 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-13 23:48:01 -0600] [45321] [DEBUG] Closing connection. 
+[2016-08-13 23:48:04 -0600] [45318] [DEBUG] GET /ad
+[2016-08-13 23:48:06 -0600] [45318] [DEBUG] GET /consent
+[2016-08-13 23:48:06 -0600] [45318] [DEBUG] GET /ad
+[2016-08-13 23:48:06 -0600] [45322] [DEBUG] GET /static/js/utils.js
+[2016-08-13 23:48:06 -0600] [45321] [DEBUG] GET /static/css/general.css
+[2016-08-13 23:48:06 -0600] [45322] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 23:48:07 -0600] [45320] [DEBUG] GET /exp
+2016-08-13 23:48:07,926 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 23:48:07 -0600] [45320] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 23:48:07 -0600] [45322] [DEBUG] GET /static/js/config.js
+[2016-08-13 23:48:07 -0600] [45322] [DEBUG] GET /static/js/task.js
+[2016-08-13 23:48:07 -0600] [45321] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 23:48:07 -0600] [45322] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 23:48:07 -0600] [45322] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 23:48:43 -0600] [45320] [DEBUG] GET /consent
+[2016-08-13 23:48:43 -0600] [45320] [DEBUG] GET /ad
+[2016-08-13 23:48:43 -0600] [45322] [DEBUG] GET /static/js/utils.js
+[2016-08-13 23:48:43 -0600] [45320] [DEBUG] GET /static/css/general.css
+[2016-08-13 23:48:43 -0600] [45318] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 23:48:44 -0600] [45322] [DEBUG] GET /exp
+2016-08-13 23:48:44,724 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 23:48:44 -0600] [45322] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 23:48:44 -0600] [45318] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 23:48:44 -0600] [45320] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 23:48:44 -0600] [45321] [DEBUG] GET /static/js/config.js
+[2016-08-13 23:48:44 -0600] [45320] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 23:48:44 -0600] [45322] [DEBUG] GET /static/js/task.js
+[2016-08-13 23:48:44 -0600] [45321] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 23:48:44 -0600] [45321] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 23:48:44,975 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 23:48:45 -0600] [45321] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 23:48:45 -0600] [45320] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 23:48:45 -0600] [45320] [DEBUG] GET /stage.html
+[2016-08-13 23:48:45 -0600] [45320] [DEBUG] GET /debriefing.html
+[2016-08-13 23:49:17 -0600] [45321] [DEBUG] GET /ad
+[2016-08-13 23:49:18 -0600] [45321] [DEBUG] GET /consent
+[2016-08-13 23:49:18 -0600] [45322] [DEBUG] GET /ad
+[2016-08-13 23:49:18 -0600] [45321] [DEBUG] GET /static/js/utils.js
+[2016-08-13 23:49:18 -0600] [45322] [DEBUG] GET /static/css/general.css
+[2016-08-13 23:49:18 -0600] [45318] [DEBUG] GET /static/images/university.jpg
+[2016-08-13 23:49:19 -0600] [45318] [DEBUG] GET /exp
+2016-08-13 23:49:19,835 Accessing /exp: debug23UDZA debugPX7WJY debugSIHK1D 
+[2016-08-13 23:49:19 -0600] [45318] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-13 23:49:19 -0600] [45322] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-13 23:49:19 -0600] [45320] [DEBUG] GET /static/js/psiturk.js
+[2016-08-13 23:49:19 -0600] [45322] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-13 23:49:19 -0600] [45320] [DEBUG] GET /static/js/config.js
+[2016-08-13 23:49:19 -0600] [45318] [DEBUG] GET /static/js/task.js
+[2016-08-13 23:49:20 -0600] [45322] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-13 23:49:20 -0600] [45318] [DEBUG] GET /sync/debugSIHK1D%3AdebugPX7WJY
+2016-08-13 23:49:20,083 GET /sync route with id: debugSIHK1D:debugPX7WJY
+[2016-08-13 23:49:20 -0600] [45318] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-13 23:49:20 -0600] [45318] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-13 23:49:20 -0600] [45318] [DEBUG] GET /stage.html
+[2016-08-13 23:49:20 -0600] [45318] [DEBUG] GET /debriefing.html
+[2016-08-13 23:49:20 -0600] [45320] [DEBUG] GET /static/images/shapes/instruct1-spiky.svg
+[2016-08-13 23:49:22 -0600] [45318] [DEBUG] GET /static/images/shapes/instruct0-rounded.svg
+[2016-08-13 23:49:23 -0600] [45320] [DEBUG] GET /static/images/shapes/instruct0-spiky.svg
+[2016-08-13 23:49:25 -0600] [45320] [DEBUG] GET /static/images/shapes/instruct1-rounded.svg
+[2016-08-13 23:50:03 -0600] [45321] [DEBUG] Closing connection. 
+[2016-08-13 23:50:05 -0600] [45321] [DEBUG] Closing connection. 
+[2016-08-13 23:50:05 -0600] [45320] [DEBUG] Closing connection. 
+[2016-08-13 23:50:05 -0600] [45320] [DEBUG] GET /ppid
+[2016-08-13 23:50:05 -0600] [45318] [INFO] Parent changed, shutting down: <Worker 45318>
+[2016-08-13 23:50:05 -0600] [45321] [INFO] Parent changed, shutting down: <Worker 45321>
+[2016-08-13 23:50:05 -0600] [45320] [INFO] Parent changed, shutting down: <Worker 45320>
+[2016-08-13 23:50:05 -0600] [45322] [DEBUG] Closing connection. 
+[2016-08-13 23:50:05 -0600] [45318] [INFO] Worker exiting (pid: 45318)
+[2016-08-13 23:50:05 -0600] [45321] [INFO] Worker exiting (pid: 45321)
+[2016-08-13 23:50:05 -0600] [45320] [INFO] Worker exiting (pid: 45320)
+[2016-08-13 23:50:05 -0600] [45322] [INFO] Parent changed, shutting down: <Worker 45322>
+[2016-08-13 23:50:05 -0600] [45322] [INFO] Worker exiting (pid: 45322)

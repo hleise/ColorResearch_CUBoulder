@@ -9,7 +9,7 @@
  */
 
 // Create and initialize the experiment configuration object
-//var $c = new Config(condition, counterbalance);
+var $c = new Config(condition, counterbalance);
 
 // Initalize psiturk object
 var psiTurk = new PsiTurk(uniqueId, adServerLoc, mode);
@@ -143,9 +143,10 @@ var colorExperiment = function() {
         assert(isTrial == true || isTrial == false, "isTrial is set to " + isTrial + "not true or false as expected");
 
         if (!isTrial) { // when it is the instructions example
-            $("#shape-image").attr("src", "/static/images/instruct-" + caseIterator + ".svg");
-            $("#left-option-text").html(testSetOne[caseIterator]);
-            $("#right-option-text").html(testSetTwo[caseIterator]);
+            console.log($c.practiceTrials[0].shape_filename);
+            $("#shape-image").attr("src", "/static/images/shapes/" + $c.practiceTrials[caseIterator].shape_filename);
+            $("#left-option-text").html($c.practiceTrials[caseIterator].word1);
+            $("#right-option-text").html($c.practiceTrials[caseIterator].word2);
         } else { // when it is a real trial
             $("#shape-image").attr("src", "/static/images/shapes/" + caseIterator + "-rounded.svg");
             $("#left-option-text").html(testSetOne[caseIterator]);
