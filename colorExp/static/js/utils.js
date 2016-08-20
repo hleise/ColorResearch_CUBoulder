@@ -23,3 +23,26 @@ function boolpercent(arr) {
     }
     return 100* count / arr.length;
 }
+
+function setupExpEvents() {
+    $(document).on("click", "#left-option", function() {
+            optionClicked();
+    });
+    $(document).on("click", "#right-option", function() {
+        optionClicked();
+    });
+    $(document).on("mouseenter", "#recenter-shape", function() {
+        startTimer();
+    });
+    $(document).on("mouseleave", "#recenter-shape", function() {
+        stopTimer();
+    });
+}
+
+// Update the progress bar based on the current trial and total number
+// of trials.
+function updateProgress(num, num_trials) {
+    var width = 2 + 98 * (num / (num_trials - 1.0));
+    $("#indicator-stage").css({"width": width + "%"});
+    $("#progress-text").html("Progress " + (num + 1) + "/" + num_trials);
+}

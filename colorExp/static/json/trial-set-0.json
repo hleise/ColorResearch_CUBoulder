@@ -4,29 +4,29 @@
 			"shape_filename": "instruct0-rounded.svg",
 			"word1": "Bouba",
 			"word2": "Boaba",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#4285F4",
+			"rgb2": "#4285F4"
 		},
 		{
 			"shape_filename": "instruct0-spiky.svg",
 			"word1": "Maluma",
 			"word2": "Maloma",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#0F9D58",
+			"rgb2": "#0F9D58"
 		},
 		{
 			"shape_filename": "instruct1-rounded.svg",
 			"word1": "Takete",
 			"word2": "Tekete",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#F4B400",
+			"rgb2": "#F4B400"
 		},
 		{
 			"shape_filename": "instruct1-spiky.svg",
 			"word1": "Kiki",
 			"word2": "Kekee",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#DB4437",
+			"rgb2": "#DB4437"
 		}
 	],
 
@@ -35,78 +35,78 @@
 			"shape_filename": "0-rounded.svg",
 			"word1": "word 4.1",
 			"word2": "word 4.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#4285F4",
+			"rgb2": "#4285F4"
 		},
 		{
 			"shape_filename": "1-rounded.svg",
 			"word1": "word 5.1",
 			"word2": "word 5.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#0F9D58",
+			"rgb2": "#0F9D58"
 		},
 		{
 			"shape_filename": "2-rounded.svg",
 			"word1": "word 6.1",
 			"word2": "word 6.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#F4B400",
+			"rgb2": "#F4B400"
 		},
 		{
 			"shape_filename": "3-rounded.svg",
 			"word1": "word 7.1",
 			"word2": "word 7.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#DB4437",
+			"rgb2": "#DB4437"
 		},
 		{
 			"shape_filename": "4-rounded.svg",
 			"word1": "word 8.1",
 			"word2": "word 8.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#4285F4",
+			"rgb2": "#4285F4"
 		},
 		{
 			"shape_filename": "0-spiky.svg",
 			"word1": "word 9.1",
 			"word2": "word 9.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#0F9D58",
+			"rgb2": "#0F9D58"
 		},
 		{
 			"shape_filename": "1-spiky.svg",
 			"word1": "word 10.1",
 			"word2": "word 10.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#F4B400",
+			"rgb2": "#F4B400"
 		},
 		{
 			"shape_filename": "2-spiky.svg",
 			"word1": "word 11.1",
 			"word2": "word 11.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#DB4437",
+			"rgb2": "#DB4437"
 		},
 		{
 			"shape_filename": "3-spiky.svg",
 			"word1": "word 12.1",
 			"word2": "word 12.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#4285F4",
+			"rgb2": "#4285F4"
 		},
 		{
 			"shape_filename": "4-spiky.svg",
 			"word1": "word 13.1",
 			"word2": "word 13.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#0F9D58",
+			"rgb2": "#0F9D58"
 		},
 		{
 			"shape_filename": "5-spiky.svg",
 			"word1": "word 14.1",
 			"word2": "word 14.2",
-			"rgb1": "#FFFFFF",
-			"rgb2": "#FFFFFF"
+			"rgb1": "#F4B400",
+			"rgb2": "#F4B400"
 		}
 	]
 }
