@@ -51,9 +51,10 @@ function optionClicked() {
     if (isTrial) {
         expIterator++;
         if (expIterator >= $c.expTrials.length) {
-            psiTurk.showPage("debriefing.html");
+            currentview = new Debriefing();
         } else {
             updateProgress(expIterator, $c.expTrials.length);
+            setTestCase();
         }
     } else {
         instructionIterator++;
@@ -61,9 +62,9 @@ function optionClicked() {
         if (instructionIterator >= $c.practiceTrials.length ) {
             instructionIterator = 0;
         }
+        
+        setTestCase();
     }
-
-    setTestCase();
 }
 
 /* Resets the page to its defaults when the page is refreshed. */
@@ -192,6 +193,44 @@ function tick() {
     }
 }
 
+/*************************
+ * Debriefing Code       
+ *************************/
+
+var Debriefing = function() {
+
+    var error_message = "<h1>Oops!</h1><p>Something went wrong submitting your HIT. This might happen if you lose your internet connection. Press the button to resubmit.</p><button id='resubmit'>Resubmit</button>";
+
+    prompt_resubmit = function() {
+        replaceBody(error_message);
+        $("#resubmit").click(resubmit);
+    };
+
+    resubmit = function() {
+        replaceBody("<h1>Trying to resubmit...</h1>");
+        reprompt = setTimeout(prompt_resubmit, 10000);
+        
+        psiTurk.saveData({
+            success: function() {
+                clearInterval(reprompt); 
+                psiTurk.completeHIT();
+            }, 
+            error: prompt_resubmit
+        });
+    };
+
+    psiTurk.showPage('debriefing.html');
+    
+    $("#finishHit").click(function () {
+        psiTurk.saveData({
+            success: function(){
+                psiTurk.completeHIT();
+            }, 
+            error: prompt_resubmit
+        });
+    });
+}
+
 // --------------------------------------------------------------------
 // --------------------------------------------------------------------
 
@@ -206,6 +245,10 @@ function tick() {
 };
 
 $(window).load(function() {
+    psiTurk.recordUnstructuredData("condition", condition);
+    psiTurk.recordUnstructuredData("counterbalance", counterbalance);
+    psiTurk.recordUnstructuredData("experimentName", psiTurk.taskdata.get("experimentName"));
+
     psiTurk.doInstructions(
         instructionPages,
         function() { currentview = new colorExperiment(); }

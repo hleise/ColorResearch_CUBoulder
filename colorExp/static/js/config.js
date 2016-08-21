@@ -12,8 +12,6 @@ var Config = function (condition, counterbalance) {
     this.condition = condition;
     this.counterbalance = counterbalance;
     
-    // The amount of time to fade HTML elements in/out
-    this.fade = 200;
     // List of trial information object for each experiment phase
     this.practiceTrials = new Object();
     this.expTrials = new Object();
