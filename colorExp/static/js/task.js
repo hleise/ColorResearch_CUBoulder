@@ -125,19 +125,43 @@ function setStateDisplay(state) {
 /* Sets the image and name options given the instructionIterator. */
 function setTestCase() {
     assert(isTrial == true || isTrial == false, "isTrial is set to " + isTrial + "not true or false as expected");
+    var i = 0;
 
     if (!isTrial) { // when it is the instructions example
-        $("#shape-image").attr("src", "/static/images/shapes/" + $c.practiceTrials[instructionIterator].shape_filename);
-        $("#left-option").css("border-color", $c.practiceTrials[instructionIterator].rgb1);
-        $("#right-option").css("border-color", $c.practiceTrials[instructionIterator].rgb1);
-        $("#left-option-text").html($c.practiceTrials[instructionIterator].word1);
-        $("#right-option-text").html($c.practiceTrials[instructionIterator].word2);
+        i = instructionIterator;
+        $("#shape-image").attr("src", "/static/images/shapes/" + $c.practiceTrials[i].shape_filename);
     } else { // when it is a real trial
-        $("#shape-image").attr("src", "/static/images/shapes/" + $c.expTrials[expIterator].shape_filename);
-        $("#left-option").css("border-color", $c.expTrials[expIterator].rgb1);
-        $("#right-option").css("border-color", $c.expTrials[expIterator].rgb1);
-        $("#left-option-text").html($c.expTrials[expIterator].word1);
-        $("#right-option-text").html($c.expTrials[expIterator].word2);
+        i = expIterator;
+        $("#shape-image").attr("src", "/static/images/shapes/" + $c.expTrials[i].shape_filename);
+    }
+
+    switch(counterbalance) {
+        case "0":
+            $("#left-option").css("border-color", $c.expTrials[i].rgb1);
+            $("#right-option").css("border-color", $c.expTrials[i].rgb2);
+            $("#left-option-text").html($c.expTrials[i].word1);
+            $("#right-option-text").html($c.expTrials[i].word2);
+            break;
+        case "1":
+            $("#left-option").css("border-color", $c.expTrials[i].rgb2);
+            $("#right-option").css("border-color", $c.expTrials[i].rgb1);
+            $("#left-option-text").html($c.expTrials[i].word1);
+            $("#right-option-text").html($c.expTrials[i].word2);
+            break;
+        case "2":
+            $("#left-option").css("border-color", $c.expTrials[i].rgb1);
+            $("#right-option").css("border-color", $c.expTrials[i].rgb2);
+            $("#left-option-text").html($c.expTrials[i].word2);
+            $("#right-option-text").html($c.expTrials[i].word1);
+            break;
+        case "3":
+            $("#left-option").css("border-color", $c.expTrials[i].rgb2);
+            $("#right-option").css("border-color", $c.expTrials[i].rgb1);
+            $("#left-option-text").html($c.expTrials[i].word2);
+            $("#right-option-text").html($c.expTrials[i].word1);
+            break;
+        default:
+            console.log("counterbalance is " + counterbalance + " and not in range (0, 3) as expected.");
     }
 }
 

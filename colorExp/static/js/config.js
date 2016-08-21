@@ -8,14 +8,10 @@
 // the numeric codes representing the experimental condition and
 // whether the trials are counterbalanced.
 var Config = function (condition, counterbalance) {
-
     // These are the condition and counterbalancing ids
     this.condition = condition;
     this.counterbalance = counterbalance;
-        
-
-    // Whether debug information should be printed out
-    this.debug = true; // TODO turn off
+    
     // The amount of time to fade HTML elements in/out
     this.fade = 200;
     // List of trial information object for each experiment phase
@@ -26,8 +22,8 @@ var Config = function (condition, counterbalance) {
     // configuration
     this.parse_config = function (data) {
         this.experimentName = "colorExperiment";
-        this.practiceTrials = _.shuffle(data["instructionsHolder"]);
-        this.expTrials = _.shuffle(data["trialsHolder"]);
+        this.practiceTrials = _.shuffle(data["practiceTrials"]);
+        this.expTrials = _.shuffle(data["expTrials"]);
     };
 
     // Load the experiment configuration from the server
@@ -35,7 +31,7 @@ var Config = function (condition, counterbalance) {
         var that = this;
         $.ajax({
             dataType: "json",
-            url: "/static/json/trial-set-0.json",
+            url: "/static/json/trial-set-" + condition + ".json",
             async: false,
             success: function (data) { 
                 if (that.debug) {

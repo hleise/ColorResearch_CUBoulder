@@ -6357,3 +6357,876 @@ OSError: [Errno 57] Socket is not connected
 [2016-08-20 14:13:06 -0600] [50149] [DEBUG] Closing connection. 
 [2016-08-20 14:13:06 -0600] [50149] [INFO] Parent changed, shutting down: <Worker 50149>
 [2016-08-20 14:13:06 -0600] [50149] [INFO] Worker exiting (pid: 50149)
+[2016-08-20 18:44:47 -0600] [50971] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-20 18:44:47 -0600] [50971] [INFO] Starting gunicorn 19.6.0
+[2016-08-20 18:44:47 -0600] [50971] [DEBUG] Arbiter booted
+[2016-08-20 18:44:47 -0600] [50971] [INFO] Listening at: http://0.0.0.0:22362 (50971)
+[2016-08-20 18:44:47 -0600] [50971] [INFO] Using worker: sync
+[2016-08-20 18:44:47 -0600] [50975] [INFO] Booting worker with pid: 50975
+[2016-08-20 18:44:47 -0600] [50977] [INFO] Booting worker with pid: 50977
+[2016-08-20 18:44:47 -0600] [50978] [INFO] Booting worker with pid: 50978
+[2016-08-20 18:44:47 -0600] [50979] [INFO] Booting worker with pid: 50979
+[2016-08-20 18:44:47 -0600] [50971] [DEBUG] 4 workers
+2016-08-20 18:44:48,064 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:44:48,067 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:44:48,112 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:44:48,116 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:44:48,219 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:44:48,221 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:44:48,224 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:44:48,226 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-20 18:44:48 -0600] [50975] [DEBUG] Closing connection. 
+[2016-08-20 18:44:52 -0600] [50977] [DEBUG] Closing connection. 
+[2016-08-20 18:44:52 -0600] [50979] [DEBUG] Closing connection. 
+[2016-08-20 18:44:52 -0600] [50979] [DEBUG] Closing connection. 
+[2016-08-20 18:44:53 -0600] [50978] [DEBUG] GET /ad
+[2016-08-20 18:44:54 -0600] [50978] [DEBUG] GET /consent
+[2016-08-20 18:44:54 -0600] [50978] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:44:54 -0600] [50977] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:44:54 -0600] [50975] [DEBUG] GET /ad
+[2016-08-20 18:44:54 -0600] [50979] [DEBUG] GET /static/images/university.jpg
+[2016-08-20 18:44:55 -0600] [50975] [DEBUG] GET /exp
+2016-08-20 18:44:55,621 Accessing /exp: debugQZDKCQ debug5JN61A debug3CLP23 
+2016-08-20 18:44:55,625 given Counter({(0, 1): 0, (0, 3): 0, (0, 0): 0, (0, 2): 0}) chose (0, 2)
+[2016-08-20 18:44:55 -0600] [50978] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:44:55 -0600] [50979] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-20 18:44:55 -0600] [50977] [DEBUG] GET /static/js/psiturk.js
+[2016-08-20 18:44:55 -0600] [50975] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-20 18:44:55 -0600] [50979] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-20 18:44:55 -0600] [50978] [DEBUG] GET /static/js/config.js
+[2016-08-20 18:44:55 -0600] [50978] [DEBUG] GET /static/js/task.js
+[2016-08-20 18:44:55 -0600] [50975] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-20 18:44:55 -0600] [50975] [DEBUG] GET /sync/debug3CLP23%3Adebug5JN61A
+2016-08-20 18:44:55,894 GET /sync route with id: debug3CLP23:debug5JN61A
+[2016-08-20 18:44:55 -0600] [50975] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-20 18:44:55 -0600] [50979] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-20 18:44:55 -0600] [50979] [DEBUG] GET /stage.html
+[2016-08-20 18:44:55 -0600] [50975] [DEBUG] GET /debriefing.html
+[2016-08-20 18:44:55 -0600] [50975] [DEBUG] GET /static/images/shapes/instruct1-spiky.svg
+[2016-08-20 18:46:02 -0600] [50979] [DEBUG] Closing connection. 
+[2016-08-20 18:46:02 -0600] [50977] [DEBUG] Closing connection. 
+[2016-08-20 18:46:02 -0600] [50979] [DEBUG] GET /ppid
+[2016-08-20 18:46:02 -0600] [50979] [DEBUG] Closing connection. 
+[2016-08-20 18:46:02 -0600] [50977] [INFO] Parent changed, shutting down: <Worker 50977>
+[2016-08-20 18:46:02 -0600] [50975] [INFO] Parent changed, shutting down: <Worker 50975>
+[2016-08-20 18:46:02 -0600] [50977] [INFO] Worker exiting (pid: 50977)
+[2016-08-20 18:46:02 -0600] [50979] [INFO] Parent changed, shutting down: <Worker 50979>
+[2016-08-20 18:46:02 -0600] [50975] [INFO] Worker exiting (pid: 50975)
+[2016-08-20 18:46:02 -0600] [50979] [INFO] Worker exiting (pid: 50979)
+[2016-08-20 18:46:02 -0600] [50978] [DEBUG] Closing connection. 
+[2016-08-20 18:46:02 -0600] [50978] [INFO] Parent changed, shutting down: <Worker 50978>
+[2016-08-20 18:46:02 -0600] [50978] [INFO] Worker exiting (pid: 50978)
+[2016-08-20 18:46:31 -0600] [51039] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-20 18:46:31 -0600] [51039] [INFO] Starting gunicorn 19.6.0
+[2016-08-20 18:46:31 -0600] [51039] [DEBUG] Arbiter booted
+[2016-08-20 18:46:31 -0600] [51039] [INFO] Listening at: http://0.0.0.0:22362 (51039)
+[2016-08-20 18:46:31 -0600] [51039] [INFO] Using worker: sync
+[2016-08-20 18:46:31 -0600] [51043] [INFO] Booting worker with pid: 51043
+[2016-08-20 18:46:31 -0600] [51045] [INFO] Booting worker with pid: 51045
+[2016-08-20 18:46:31 -0600] [51046] [INFO] Booting worker with pid: 51046
+[2016-08-20 18:46:31 -0600] [51047] [INFO] Booting worker with pid: 51047
+[2016-08-20 18:46:31 -0600] [51039] [DEBUG] 4 workers
+2016-08-20 18:46:31,879 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:46:31,883 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:46:31,912 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:46:31,916 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:46:31,997 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:46:32,000 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:46:32,009 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:46:32,011 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-20 18:46:32 -0600] [51046] [DEBUG] Closing connection. 
+[2016-08-20 18:46:37 -0600] [51046] [DEBUG] Closing connection. 
+[2016-08-20 18:46:37 -0600] [51043] [DEBUG] Closing connection. 
+[2016-08-20 18:46:38 -0600] [51043] [DEBUG] Closing connection. 
+[2016-08-20 18:46:38 -0600] [51046] [DEBUG] GET /ad
+[2016-08-20 18:46:39 -0600] [51046] [DEBUG] GET /consent
+[2016-08-20 18:46:39 -0600] [51046] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:46:39 -0600] [51043] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:46:39 -0600] [51046] [DEBUG] GET /ad
+[2016-08-20 18:46:39 -0600] [51045] [DEBUG] GET /static/images/university.jpg
+[2016-08-20 18:46:41 -0600] [51043] [DEBUG] GET /exp
+2016-08-20 18:46:41,096 Accessing /exp: debugOTYB5N debug8KQPEJ debugI5CP2H 
+2016-08-20 18:46:41,103 given Counter({(0, 2): 1, (0, 1): 0, (0, 3): 0, (0, 0): 0}) chose (0, 0)
+[2016-08-20 18:46:41 -0600] [51046] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:46:41 -0600] [51047] [DEBUG] GET /static/js/psiturk.js
+[2016-08-20 18:46:41 -0600] [51043] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:46:41 -0600] [51045] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-20 18:46:41 -0600] [51043] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-20 18:46:41 -0600] [51046] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-20 18:46:41 -0600] [51043] [DEBUG] GET /static/js/config.js
+[2016-08-20 18:46:41 -0600] [51045] [DEBUG] GET /static/js/task.js
+[2016-08-20 18:46:41 -0600] [51047] [DEBUG] GET /static/json/trial-set0.json
+[2016-08-20 18:46:41 -0600] [51043] [DEBUG] GET /sync/debugI5CP2H%3Adebug8KQPEJ
+2016-08-20 18:46:41,268 GET /sync route with id: debugI5CP2H:debug8KQPEJ
+[2016-08-20 18:46:41 -0600] [51043] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-20 18:46:41 -0600] [51043] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-20 18:46:41 -0600] [51046] [DEBUG] GET /stage.html
+[2016-08-20 18:46:41 -0600] [51046] [DEBUG] GET /debriefing.html
+[2016-08-20 18:47:41 -0600] [51046] [DEBUG] Closing connection. 
+[2016-08-20 18:47:41 -0600] [51045] [DEBUG] Closing connection. 
+[2016-08-20 18:47:41 -0600] [51047] [DEBUG] GET /ppid
+[2016-08-20 18:47:41 -0600] [51047] [INFO] Parent changed, shutting down: <Worker 51047>
+[2016-08-20 18:47:41 -0600] [51045] [DEBUG] Closing connection. 
+[2016-08-20 18:47:41 -0600] [51046] [INFO] Parent changed, shutting down: <Worker 51046>
+[2016-08-20 18:47:41 -0600] [51047] [INFO] Worker exiting (pid: 51047)
+[2016-08-20 18:47:41 -0600] [51046] [INFO] Worker exiting (pid: 51046)
+[2016-08-20 18:47:41 -0600] [51045] [INFO] Parent changed, shutting down: <Worker 51045>
+[2016-08-20 18:47:41 -0600] [51045] [INFO] Worker exiting (pid: 51045)
+[2016-08-20 18:47:41 -0600] [51043] [DEBUG] Closing connection. 
+[2016-08-20 18:47:41 -0600] [51043] [INFO] Parent changed, shutting down: <Worker 51043>
+[2016-08-20 18:47:41 -0600] [51043] [INFO] Worker exiting (pid: 51043)
+[2016-08-20 18:47:42 -0600] [51098] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-20 18:47:42 -0600] [51098] [INFO] Starting gunicorn 19.6.0
+[2016-08-20 18:47:42 -0600] [51098] [DEBUG] Arbiter booted
+[2016-08-20 18:47:42 -0600] [51098] [INFO] Listening at: http://0.0.0.0:22362 (51098)
+[2016-08-20 18:47:42 -0600] [51098] [INFO] Using worker: sync
+[2016-08-20 18:47:42 -0600] [51102] [INFO] Booting worker with pid: 51102
+[2016-08-20 18:47:42 -0600] [51104] [INFO] Booting worker with pid: 51104
+[2016-08-20 18:47:42 -0600] [51105] [INFO] Booting worker with pid: 51105
+[2016-08-20 18:47:42 -0600] [51106] [INFO] Booting worker with pid: 51106
+[2016-08-20 18:47:42 -0600] [51098] [DEBUG] 4 workers
+2016-08-20 18:47:43,382 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:47:43,385 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:47:43,426 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:47:43,429 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:47:43,482 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:47:43,484 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:47:43,485 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:47:43,489 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-20 18:47:44 -0600] [51105] [DEBUG] Closing connection. 
+[2016-08-20 18:47:47 -0600] [51102] [DEBUG] Closing connection. 
+[2016-08-20 18:47:47 -0600] [51102] [DEBUG] Closing connection. 
+[2016-08-20 18:47:47 -0600] [51102] [DEBUG] Closing connection. 
+[2016-08-20 18:47:48 -0600] [51102] [DEBUG] GET /ad
+[2016-08-20 18:47:49 -0600] [51104] [DEBUG] GET /consent
+[2016-08-20 18:47:49 -0600] [51104] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:47:49 -0600] [51106] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:47:49 -0600] [51104] [DEBUG] GET /ad
+[2016-08-20 18:47:49 -0600] [51105] [DEBUG] GET /static/images/university.jpg
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /exp
+2016-08-20 18:47:50,572 Accessing /exp: debugNEZTJ5 debugV0U5N6 debugTJQM9H 
+2016-08-20 18:47:50,579 given Counter({(0, 0): 1, (0, 2): 1, (0, 1): 0, (0, 3): 0}) chose (0, 1)
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:47:50 -0600] [51102] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:47:50 -0600] [51104] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-20 18:47:50 -0600] [51106] [DEBUG] GET /static/js/psiturk.js
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /static/js/config.js
+[2016-08-20 18:47:50 -0600] [51104] [DEBUG] GET /static/js/task.js
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /sync/debugTJQM9H%3AdebugV0U5N6
+2016-08-20 18:47:50,769 GET /sync route with id: debugTJQM9H:debugV0U5N6
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-20 18:47:50 -0600] [51105] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-20 18:47:50 -0600] [51106] [DEBUG] GET /stage.html
+[2016-08-20 18:47:50 -0600] [51104] [DEBUG] GET /debriefing.html
+[2016-08-20 18:47:50 -0600] [51104] [DEBUG] GET /static/images/shapes/44-spiky.svg
+[2016-08-20 18:49:18 -0600] [51106] [DEBUG] Closing connection. 
+[2016-08-20 18:49:18 -0600] [51102] [DEBUG] Closing connection. 
+[2016-08-20 18:49:18 -0600] [51102] [DEBUG] Closing connection. 
+[2016-08-20 18:49:19 -0600] [51102] [DEBUG] GET /ad
+[2016-08-20 18:49:20 -0600] [51102] [DEBUG] GET /consent
+[2016-08-20 18:49:20 -0600] [51102] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:49:20 -0600] [51104] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:49:20 -0600] [51106] [DEBUG] GET /ad
+[2016-08-20 18:49:20 -0600] [51104] [DEBUG] GET /static/images/university.jpg
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /exp
+2016-08-20 18:49:21,483 Accessing /exp: debugHK07VZ debugY0U1TE debugH3XRBX 
+2016-08-20 18:49:21,488 given Counter({(0, 1): 1, (0, 0): 1, (0, 2): 1, (0, 3): 0}) chose (0, 3)
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:49:21 -0600] [51105] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:49:21 -0600] [51104] [DEBUG] GET /static/js/psiturk.js
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-20 18:49:21 -0600] [51105] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-20 18:49:21 -0600] [51105] [DEBUG] GET /static/js/config.js
+[2016-08-20 18:49:21 -0600] [51102] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /static/js/task.js
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /sync/debugH3XRBX%3AdebugY0U1TE
+2016-08-20 18:49:21,676 GET /sync route with id: debugH3XRBX:debugY0U1TE
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /stage.html
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /debriefing.html
+[2016-08-20 18:49:21 -0600] [51106] [DEBUG] GET /static/images/shapes/67-rounded.svg
+[2016-08-20 18:49:40 -0600] [51104] [DEBUG] GET /static/images/shapes/33-rounded.svg
+[2016-08-20 18:49:42 -0600] [51104] [DEBUG] GET /static/images/shapes/44-spiky.svg
+[2016-08-20 18:49:44 -0600] [51106] [DEBUG] GET /static/images/shapes/93-spiky.svg
+[2016-08-20 18:49:46 -0600] [51102] [DEBUG] GET /static/images/shapes/67-rounded.svg
+[2016-08-20 18:49:50 -0600] [51104] [DEBUG] GET /static/images/shapes/44-spiky.svg
+[2016-08-20 18:49:54 -0600] [51104] [DEBUG] GET /static/images/shapes/33-rounded.svg
+[2016-08-20 18:55:01 -0600] [51102] [DEBUG] Closing connection. 
+[2016-08-20 18:55:01 -0600] [51104] [DEBUG] Closing connection. 
+[2016-08-20 18:55:01 -0600] [51104] [DEBUG] GET /ppid
+[2016-08-20 18:55:01 -0600] [51105] [INFO] Parent changed, shutting down: <Worker 51105>
+[2016-08-20 18:55:01 -0600] [51104] [INFO] Parent changed, shutting down: <Worker 51104>
+[2016-08-20 18:55:01 -0600] [51106] [DEBUG] Closing connection. 
+[2016-08-20 18:55:01 -0600] [51105] [INFO] Worker exiting (pid: 51105)
+[2016-08-20 18:55:01 -0600] [51104] [INFO] Worker exiting (pid: 51104)
+[2016-08-20 18:55:01 -0600] [51106] [INFO] Parent changed, shutting down: <Worker 51106>
+[2016-08-20 18:55:01 -0600] [51106] [INFO] Worker exiting (pid: 51106)
+[2016-08-20 18:55:01 -0600] [51102] [DEBUG] Closing connection. 
+[2016-08-20 18:55:01 -0600] [51102] [INFO] Parent changed, shutting down: <Worker 51102>
+[2016-08-20 18:55:01 -0600] [51102] [INFO] Worker exiting (pid: 51102)
+[2016-08-20 18:55:02 -0600] [51181] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10282a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10282a668>
+  pre_fork: <function pre_fork at 0x10282a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10282a500>
+  pre_exec: <function pre_exec at 0x10282aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10282aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1028305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1028300c8>
+  post_request: <function post_request at 0x1028301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10282ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x102830320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10282a398>
+  worker_abort: <function worker_abort at 0x10282ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x102830488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-20 18:55:02 -0600] [51181] [INFO] Starting gunicorn 19.6.0
+[2016-08-20 18:55:02 -0600] [51181] [DEBUG] Arbiter booted
+[2016-08-20 18:55:02 -0600] [51181] [INFO] Listening at: http://0.0.0.0:22362 (51181)
+[2016-08-20 18:55:02 -0600] [51181] [INFO] Using worker: sync
+[2016-08-20 18:55:02 -0600] [51185] [INFO] Booting worker with pid: 51185
+[2016-08-20 18:55:02 -0600] [51187] [INFO] Booting worker with pid: 51187
+[2016-08-20 18:55:02 -0600] [51188] [INFO] Booting worker with pid: 51188
+[2016-08-20 18:55:02 -0600] [51189] [INFO] Booting worker with pid: 51189
+[2016-08-20 18:55:02 -0600] [51181] [DEBUG] 4 workers
+2016-08-20 18:55:03,321 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:55:03,324 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:55:03,387 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:55:03,390 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:55:03,449 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:55:03,452 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:55:03,467 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:55:03,469 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-20 18:55:04 -0600] [51189] [DEBUG] Closing connection. 
+[2016-08-20 18:55:05 -0600] [51188] [DEBUG] Closing connection. 
+[2016-08-20 18:55:05 -0600] [51187] [DEBUG] Closing connection. 
+[2016-08-20 18:55:06 -0600] [51187] [DEBUG] Closing connection. 
+[2016-08-20 18:55:07 -0600] [51189] [DEBUG] GET /ad
+[2016-08-20 18:55:08 -0600] [51189] [DEBUG] GET /consent
+[2016-08-20 18:55:08 -0600] [51185] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:55:08 -0600] [51189] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:55:08 -0600] [51189] [DEBUG] GET /ad
+[2016-08-20 18:55:08 -0600] [51188] [DEBUG] GET /static/images/university.jpg
+[2016-08-20 18:55:10 -0600] [51188] [DEBUG] GET /exp
+2016-08-20 18:55:10,017 Accessing /exp: debugU27GY7 debugRPRTAW debug9D5RVV 
+2016-08-20 18:55:10,023 given Counter({(0, 1): 1, (0, 3): 1, (0, 0): 1, (0, 2): 1}) chose (0, 0)
+[2016-08-20 18:55:10 -0600] [51187] [DEBUG] GET /static/js/psiturk.js
+[2016-08-20 18:55:10 -0600] [51185] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:55:10 -0600] [51188] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:55:10 -0600] [51188] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-20 18:55:10 -0600] [51188] [DEBUG] GET /static/js/config.js
+[2016-08-20 18:55:10 -0600] [51188] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-20 18:55:10 -0600] [51185] [DEBUG] GET /static/js/task.js
+[2016-08-20 18:55:10 -0600] [51189] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-20 18:55:10 -0600] [51187] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-20 18:55:10 -0600] [51187] [DEBUG] GET /sync/debug9D5RVV%3AdebugRPRTAW
+2016-08-20 18:55:10,210 GET /sync route with id: debug9D5RVV:debugRPRTAW
+[2016-08-20 18:55:10 -0600] [51187] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-20 18:55:10 -0600] [51187] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-20 18:55:10 -0600] [51187] [DEBUG] GET /stage.html
+[2016-08-20 18:55:10 -0600] [51187] [DEBUG] GET /debriefing.html
+[2016-08-20 18:56:15 -0600] [51188] [DEBUG] Closing connection. 
+[2016-08-20 18:56:15 -0600] [51185] [DEBUG] Closing connection. 
+[2016-08-20 18:56:15 -0600] [51189] [DEBUG] GET /ppid
+[2016-08-20 18:56:15 -0600] [51187] [INFO] Parent changed, shutting down: <Worker 51187>
+[2016-08-20 18:56:15 -0600] [51189] [INFO] Parent changed, shutting down: <Worker 51189>
+[2016-08-20 18:56:15 -0600] [51188] [INFO] Parent changed, shutting down: <Worker 51188>
+[2016-08-20 18:56:15 -0600] [51185] [DEBUG] Closing connection. 
+[2016-08-20 18:56:15 -0600] [51187] [INFO] Worker exiting (pid: 51187)
+[2016-08-20 18:56:15 -0600] [51189] [INFO] Worker exiting (pid: 51189)
+[2016-08-20 18:56:15 -0600] [51188] [INFO] Worker exiting (pid: 51188)
+[2016-08-20 18:56:15 -0600] [51185] [INFO] Parent changed, shutting down: <Worker 51185>
+[2016-08-20 18:56:15 -0600] [51185] [INFO] Worker exiting (pid: 51185)
+[2016-08-20 18:56:16 -0600] [51235] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-20 18:56:16 -0600] [51235] [INFO] Starting gunicorn 19.6.0
+[2016-08-20 18:56:16 -0600] [51235] [DEBUG] Arbiter booted
+[2016-08-20 18:56:16 -0600] [51235] [INFO] Listening at: http://0.0.0.0:22362 (51235)
+[2016-08-20 18:56:16 -0600] [51235] [INFO] Using worker: sync
+[2016-08-20 18:56:16 -0600] [51239] [INFO] Booting worker with pid: 51239
+[2016-08-20 18:56:16 -0600] [51241] [INFO] Booting worker with pid: 51241
+[2016-08-20 18:56:16 -0600] [51242] [INFO] Booting worker with pid: 51242
+[2016-08-20 18:56:16 -0600] [51243] [INFO] Booting worker with pid: 51243
+[2016-08-20 18:56:16 -0600] [51235] [DEBUG] 4 workers
+2016-08-20 18:56:17,101 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:56:17,104 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:56:17,141 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:56:17,146 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:56:17,185 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:56:17,190 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 18:56:17,196 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 18:56:17,199 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-20 18:56:17 -0600] [51239] [DEBUG] Closing connection. 
+[2016-08-20 18:57:58 -0600] [51242] [DEBUG] Closing connection. 
+[2016-08-20 18:57:58 -0600] [51239] [DEBUG] Closing connection. 
+[2016-08-20 18:57:58 -0600] [51242] [DEBUG] Closing connection. 
+[2016-08-20 18:57:59 -0600] [51242] [DEBUG] GET /ad
+[2016-08-20 18:58:00 -0600] [51243] [DEBUG] GET /consent
+[2016-08-20 18:58:00 -0600] [51241] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:58:00 -0600] [51243] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:58:00 -0600] [51242] [DEBUG] GET /ad
+[2016-08-20 18:58:00 -0600] [51243] [DEBUG] GET /static/images/university.jpg
+[2016-08-20 18:58:01 -0600] [51241] [DEBUG] GET /exp
+2016-08-20 18:58:01,563 Accessing /exp: debugO2NZAR debug6L05MA debugSWK1B4 
+2016-08-20 18:58:01,570 given Counter({(0, 0): 2, (0, 1): 1, (0, 3): 1, (0, 2): 1}) chose (0, 2)
+[2016-08-20 18:58:01 -0600] [51241] [DEBUG] GET /static/css/general.css
+[2016-08-20 18:58:01 -0600] [51242] [DEBUG] GET /static/js/psiturk.js
+[2016-08-20 18:58:01 -0600] [51239] [DEBUG] GET /static/js/utils.js
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /static/js/config.js
+[2016-08-20 18:58:01 -0600] [51241] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /static/js/task.js
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /sync/debugSWK1B4%3Adebug6L05MA
+2016-08-20 18:58:01,729 GET /sync route with id: debugSWK1B4:debug6L05MA
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /stage.html
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /debriefing.html
+[2016-08-20 18:58:01 -0600] [51243] [DEBUG] GET /static/images/shapes/44-spiky.svg
+[2016-08-20 18:58:04 -0600] [51243] [DEBUG] GET /static/images/shapes/93-spiky.svg
+[2016-08-20 18:58:06 -0600] [51243] [DEBUG] GET /static/images/shapes/67-rounded.svg
+[2016-08-20 18:58:09 -0600] [51243] [DEBUG] GET /static/images/shapes/33-rounded.svg
+[2016-08-20 18:58:11 -0600] [51243] [DEBUG] GET /static/images/shapes/44-spiky.svg
+[2016-08-20 18:58:12 -0600] [51243] [DEBUG] GET /static/images/shapes/93-spiky.svg
+[2016-08-20 18:58:14 -0600] [51239] [DEBUG] GET /static/images/shapes/67-rounded.svg
+[2016-08-20 18:58:16 -0600] [51241] [DEBUG] POST /inexp
+[2016-08-20 18:58:16 -0600] [51239] [DEBUG] PUT /sync/debugSWK1B4%3Adebug6L05MA
+2016-08-20 18:58:16,386 PUT /sync route with id: debugSWK1B4:debug6L05MA
+2016-08-20 18:58:16,386 Accessing /inexp
+[2016-08-20 18:58:16 -0600] [51242] [DEBUG] GET /static/images/shapes/1-spiky.svg
+2016-08-20 18:58:16,407 saved data for debugSWK1B4:debug6L05MA (current trial: 3)
+[2016-08-20 18:58:18 -0600] [51239] [DEBUG] GET /static/images/shapes/5-spiky.svg
+[2016-08-20 18:58:20 -0600] [51239] [DEBUG] GET /static/images/shapes/3-spiky.svg
+[2016-08-20 18:58:22 -0600] [51242] [DEBUG] GET /static/images/shapes/1-rounded.svg
+[2016-08-20 18:58:25 -0600] [51242] [DEBUG] GET /static/images/shapes/2-spiky.svg
+[2016-08-20 18:58:28 -0600] [51242] [DEBUG] GET /static/images/shapes/2-rounded.svg
+[2016-08-20 18:58:31 -0600] [51241] [DEBUG] GET /static/images/shapes/3-rounded.svg
+[2016-08-20 18:58:32 -0600] [51241] [DEBUG] GET /static/images/shapes/4-rounded.svg
+[2016-08-20 18:58:34 -0600] [51241] [DEBUG] GET /static/images/shapes/4-spiky.svg
+[2016-08-20 18:59:13 -0600] [51242] [DEBUG] Closing connection. 
+[2016-08-20 18:59:13 -0600] [51239] [DEBUG] Closing connection. 
+[2016-08-20 18:59:13 -0600] [51241] [DEBUG] GET /ppid
+[2016-08-20 18:59:13 -0600] [51241] [DEBUG] Closing connection. 
+[2016-08-20 18:59:13 -0600] [51239] [INFO] Parent changed, shutting down: <Worker 51239>
+[2016-08-20 18:59:13 -0600] [51242] [INFO] Parent changed, shutting down: <Worker 51242>
+[2016-08-20 18:59:13 -0600] [51243] [INFO] Parent changed, shutting down: <Worker 51243>
+[2016-08-20 18:59:13 -0600] [51239] [INFO] Worker exiting (pid: 51239)
+[2016-08-20 18:59:13 -0600] [51241] [INFO] Parent changed, shutting down: <Worker 51241>
+[2016-08-20 18:59:13 -0600] [51242] [INFO] Worker exiting (pid: 51242)
+[2016-08-20 18:59:13 -0600] [51243] [INFO] Worker exiting (pid: 51243)
+[2016-08-20 18:59:13 -0600] [51241] [INFO] Worker exiting (pid: 51241)
+[2016-08-20 19:01:07 -0600] [51298] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10302a938>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10302a668>
+  pre_fork: <function pre_fork at 0x10302a7d0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10302a500>
+  pre_exec: <function pre_exec at 0x10302aed8>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10302aaa0>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1030305f0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1030300c8>
+  post_request: <function post_request at 0x1030301b8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10302ac08>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x103030320>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10302a398>
+  worker_abort: <function worker_abort at 0x10302ad70>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x103030488>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-08-20 19:01:07 -0600] [51298] [INFO] Starting gunicorn 19.6.0
+[2016-08-20 19:01:07 -0600] [51298] [DEBUG] Arbiter booted
+[2016-08-20 19:01:07 -0600] [51298] [INFO] Listening at: http://0.0.0.0:22362 (51298)
+[2016-08-20 19:01:07 -0600] [51298] [INFO] Using worker: sync
+[2016-08-20 19:01:07 -0600] [51302] [INFO] Booting worker with pid: 51302
+[2016-08-20 19:01:07 -0600] [51304] [INFO] Booting worker with pid: 51304
+[2016-08-20 19:01:08 -0600] [51305] [INFO] Booting worker with pid: 51305
+[2016-08-20 19:01:08 -0600] [51298] [DEBUG] 4 workers
+[2016-08-20 19:01:08 -0600] [51306] [INFO] Booting worker with pid: 51306
+2016-08-20 19:01:08,504 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 19:01:08,507 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 19:01:08,634 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 19:01:08,636 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 19:01:08,660 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 19:01:08,662 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-08-20 19:01:08,663 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-08-20 19:01:08,666 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-08-20 19:01:09 -0600] [51305] [DEBUG] Closing connection. 
+[2016-08-20 19:01:10 -0600] [51305] [DEBUG] Closing connection. 
+[2016-08-20 19:01:10 -0600] [51304] [DEBUG] Closing connection. 
+[2016-08-20 19:01:11 -0600] [51306] [DEBUG] Closing connection. 
+[2016-08-20 19:01:12 -0600] [51302] [DEBUG] GET /ad
+[2016-08-20 19:01:13 -0600] [51302] [DEBUG] GET /consent
+[2016-08-20 19:01:13 -0600] [51302] [DEBUG] GET /static/js/utils.js
+[2016-08-20 19:01:13 -0600] [51306] [DEBUG] GET /static/css/general.css
+[2016-08-20 19:01:13 -0600] [51302] [DEBUG] GET /ad
+[2016-08-20 19:01:13 -0600] [51305] [DEBUG] GET /static/images/university.jpg
+[2016-08-20 19:01:14 -0600] [51305] [DEBUG] GET /exp
+2016-08-20 19:01:14,408 Accessing /exp: debugCZU674 debugRJ2X3N debugT9HJIP 
+2016-08-20 19:01:14,414 given Counter({(0, 0): 2, (0, 2): 2, (0, 1): 1, (0, 3): 1}) chose (0, 3)
+[2016-08-20 19:01:14 -0600] [51302] [DEBUG] GET /static/lib/seedrandom.js
+[2016-08-20 19:01:14 -0600] [51304] [DEBUG] GET /static/js/psiturk.js
+[2016-08-20 19:01:14 -0600] [51305] [DEBUG] GET /static/css/general.css
+[2016-08-20 19:01:14 -0600] [51305] [DEBUG] GET /static/js/task.js
+[2016-08-20 19:01:14 -0600] [51306] [DEBUG] GET /static/lib/underscore-min.js
+[2016-08-20 19:01:14 -0600] [51302] [DEBUG] GET /static/lib/backbone-min.js
+[2016-08-20 19:01:14 -0600] [51306] [DEBUG] GET /static/js/config.js
+[2016-08-20 19:01:14 -0600] [51306] [DEBUG] GET /static/json/trial-set-0.json
+[2016-08-20 19:01:14 -0600] [51306] [DEBUG] GET /sync/debugT9HJIP%3AdebugRJ2X3N
+2016-08-20 19:01:14,571 GET /sync route with id: debugT9HJIP:debugRJ2X3N
+[2016-08-20 19:01:14 -0600] [51306] [DEBUG] GET /instructions/instruct-1.html
+[2016-08-20 19:01:14 -0600] [51306] [DEBUG] GET /instructions/instruct-2.html
+[2016-08-20 19:01:14 -0600] [51304] [DEBUG] GET /stage.html
+[2016-08-20 19:01:14 -0600] [51304] [DEBUG] GET /debriefing.html
+[2016-08-20 19:01:14 -0600] [51306] [DEBUG] GET /static/images/shapes/67-rounded.svg
+[2016-08-20 19:01:17 -0600] [51306] [DEBUG] GET /static/images/shapes/93-spiky.svg
+[2016-08-20 19:01:19 -0600] [51304] [DEBUG] GET /static/images/shapes/33-rounded.svg
+[2016-08-20 19:01:21 -0600] [51304] [DEBUG] GET /static/images/shapes/44-spiky.svg
+[2016-08-20 19:01:22 -0600] [51304] [DEBUG] GET /static/images/shapes/67-rounded.svg
+[2016-08-20 19:01:25 -0600] [51304] [DEBUG] GET /static/images/shapes/93-spiky.svg
+[2016-08-20 19:01:26 -0600] [51304] [DEBUG] PUT /sync/debugT9HJIP%3AdebugRJ2X3N
+2016-08-20 19:01:26,452 PUT /sync route with id: debugT9HJIP:debugRJ2X3N
+[2016-08-20 19:01:26 -0600] [51305] [DEBUG] POST /inexp
+[2016-08-20 19:01:26 -0600] [51306] [DEBUG] GET /static/images/shapes/2-rounded.svg
+2016-08-20 19:01:26,455 Accessing /inexp
+2016-08-20 19:01:26,471 saved data for debugT9HJIP:debugRJ2X3N (current trial: 3)
+[2016-08-20 19:01:28 -0600] [51304] [DEBUG] GET /static/images/shapes/4-rounded.svg
+[2016-08-20 19:01:31 -0600] [51302] [DEBUG] GET /static/images/shapes/4-spiky.svg
+[2016-08-20 19:01:33 -0600] [51302] [DEBUG] GET /static/images/shapes/5-spiky.svg
+[2016-08-20 19:01:35 -0600] [51302] [DEBUG] GET /static/images/shapes/1-rounded.svg
+[2016-08-20 19:01:37 -0600] [51302] [DEBUG] GET /static/images/shapes/3-spiky.svg
+[2016-08-20 19:01:39 -0600] [51302] [DEBUG] GET /static/images/shapes/1-spiky.svg
+[2016-08-20 19:01:40 -0600] [51304] [DEBUG] GET /static/images/shapes/3-rounded.svg
+[2016-08-20 19:01:44 -0600] [51304] [DEBUG] GET /static/images/shapes/0-spiky.svg
+[2016-08-20 19:01:47 -0600] [51302] [DEBUG] GET /static/images/shapes/0-rounded.svg
+[2016-08-20 19:01:49 -0600] [51305] [DEBUG] GET /static/images/shapes/2-spiky.svg
+[2016-08-20 19:02:16 -0600] [51302] [DEBUG] Closing connection. 
+[2016-08-20 19:02:16 -0600] [51304] [DEBUG] Closing connection. 
+[2016-08-20 19:02:16 -0600] [51304] [DEBUG] GET /ppid
+[2016-08-20 19:02:16 -0600] [51302] [INFO] Parent changed, shutting down: <Worker 51302>
+[2016-08-20 19:02:16 -0600] [51304] [DEBUG] Closing connection. 
+[2016-08-20 19:02:16 -0600] [51306] [INFO] Parent changed, shutting down: <Worker 51306>
+[2016-08-20 19:02:16 -0600] [51306] [INFO] Worker exiting (pid: 51306)
+[2016-08-20 19:02:16 -0600] [51302] [INFO] Worker exiting (pid: 51302)
+[2016-08-20 19:02:16 -0600] [51304] [INFO] Parent changed, shutting down: <Worker 51304>
+[2016-08-20 19:02:16 -0600] [51304] [INFO] Worker exiting (pid: 51304)
+[2016-08-20 19:02:16 -0600] [51305] [DEBUG] Closing connection. 
+[2016-08-20 19:02:16 -0600] [51305] [INFO] Parent changed, shutting down: <Worker 51305>
+[2016-08-20 19:02:16 -0600] [51305] [INFO] Worker exiting (pid: 51305)
