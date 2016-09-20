@@ -26,10 +26,10 @@ function boolpercent(arr) {
 
 function setupExpEvents() {
     $(document).on("click", "#left-option", function() {
-            optionClicked();
+            optionClicked("#left-option");
     });
     $(document).on("click", "#right-option", function() {
-        optionClicked();
+        optionClicked("#right-option");
     });
     $(document).on("mouseenter", "#recenter-shape", function() {
         startTimer();

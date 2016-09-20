@@ -1,7 +1,7 @@
 [HIT Configuration]
 title = Rank three compressed images from best to worst.
 description = You will be shown several screens with three compressed images. Your task is to sort the images based on how well they reconstruct an original image. The experiment should take about 10 minutes. NOTE: you can only participate in ONE (1) experiment for credit.
-amt_keywords = psychology, image judgments
+amt_keywords = psychology, shapes judgments
 lifetime = 24
 us_only = false
 approve_requirement = 90

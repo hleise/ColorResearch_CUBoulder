@@ -155,12 +155,13 @@ button:active, .nextButton:active, .backButton:active {
 }
 
 #left-option, #right-option {
-    border: 8px solid black;
+    background-color: black;
     border-radius: 25px;
+    color: white;
     position: absolute;
 }
 
-#left-option, #right-option, #left-option-container, #right-option-container, #left-option-text, #right-option-text {
+#left-option, #right-option, #left-option-container, #right-option-container {
     height: 100px;
     width: 160px;
 }

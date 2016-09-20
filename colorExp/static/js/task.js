@@ -14,6 +14,8 @@ var $c = new Config(condition, counterbalance);
 // Initalize psiturk object
 var psiTurk = new PsiTurk(uniqueId, adServerLoc, mode);
 
+console.log(d3.lab(d3.rgb(218, 55, 67)));
+
 // All pages to be loaded
 var pages = [
     "instructions/instruct-1.html",
@@ -44,12 +46,24 @@ setupExpEvents();
  *************************/
 
 /* Handles when a word option is clicked */
-function optionClicked() {
+function optionClicked(optionID) {
+    assert(optionID == "#left-option" || optionID == "#right-option", "optionID is set to " + optionID + "and not #left-option or #right-option as expected");
     assert(isTrial == true || isTrial ==false, "isTrial is set to " + isTrial + "not true or false as expected.");
+    
     setStateDisplay("recenter");
 
     if (isTrial) {
+        psiTurk.recordTrialData({ // Record the response for this trial
+            'trialNum': expIterator,
+            'word': $(optionID + "-text").html(),
+            'color': $(optionID).css("background-color")
+            // start time,end time for the trial and for the experiment as a whole
+            // trialID
+            //
+        });
+
         expIterator++;
+
         if (expIterator >= $c.expTrials.length) {
             currentview = new Debriefing();
         } else {
@@ -62,7 +76,7 @@ function optionClicked() {
         if (instructionIterator >= $c.practiceTrials.length ) {
             instructionIterator = 0;
         }
-        
+
         setTestCase();
     }
 }
@@ -138,28 +152,28 @@ function setTestCase() {
 
     switch(counterbalance) {
         case "0":
-            $("#left-option").css("border-color", $c.expTrials[i].rgb1);
-            $("#right-option").css("border-color", $c.expTrials[i].rgb2);
-            $("#left-option-text").html($c.expTrials[i].word1);
-            $("#right-option-text").html($c.expTrials[i].word2);
+            $("#left-option").css("background-color", $c.expTrials[i].rgb1);
+            $("#right-option").css("background-color", $c.expTrials[i].rgb2);
+            $("#left-option").html($c.expTrials[i].word1);
+            $("#right-option").html($c.expTrials[i].word2);
             break;
         case "1":
-            $("#left-option").css("border-color", $c.expTrials[i].rgb2);
-            $("#right-option").css("border-color", $c.expTrials[i].rgb1);
-            $("#left-option-text").html($c.expTrials[i].word1);
-            $("#right-option-text").html($c.expTrials[i].word2);
+            $("#left-option").css("background-color", $c.expTrials[i].rgb2);
+            $("#right-option").css("background-color", $c.expTrials[i].rgb1);
+            $("#left-option").html($c.expTrials[i].word1);
+            $("#right-option").html($c.expTrials[i].word2);
             break;
         case "2":
-            $("#left-option").css("border-color", $c.expTrials[i].rgb1);
-            $("#right-option").css("border-color", $c.expTrials[i].rgb2);
-            $("#left-option-text").html($c.expTrials[i].word2);
-            $("#right-option-text").html($c.expTrials[i].word1);
+            $("#left-option").css("background-color", $c.expTrials[i].rgb1);
+            $("#right-option").css("background-color", $c.expTrials[i].rgb2);
+            $("#left-option").html($c.expTrials[i].word2);
+            $("#right-option").html($c.expTrials[i].word1);
             break;
         case "3":
-            $("#left-option").css("border-color", $c.expTrials[i].rgb2);
-            $("#right-option").css("border-color", $c.expTrials[i].rgb1);
-            $("#left-option-text").html($c.expTrials[i].word2);
-            $("#right-option-text").html($c.expTrials[i].word1);
+            $("#left-option").css("background-color", $c.expTrials[i].rgb2);
+            $("#right-option").css("background-color", $c.expTrials[i].rgb1);
+            $("#left-option").html($c.expTrials[i].word2);
+            $("#right-option").html($c.expTrials[i].word1);
             break;
         default:
             console.log("counterbalance is " + counterbalance + " and not in range (0, 3) as expected.");
@@ -247,7 +261,6 @@ var Debriefing = function() {
 $(window).load(function() {
     psiTurk.recordUnstructuredData("condition", condition);
     psiTurk.recordUnstructuredData("counterbalance", counterbalance);
-    psiTurk.recordUnstructuredData("experimentName", psiTurk.taskdata.get("experimentName"));
 
     psiTurk.doInstructions(
         instructionPages,
