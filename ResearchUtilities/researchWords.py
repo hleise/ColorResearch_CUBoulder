@@ -353,9 +353,7 @@ def main():
         ["viziki", "veziki"]
     ]
 
-    printList(spiky)
-    printRepeats(spiky)
-    numWords(spiky)
+    print(getWordList(spiky))
 
 # Prints an array of repeated words if any exist
 def printRepeats(wordList):
@@ -384,5 +382,8 @@ def numWords(wordList):
     for wordPair in wordList:
         numWords += 1
     print("%s words in list" %(numWords))
+
+def getWordList(wordList):
+    return wordList
 
 main()

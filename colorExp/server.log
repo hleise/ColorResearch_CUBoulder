@@ -3977,3 +3977,449 @@ TemplateNotFound: thanks.html
 [2016-09-20 17:01:56 -0600] [31689] [INFO] Worker exiting (pid: 31689)
 [2016-09-20 17:01:56 -0600] [31692] [INFO] Worker exiting (pid: 31692)
 [2016-09-20 17:01:56 -0600] [31691] [INFO] Worker exiting (pid: 31691)
+[2016-09-21 12:08:10 -0600] [3447] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10269ca28>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10269c758>
+  pre_fork: <function pre_fork at 0x10269c8c0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10269c5f0>
+  pre_exec: <function pre_exec at 0x1026a0050>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10269cb90>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1026a06e0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1026a01b8>
+  post_request: <function post_request at 0x1026a02a8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10269ccf8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x1026a0410>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10269c488>
+  worker_abort: <function worker_abort at 0x10269ce60>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x1026a0578>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-09-21 12:08:10 -0600] [3447] [INFO] Starting gunicorn 19.6.0
+[2016-09-21 12:08:10 -0600] [3447] [DEBUG] Arbiter booted
+[2016-09-21 12:08:10 -0600] [3447] [INFO] Listening at: http://0.0.0.0:22362 (3447)
+[2016-09-21 12:08:10 -0600] [3447] [INFO] Using worker: sync
+[2016-09-21 12:08:10 -0600] [3450] [INFO] Booting worker with pid: 3450
+[2016-09-21 12:08:10 -0600] [3453] [INFO] Booting worker with pid: 3453
+[2016-09-21 12:08:10 -0600] [3454] [INFO] Booting worker with pid: 3454
+[2016-09-21 12:08:10 -0600] [3455] [INFO] Booting worker with pid: 3455
+[2016-09-21 12:08:10 -0600] [3447] [DEBUG] 4 workers
+2016-09-21 12:08:11,744 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 12:08:11,753 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 12:08:12,038 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 12:08:12,042 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 12:08:12,046 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 12:08:12,050 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 12:08:12,098 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 12:08:12,103 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-09-21 12:08:12 -0600] [3450] [DEBUG] Closing connection. 
+[2016-09-21 12:08:14 -0600] [3453] [DEBUG] Closing connection. 
+[2016-09-21 12:08:14 -0600] [3455] [DEBUG] Closing connection. 
+[2016-09-21 12:08:14 -0600] [3455] [DEBUG] Closing connection. 
+[2016-09-21 12:08:15 -0600] [3454] [DEBUG] GET /ad
+[2016-09-21 12:08:19 -0600] [3453] [DEBUG] GET /consent
+[2016-09-21 12:08:19 -0600] [3455] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:08:19 -0600] [3450] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:08:19 -0600] [3450] [DEBUG] GET /ad
+[2016-09-21 12:08:19 -0600] [3454] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:08:20 -0600] [3454] [DEBUG] GET /exp
+2016-09-21 12:08:20,213 Accessing /exp: debugZF7STH debugV2IOHT debugS2BSME 
+2016-09-21 12:08:20,218 given Counter({(0, 1): 1, (0, 0): 1, (0, 3): 1, (1, 2): 0, (0, 2): 0, (1, 3): 0, (1, 0): 0, (1, 1): 0}) chose (1, 0)
+[2016-09-21 12:08:20 -0600] [3450] [DEBUG] GET /static/lib/seedrandom.js
+[2016-09-21 12:08:20 -0600] [3455] [DEBUG] GET /static/lib/underscore-min.js
+[2016-09-21 12:08:20 -0600] [3453] [DEBUG] GET /static/lib/backbone-min.js
+[2016-09-21 12:08:20 -0600] [3454] [DEBUG] GET /static/lib/d3.min.js
+[2016-09-21 12:08:20 -0600] [3455] [DEBUG] GET /static/js/psiturk.js
+[2016-09-21 12:08:20 -0600] [3450] [DEBUG] GET /static/js/config.js
+[2016-09-21 12:08:20 -0600] [3454] [DEBUG] GET /static/js/task.js
+[2016-09-21 12:08:20 -0600] [3455] [DEBUG] GET /static/json/trial-set-1.json
+[2016-09-21 12:08:20 -0600] [3455] [DEBUG] GET /sync/debugS2BSME%3AdebugV2IOHT
+2016-09-21 12:08:20,537 GET /sync route with id: debugS2BSME:debugV2IOHT
+[2016-09-21 12:08:20 -0600] [3454] [DEBUG] GET /instructions/instruct-1.html
+[2016-09-21 12:08:20 -0600] [3450] [DEBUG] GET /instructions/instruct-2.html
+[2016-09-21 12:08:20 -0600] [3455] [DEBUG] GET /stage.html
+[2016-09-21 12:08:20 -0600] [3455] [DEBUG] GET /debriefing.html
+[2016-09-21 12:08:23 -0600] [3455] [DEBUG] GET /static/lib/underscore-min.map
+[2016-09-21 12:11:27 -0600] [3455] [DEBUG] GET /consent
+[2016-09-21 12:11:27 -0600] [3450] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:11:27 -0600] [3453] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:11:27 -0600] [3454] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:11:27 -0600] [3453] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:11:27 -0600] [3455] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:11:27 -0600] [3455] [DEBUG] GET /ad
+[2016-09-21 12:11:27 -0600] [3450] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:11:28 -0600] [3455] [DEBUG] GET /exp
+[2016-09-21 12:11:28 -0600] [3450] [DEBUG] GET /static/js/config.js
+[2016-09-21 12:11:28 -0600] [3453] [DEBUG] GET /static/lib/underscore-min.map
+2016-09-21 12:11:28,387 Accessing /exp: debugZF7STH debugV2IOHT debugS2BSME 
+[2016-09-21 12:11:28 -0600] [3454] [DEBUG] GET /static/lib/underscore-min.js
+[2016-09-21 12:11:28 -0600] [3450] [DEBUG] GET /static/lib/d3.min.js
+[2016-09-21 12:11:28 -0600] [3453] [DEBUG] GET /static/lib/seedrandom.js
+[2016-09-21 12:11:28 -0600] [3454] [DEBUG] GET /static/js/task.js
+[2016-09-21 12:11:28 -0600] [3450] [DEBUG] GET /static/lib/backbone-min.js
+[2016-09-21 12:11:28 -0600] [3455] [DEBUG] GET /static/json/trial-set-1.json
+[2016-09-21 12:11:28 -0600] [3454] [DEBUG] GET /static/lib/seedrandom.js
+[2016-09-21 12:11:28 -0600] [3453] [DEBUG] GET /static/lib/underscore-min.js
+[2016-09-21 12:11:28 -0600] [3450] [DEBUG] GET /static/lib/backbone-min.js
+[2016-09-21 12:11:28 -0600] [3455] [DEBUG] GET /static/lib/d3.min.js
+[2016-09-21 12:11:28 -0600] [3450] [DEBUG] GET /static/js/task.js
+[2016-09-21 12:11:28 -0600] [3453] [DEBUG] GET /static/js/psiturk.js
+[2016-09-21 12:11:28 -0600] [3454] [DEBUG] GET /static/js/config.js
+[2016-09-21 12:11:28 -0600] [3453] [DEBUG] GET /sync/debugS2BSME%3AdebugV2IOHT
+2016-09-21 12:11:28,538 GET /sync route with id: debugS2BSME:debugV2IOHT
+[2016-09-21 12:11:28 -0600] [3453] [DEBUG] GET /instructions/instruct-1.html
+[2016-09-21 12:11:28 -0600] [3454] [DEBUG] GET /instructions/instruct-2.html
+[2016-09-21 12:11:28 -0600] [3450] [DEBUG] GET /stage.html
+[2016-09-21 12:11:28 -0600] [3454] [DEBUG] GET /debriefing.html
+[2016-09-21 12:11:31 -0600] [3454] [DEBUG] GET /static/lib/underscore-min.map
+[2016-09-21 12:14:28 -0600] [3450] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:14:28 -0600] [3455] [DEBUG] GET /consent
+[2016-09-21 12:14:28 -0600] [3454] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:14:28 -0600] [3453] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:14:28 -0600] [3454] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:14:28 -0600] [3455] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:14:28 -0600] [3455] [DEBUG] GET /ad
+[2016-09-21 12:14:28 -0600] [3454] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:14:30 -0600] [3455] [DEBUG] GET /exp
+[2016-09-21 12:14:30 -0600] [3450] [DEBUG] GET /static/json/trial-set-1.json
+2016-09-21 12:14:30,516 Accessing /exp: debugZF7STH debugV2IOHT debugS2BSME 
+[2016-09-21 12:14:30 -0600] [3450] [DEBUG] GET /static/lib/seedrandom.js
+[2016-09-21 12:14:30 -0600] [3453] [DEBUG] GET /static/lib/underscore-min.js
+[2016-09-21 12:14:30 -0600] [3454] [DEBUG] GET /static/lib/backbone-min.js
+[2016-09-21 12:14:30 -0600] [3450] [DEBUG] GET /static/lib/d3.min.js
+[2016-09-21 12:14:30 -0600] [3453] [DEBUG] GET /static/js/config.js
+[2016-09-21 12:14:30 -0600] [3450] [DEBUG] GET /static/js/task.js
+[2016-09-21 12:14:30 -0600] [3455] [DEBUG] GET /static/js/psiturk.js
+[2016-09-21 12:14:30 -0600] [3454] [DEBUG] GET /sync/debugS2BSME%3AdebugV2IOHT
+2016-09-21 12:14:30,728 GET /sync route with id: debugS2BSME:debugV2IOHT
+[2016-09-21 12:14:30 -0600] [3455] [DEBUG] GET /instructions/instruct-1.html
+[2016-09-21 12:14:30 -0600] [3455] [DEBUG] GET /instructions/instruct-2.html
+[2016-09-21 12:14:30 -0600] [3453] [DEBUG] GET /stage.html
+[2016-09-21 12:14:30 -0600] [3453] [DEBUG] GET /debriefing.html
+[2016-09-21 12:14:33 -0600] [3453] [DEBUG] GET /static/lib/underscore-min.map
+[2016-09-21 12:15:13 -0600] [3450] [DEBUG] Closing connection. 
+[2016-09-21 12:15:13 -0600] [3453] [DEBUG] Closing connection. 
+[2016-09-21 12:15:13 -0600] [3454] [DEBUG] GET /ppid
+[2016-09-21 12:15:13 -0600] [3450] [DEBUG] Closing connection. 
+[2016-09-21 12:15:13 -0600] [3454] [INFO] Parent changed, shutting down: <Worker 3454>
+[2016-09-21 12:15:13 -0600] [3453] [INFO] Parent changed, shutting down: <Worker 3453>
+[2016-09-21 12:15:13 -0600] [3455] [INFO] Parent changed, shutting down: <Worker 3455>
+[2016-09-21 12:15:13 -0600] [3455] [INFO] Worker exiting (pid: 3455)
+[2016-09-21 12:15:13 -0600] [3453] [INFO] Worker exiting (pid: 3453)
+[2016-09-21 12:15:13 -0600] [3454] [INFO] Worker exiting (pid: 3454)
+[2016-09-21 12:15:13 -0600] [3450] [INFO] Parent changed, shutting down: <Worker 3450>
+[2016-09-21 12:15:13 -0600] [3450] [INFO] Worker exiting (pid: 3450)
+[2016-09-21 12:15:44 -0600] [3558] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10260fa28>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10260f758>
+  pre_fork: <function pre_fork at 0x10260f8c0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10260f5f0>
+  pre_exec: <function pre_exec at 0x102613050>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10260fb90>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1026136e0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1026131b8>
+  post_request: <function post_request at 0x1026132a8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10260fcf8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x102613410>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10260f488>
+  worker_abort: <function worker_abort at 0x10260fe60>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x102613578>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-09-21 12:15:44 -0600] [3558] [INFO] Starting gunicorn 19.6.0
+[2016-09-21 12:15:44 -0600] [3558] [DEBUG] Arbiter booted
+[2016-09-21 12:15:44 -0600] [3558] [INFO] Listening at: http://0.0.0.0:22362 (3558)
+[2016-09-21 12:15:44 -0600] [3558] [INFO] Using worker: sync
+[2016-09-21 12:15:44 -0600] [3562] [INFO] Booting worker with pid: 3562
+[2016-09-21 12:15:44 -0600] [3564] [INFO] Booting worker with pid: 3564
+[2016-09-21 12:15:44 -0600] [3565] [INFO] Booting worker with pid: 3565
+[2016-09-21 12:15:45 -0600] [3566] [INFO] Booting worker with pid: 3566
+[2016-09-21 12:15:45 -0600] [3558] [DEBUG] 4 workers
+2016-09-21 12:15:45,701 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 12:15:45,705 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 12:15:45,831 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 12:15:45,835 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 12:15:45,873 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 12:15:45,877 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 12:15:45,955 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 12:15:45,958 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2016-09-21 12:15:46 -0600] [3566] [DEBUG] Closing connection. 
+[2016-09-21 12:15:48 -0600] [3566] [DEBUG] GET /consent
+[2016-09-21 12:15:48 -0600] [3565] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:15:48 -0600] [3562] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:15:48 -0600] [3564] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:15:48 -0600] [3564] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:15:48 -0600] [3566] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:15:48 -0600] [3566] [DEBUG] GET /ad
+[2016-09-21 12:15:48 -0600] [3562] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:15:50 -0600] [3562] [DEBUG] GET /exp
+[2016-09-21 12:15:50 -0600] [3564] [DEBUG] GET /static/json/trial-set-1.json
+2016-09-21 12:15:50,821 Accessing /exp: debugZF7STH debugV2IOHT debugS2BSME 
+[2016-09-21 12:15:50 -0600] [3564] [DEBUG] GET /static/js/psiturk.js
+[2016-09-21 12:15:50 -0600] [3566] [DEBUG] GET /static/lib/seedrandom.js
+[2016-09-21 12:15:50 -0600] [3566] [DEBUG] GET /static/lib/backbone-min.js
+[2016-09-21 12:15:50 -0600] [3565] [DEBUG] GET /static/js/config.js
+[2016-09-21 12:15:50 -0600] [3562] [DEBUG] GET /static/lib/underscore-min.js
+[2016-09-21 12:15:50 -0600] [3562] [DEBUG] GET /static/lib/d3.min.js
+[2016-09-21 12:15:50 -0600] [3565] [DEBUG] GET /static/js/task.js
+[2016-09-21 12:15:50 -0600] [3565] [DEBUG] GET /sync/debugS2BSME%3AdebugV2IOHT
+2016-09-21 12:15:50,969 GET /sync route with id: debugS2BSME:debugV2IOHT
+[2016-09-21 12:15:50 -0600] [3566] [DEBUG] GET /instructions/instruct-1.html
+[2016-09-21 12:15:50 -0600] [3566] [DEBUG] GET /instructions/instruct-2.html
+[2016-09-21 12:15:50 -0600] [3566] [DEBUG] GET /stage.html
+[2016-09-21 12:15:50 -0600] [3566] [DEBUG] GET /debriefing.html
+[2016-09-21 12:15:53 -0600] [3566] [DEBUG] GET /static/lib/underscore-min.map
+[2016-09-21 12:16:13 -0600] [3566] [DEBUG] GET /consent
+[2016-09-21 12:16:13 -0600] [3562] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:16:13 -0600] [3564] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:16:13 -0600] [3565] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:16:13 -0600] [3564] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:16:13 -0600] [3566] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:16:13 -0600] [3566] [DEBUG] GET /ad
+[2016-09-21 12:16:13 -0600] [3562] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:16:14 -0600] [3566] [DEBUG] GET /static/json/trial-set-1.json
+[2016-09-21 12:16:14 -0600] [3562] [DEBUG] GET /exp
+2016-09-21 12:16:14,595 Accessing /exp: debugZF7STH debugV2IOHT debugS2BSME 
+[2016-09-21 12:16:14 -0600] [3562] [DEBUG] GET /static/lib/seedrandom.js
+[2016-09-21 12:16:14 -0600] [3565] [DEBUG] GET /static/lib/underscore-min.js
+[2016-09-21 12:16:14 -0600] [3562] [DEBUG] GET /static/lib/backbone-min.js
+[2016-09-21 12:16:14 -0600] [3565] [DEBUG] GET /static/lib/d3.min.js
+[2016-09-21 12:16:14 -0600] [3562] [DEBUG] GET /static/js/config.js
+[2016-09-21 12:16:14 -0600] [3562] [DEBUG] GET /static/js/psiturk.js
+[2016-09-21 12:16:14 -0600] [3566] [DEBUG] GET /static/js/task.js
+[2016-09-21 12:16:14 -0600] [3566] [DEBUG] GET /sync/debugS2BSME%3AdebugV2IOHT
+2016-09-21 12:16:14,750 GET /sync route with id: debugS2BSME:debugV2IOHT
+[2016-09-21 12:16:14 -0600] [3566] [DEBUG] GET /instructions/instruct-1.html
+[2016-09-21 12:16:14 -0600] [3566] [DEBUG] GET /instructions/instruct-2.html
+[2016-09-21 12:16:14 -0600] [3566] [DEBUG] GET /stage.html
+[2016-09-21 12:16:14 -0600] [3566] [DEBUG] GET /debriefing.html
+[2016-09-21 12:16:19 -0600] [3564] [DEBUG] GET /static/lib/underscore-min.map
+[2016-09-21 12:18:32 -0600] [3562] [DEBUG] GET /consent
+[2016-09-21 12:18:32 -0600] [3566] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:18:32 -0600] [3565] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:18:32 -0600] [3564] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:18:32 -0600] [3564] [DEBUG] GET /static/js/utils.js
+[2016-09-21 12:18:32 -0600] [3565] [DEBUG] GET /static/css/general.css
+[2016-09-21 12:18:32 -0600] [3565] [DEBUG] GET /ad
+[2016-09-21 12:18:32 -0600] [3566] [DEBUG] GET /static/images/university.jpg
+[2016-09-21 12:18:33 -0600] [3566] [DEBUG] GET /exp
+[2016-09-21 12:18:33 -0600] [3562] [DEBUG] GET /static/json/trial-set-1.json
+2016-09-21 12:18:33,703 Accessing /exp: debugZF7STH debugV2IOHT debugS2BSME 
+[2016-09-21 12:18:33 -0600] [3562] [DEBUG] GET /static/lib/underscore-min.js
+[2016-09-21 12:18:33 -0600] [3565] [DEBUG] GET /static/js/psiturk.js
+[2016-09-21 12:18:33 -0600] [3564] [DEBUG] GET /static/lib/backbone-min.js
+[2016-09-21 12:18:33 -0600] [3562] [DEBUG] GET /static/js/config.js
+[2016-09-21 12:18:33 -0600] [3564] [DEBUG] GET /static/lib/d3.min.js
+[2016-09-21 12:18:33 -0600] [3566] [DEBUG] GET /static/lib/seedrandom.js
+[2016-09-21 12:18:33 -0600] [3564] [DEBUG] GET /static/js/task.js
+[2016-09-21 12:18:33 -0600] [3565] [DEBUG] GET /sync/debugS2BSME%3AdebugV2IOHT
+2016-09-21 12:18:33,833 GET /sync route with id: debugS2BSME:debugV2IOHT
+[2016-09-21 12:18:33 -0600] [3566] [DEBUG] GET /instructions/instruct-1.html
+[2016-09-21 12:18:33 -0600] [3564] [DEBUG] GET /instructions/instruct-2.html
+[2016-09-21 12:18:33 -0600] [3564] [DEBUG] GET /stage.html
+[2016-09-21 12:18:33 -0600] [3562] [DEBUG] GET /debriefing.html
+[2016-09-21 12:18:36 -0600] [3562] [DEBUG] GET /static/lib/underscore-min.map
+[2016-09-21 13:03:25 -0600] [3558] [INFO] Handling signal: hup
+[2016-09-21 13:03:25 -0600] [3558] [INFO] Hang up: Master
+[2016-09-21 13:03:25 -0600] [3558] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x10260fa28>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x10260f758>
+  pre_fork: <function pre_fork at 0x10260f8c0>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 4
+  proc_name: psiturk_experiment_server
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x10260f5f0>
+  pre_exec: <function pre_exec at 0x102613050>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x10260fb90>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x1026136e0>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1026131b8>
+  post_request: <function post_request at 0x1026132a8>
+  user: 501
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x10260fcf8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x102613410>
+  chdir: /Users/Hunter/Desktop/Research/ColorResearch_CUBoulder/colorExp
+  paste: None
+  default_proc_name: gunicorn
+  errorlog: server.log
+  loglevel: debug
+  capture_output: False
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x10260f488>
+  worker_abort: <function worker_abort at 0x10260fe60>
+  bind: ['0.0.0.0:22362']
+  raw_env: []
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x102613578>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2016-09-21 13:03:25 -0600] [3959] [INFO] Booting worker with pid: 3959
+[2016-09-21 13:03:25 -0600] [3960] [INFO] Booting worker with pid: 3960
+[2016-09-21 13:03:25 -0600] [3961] [INFO] Booting worker with pid: 3961
+[2016-09-21 13:03:25 -0600] [3962] [INFO] Booting worker with pid: 3962
+2016-09-21 13:03:26,564 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 13:03:26,564 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 13:03:26,564 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 13:03:26,568 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 13:03:26,568 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 13:03:26,568 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2016-09-21 13:03:26,568 Hmm... it seems no custom code (custom.py) associated                     with this project.
+2016-09-21 13:03:26,572 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js

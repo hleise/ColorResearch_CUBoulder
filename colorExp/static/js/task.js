@@ -14,7 +14,7 @@ var $c = new Config(condition, counterbalance);
 // Initalize psiturk object
 var psiTurk = new PsiTurk(uniqueId, adServerLoc, mode);
 
-console.log(d3.lab(d3.rgb(218, 55, 67)));
+console.log(d3.rgb(d3.lab(44.55407937199547, 62.70600838856094, 32.35534334585406)));
 
 // All pages to be loaded
 var pages = [

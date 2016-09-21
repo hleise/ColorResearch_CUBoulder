@@ -2,7 +2,7 @@ from random import randint
 import math
 
 def main():
-    for num in range (0, 4):
+    for num in range (0, 126):
         anchorList = []
         numAnchors = randint(5, 10) * 2
         for anchor in range (0, numAnchors):
