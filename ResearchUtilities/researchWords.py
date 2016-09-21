@@ -353,8 +353,6 @@ def main():
         ["viziki", "veziki"]
     ]
 
-    print(getWordList(spiky))
-
 # Prints an array of repeated words if any exist
 def printRepeats(wordList):
     wordList2 = []
