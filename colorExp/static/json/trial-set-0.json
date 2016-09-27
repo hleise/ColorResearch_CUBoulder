@@ -1,112 +1,930 @@
 {
-	"practiceTrials": [
-		{
-			"shape_filename": "33-rounded.svg",
-			"word1": "Bouba",
-			"word2": "Boaba",
-			"rgb1": "#da3743",
-			"rgb2": "#4285F4"
-		},
-		{
-			"shape_filename": "44-spiky.svg",
-			"word1": "Maluma",
-			"word2": "Maloma",
-			"rgb1": "#0F9D58",
-			"rgb2": "#0F9D58"
-		},
-		{
-			"shape_filename": "67-rounded.svg",
-			"word1": "Takete",
-			"word2": "Tekete",
-			"rgb1": "#F4B400",
-			"rgb2": "#F4B400"
-		},
-		{
-			"shape_filename": "93-spiky.svg",
-			"word1": "Kiki",
-			"word2": "Kekee",
-			"rgb1": "#DB4437",
-			"rgb2": "#DB4437"
-		}
-	],
-
-	"expTrials": [
-		{
-			"shape_filename": "0-rounded.svg",
-			"word1": "word 4.1",
-			"word2": "word 4.2",
-			"rgb1": "#4285F4",
-			"rgb2": "#4285F4"
-		},
-		{
-			"shape_filename": "1-rounded.svg",
-			"word1": "word 5.1",
-			"word2": "word 5.2",
-			"rgb1": "#0F9D58",
-			"rgb2": "#0F9D58"
-		},
-		{
-			"shape_filename": "2-rounded.svg",
-			"word1": "word 6.1",
-			"word2": "word 6.2",
-			"rgb1": "#F4B400",
-			"rgb2": "#F4B400"
-		},
-		{
-			"shape_filename": "3-rounded.svg",
-			"word1": "word 7.1",
-			"word2": "word 7.2",
-			"rgb1": "#DB4437",
-			"rgb2": "#DB4437"
-		},
-		{
-			"shape_filename": "4-rounded.svg",
-			"word1": "word 8.1",
-			"word2": "word 8.2",
-			"rgb1": "#4285F4",
-			"rgb2": "#4285F4"
-		},
-		{
-			"shape_filename": "0-spiky.svg",
-			"word1": "word 9.1",
-			"word2": "word 9.2",
-			"rgb1": "#0F9D58",
-			"rgb2": "#0F9D58"
-		},
-		{
-			"shape_filename": "1-spiky.svg",
-			"word1": "word 10.1",
-			"word2": "word 10.2",
-			"rgb1": "#F4B400",
-			"rgb2": "#F4B400"
-		},
-		{
-			"shape_filename": "2-spiky.svg",
-			"word1": "word 11.1",
-			"word2": "word 11.2",
-			"rgb1": "#DB4437",
-			"rgb2": "#DB4437"
-		},
-		{
-			"shape_filename": "3-spiky.svg",
-			"word1": "word 12.1",
-			"word2": "word 12.2",
-			"rgb1": "#4285F4",
-			"rgb2": "#4285F4"
-		},
-		{
-			"shape_filename": "4-spiky.svg",
-			"word1": "word 13.1",
-			"word2": "word 13.2",
-			"rgb1": "#0F9D58",
-			"rgb2": "#0F9D58"
-		},
-		{
-			"shape_filename": "5-spiky.svg",
-			"word1": "word 14.1",
-			"word2": "word 14.2",
-			"rgb1": "#F4B400",
-			"rgb2": "#F4B400"
-		}
-	]
+    "expTrials": [
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#da3743",
+            "shape_filename": "16-spiky.svg",
+            "word1": "terazi",
+            "word2": "tarazi"
+        },
+        {
+            "rgb1": "#b83e4c",
+            "rgb2": "#da3743",
+            "shape_filename": "11-spiky.svg",
+            "word1": "kekeke",
+            "word2": "kakeke"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#ba3e41",
+            "shape_filename": "1-spiky.svg",
+            "word1": "kava",
+            "word2": "vaka"
+        },
+        {
+            "rgb1": "#bb3e36",
+            "rgb2": "#da3743",
+            "shape_filename": "42-spiky.svg",
+            "word1": "zizato",
+            "word2": "zizatu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#bc3d2b",
+            "shape_filename": "91-spiky.svg",
+            "word1": "zazazu",
+            "word2": "zazazo"
+        },
+        {
+            "rgb1": "#bd3d1f",
+            "rgb2": "#da3743",
+            "shape_filename": "112-spiky.svg",
+            "word1": "kakio",
+            "word2": "kekio"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#c0344c",
+            "shape_filename": "55-spiky.svg",
+            "word1": "zizu",
+            "word2": "zuzi"
+        },
+        {
+            "rgb1": "#c13442",
+            "rgb2": "#da3743",
+            "shape_filename": "109-spiky.svg",
+            "word1": "akitu",
+            "word2": "akito"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#c33337",
+            "shape_filename": "77-spiky.svg",
+            "word1": "kuvu",
+            "word2": "vuku"
+        },
+        {
+            "rgb1": "#c4332c",
+            "rgb2": "#da3743",
+            "shape_filename": "74-spiky.svg",
+            "word1": "tikaza",
+            "word2": "tekaza"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#c43320",
+            "shape_filename": "9-spiky.svg",
+            "word1": "kazio",
+            "word2": "kezio"
+        },
+        {
+            "rgb1": "#c8274c",
+            "rgb2": "#da3743",
+            "shape_filename": "70-spiky.svg",
+            "word1": "kutu",
+            "word2": "tuku"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#c92642",
+            "shape_filename": "110-spiky.svg",
+            "word1": "titaku",
+            "word2": "titako"
+        },
+        {
+            "rgb1": "#ca2638",
+            "rgb2": "#da3743",
+            "shape_filename": "121-spiky.svg",
+            "word1": "teze",
+            "word2": "zete"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#cb252d",
+            "shape_filename": "61-spiky.svg",
+            "word1": "kako",
+            "word2": "koka"
+        },
+        {
+            "rgb1": "#cc2421",
+            "rgb2": "#da3743",
+            "shape_filename": "93-spiky.svg",
+            "word1": "tevete",
+            "word2": "tavete"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#cf104d",
+            "shape_filename": "45-spiky.svg",
+            "word1": "kovo",
+            "word2": "voko"
+        },
+        {
+            "rgb1": "#d10e43",
+            "rgb2": "#da3743",
+            "shape_filename": "59-spiky.svg",
+            "word1": "tikazi",
+            "word2": "takazi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d20c38",
+            "shape_filename": "119-spiky.svg",
+            "word1": "kikazu",
+            "word2": "kikazo"
+        },
+        {
+            "rgb1": "#d30b2e",
+            "rgb2": "#da3743",
+            "shape_filename": "2-spiky.svg",
+            "word1": "vavo",
+            "word2": "vova"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d30a22",
+            "shape_filename": "84-spiky.svg",
+            "word1": "titaza",
+            "word2": "tetaza"
+        },
+        {
+            "rgb1": "#d7004d",
+            "rgb2": "#da3743",
+            "shape_filename": "116-spiky.svg",
+            "word1": "tito",
+            "word2": "toti"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d80043",
+            "shape_filename": "123-spiky.svg",
+            "word1": "tava",
+            "word2": "vata"
+        },
+        {
+            "rgb1": "#d90039",
+            "rgb2": "#da3743",
+            "shape_filename": "15-spiky.svg",
+            "word1": "zizazo",
+            "word2": "zizazu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#da002e",
+            "shape_filename": "53-spiky.svg",
+            "word1": "keve",
+            "word2": "veke"
+        },
+        {
+            "rgb1": "#db0023",
+            "rgb2": "#da3743",
+            "shape_filename": "62-spiky.svg",
+            "word1": "zavazu",
+            "word2": "zavazo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#c04551",
+            "shape_filename": "105-spiky.svg",
+            "word1": "kakivu",
+            "word2": "kakivo"
+        },
+        {
+            "rgb1": "#c14547",
+            "rgb2": "#da3743",
+            "shape_filename": "28-spiky.svg",
+            "word1": "viziki",
+            "word2": "veziki"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#c3443c",
+            "shape_filename": "118-spiky.svg",
+            "word1": "kakiti",
+            "word2": "kekiti"
+        },
+        {
+            "rgb1": "#c44431",
+            "rgb2": "#da3743",
+            "shape_filename": "33-spiky.svg",
+            "word1": "koto",
+            "word2": "toko"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#c54425",
+            "shape_filename": "51-spiky.svg",
+            "word1": "kezeke",
+            "word2": "kazeke"
+        },
+        {
+            "rgb1": "#c83c52",
+            "rgb2": "#da3743",
+            "shape_filename": "47-spiky.svg",
+            "word1": "tevazi",
+            "word2": "tezazi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#da3743",
+            "shape_filename": "34-spiky.svg",
+            "word1": "busu",
+            "word2": "subu"
+        },
+        {
+            "rgb1": "#c93b47",
+            "rgb2": "#da3743",
+            "shape_filename": "41-spiky.svg",
+            "word1": "gamana",
+            "word2": "gemana"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#ca3b3d",
+            "shape_filename": "18-spiky.svg",
+            "word1": "masubi",
+            "word2": "masobi"
+        },
+        {
+            "rgb1": "#cb3a32",
+            "rgb2": "#da3743",
+            "shape_filename": "35-spiky.svg",
+            "word1": "lumu",
+            "word2": "mulu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#cc3a26",
+            "shape_filename": "92-spiky.svg",
+            "word1": "babo",
+            "word2": "boba"
+        },
+        {
+            "rgb1": "#cf3052",
+            "rgb2": "#da3743",
+            "shape_filename": "50-spiky.svg",
+            "word1": "mebudo",
+            "word2": "mabudo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d12f48",
+            "shape_filename": "101-spiky.svg",
+            "word1": "pusu",
+            "word2": "supu"
+        },
+        {
+            "rgb1": "#d22f3d",
+            "rgb2": "#da3743",
+            "shape_filename": "128-spiky.svg",
+            "word1": "panumo",
+            "word2": "panomo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d32e32",
+            "shape_filename": "86-spiky.svg",
+            "word1": "lisubi",
+            "word2": "lasubi"
+        },
+        {
+            "rgb1": "#d42e27",
+            "rgb2": "#da3743",
+            "shape_filename": "68-spiky.svg",
+            "word1": "denono",
+            "word2": "danono"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d71f53",
+            "shape_filename": "81-spiky.svg",
+            "word1": "bodo",
+            "word2": "dobo"
+        },
+        {
+            "rgb1": "#d91d48",
+            "rgb2": "#da3743",
+            "shape_filename": "130-spiky.svg",
+            "word1": "limubi",
+            "word2": "lamubi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#da1c3e",
+            "shape_filename": "69-spiky.svg",
+            "word1": "dono",
+            "word2": "nodo"
+        },
+        {
+            "rgb1": "#db1b33",
+            "rgb2": "#da3743",
+            "shape_filename": "52-spiky.svg",
+            "word1": "bopo",
+            "word2": "pobo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#db1b28",
+            "shape_filename": "43-spiky.svg",
+            "word1": "goso",
+            "word2": "sogo"
+        },
+        {
+            "rgb1": "#df0053",
+            "rgb2": "#da3743",
+            "shape_filename": "71-spiky.svg",
+            "word1": "mogubi",
+            "word2": "bagubi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e00049",
+            "shape_filename": "76-spiky.svg",
+            "word1": "maluma",
+            "word2": "maloma"
+        },
+        {
+            "rgb1": "#e1003f",
+            "rgb2": "#da3743",
+            "shape_filename": "89-spiky.svg",
+            "word1": "dodu",
+            "word2": "dudo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e20034",
+            "shape_filename": "0-spiky.svg",
+            "word1": "mimu",
+            "word2": "mumi"
+        },
+        {
+            "rgb1": "#e30029",
+            "rgb2": "#da3743",
+            "shape_filename": "13-spiky.svg",
+            "word1": "gusu",
+            "word2": "sugu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#c74c57",
+            "shape_filename": "30-spiky.svg",
+            "word1": "pabumo",
+            "word2": "pabomo"
+        },
+        {
+            "rgb1": "#c94c4d",
+            "rgb2": "#da3743",
+            "shape_filename": "36-spiky.svg",
+            "word1": "ninu",
+            "word2": "nuni"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#ca4b42",
+            "shape_filename": "103-spiky.svg",
+            "word1": "ganumi",
+            "word2": "ganomi"
+        },
+        {
+            "rgb1": "#cb4b37",
+            "rgb2": "#da3743",
+            "shape_filename": "63-spiky.svg",
+            "word1": "padumo",
+            "word2": "padomo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#cc4b2b",
+            "shape_filename": "66-spiky.svg",
+            "word1": "demono",
+            "word2": "damono"
+        },
+        {
+            "rgb1": "#cf4358",
+            "rgb2": "#da3743",
+            "shape_filename": "95-spiky.svg",
+            "word1": "lilu",
+            "word2": "luli"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d1434d",
+            "shape_filename": "96-spiky.svg",
+            "word1": "dapola",
+            "word2": "dapula"
+        },
+        {
+            "rgb1": "#d24242",
+            "rgb2": "#da3743",
+            "shape_filename": "88-spiky.svg",
+            "word1": "moso",
+            "word2": "somo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d34237",
+            "shape_filename": "3-spiky.svg",
+            "word1": "lunu",
+            "word2": "nulu"
+        },
+        {
+            "rgb1": "#d4412b",
+            "rgb2": "#da3743",
+            "shape_filename": "79-spiky.svg",
+            "word1": "gasumi",
+            "word2": "gasomi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d73858",
+            "shape_filename": "17-spiky.svg",
+            "word1": "bapoma",
+            "word2": "bapuma"
+        },
+        {
+            "rgb1": "#d9384e",
+            "rgb2": "#da3743",
+            "shape_filename": "127-spiky.svg",
+            "word1": "gimi",
+            "word2": "migi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#da3743",
+            "shape_filename": "120-rounded.svg",
+            "word1": "gumu",
+            "word2": "mugu"
+        },
+        {
+            "rgb1": "#db3738",
+            "rgb2": "#da3743",
+            "shape_filename": "73-rounded.svg",
+            "word1": "bapa",
+            "word2": "paba"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#dc362c",
+            "shape_filename": "4-rounded.svg",
+            "word1": "lono",
+            "word2": "nolo"
+        },
+        {
+            "rgb1": "#df2a59",
+            "rgb2": "#da3743",
+            "shape_filename": "57-rounded.svg",
+            "word1": "nosegi",
+            "word2": "nasegi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e1294e",
+            "shape_filename": "64-rounded.svg",
+            "word1": "lini",
+            "word2": "nili"
+        },
+        {
+            "rgb1": "#e22844",
+            "rgb2": "#da3743",
+            "shape_filename": "104-rounded.svg",
+            "word1": "masuni",
+            "word2": "masoni"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e32739",
+            "shape_filename": "80-rounded.svg",
+            "word1": "poso",
+            "word2": "sopo"
+        },
+        {
+            "rgb1": "#e4262d",
+            "rgb2": "#da3743",
+            "shape_filename": "25-rounded.svg",
+            "word1": "dulu",
+            "word2": "ludu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e70f59",
+            "shape_filename": "31-rounded.svg",
+            "word1": "basa",
+            "word2": "saba"
+        },
+        {
+            "rgb1": "#e80d4f",
+            "rgb2": "#da3743",
+            "shape_filename": "83-rounded.svg",
+            "word1": "bumu",
+            "word2": "mubu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e90b44",
+            "shape_filename": "48-rounded.svg",
+            "word1": "lusu",
+            "word2": "sulu"
+        },
+        {
+            "rgb1": "#ea0839",
+            "rgb2": "#da3743",
+            "shape_filename": "72-rounded.svg",
+            "word1": "babi",
+            "word2": "biba"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#eb072e",
+            "shape_filename": "99-rounded.svg",
+            "word1": "badota",
+            "word2": "baduta"
+        },
+        {
+            "rgb1": "#cf535d",
+            "rgb2": "#da3743",
+            "shape_filename": "58-rounded.svg",
+            "word1": "gunu",
+            "word2": "nugu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d15253",
+            "shape_filename": "49-rounded.svg",
+            "word1": "manuma",
+            "word2": "manoma"
+        },
+        {
+            "rgb1": "#d25248",
+            "rgb2": "#da3743",
+            "shape_filename": "65-rounded.svg",
+            "word1": "lomo",
+            "word2": "molo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d3523c",
+            "shape_filename": "94-rounded.svg",
+            "word1": "pasumo",
+            "word2": "pasomo"
+        },
+        {
+            "rgb1": "#d45130",
+            "rgb2": "#da3743",
+            "shape_filename": "5-rounded.svg",
+            "word1": "babota",
+            "word2": "babuta"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d74a5e",
+            "shape_filename": "39-rounded.svg",
+            "word1": "lasa",
+            "word2": "sala"
+        },
+        {
+            "rgb1": "#d94a53",
+            "rgb2": "#da3743",
+            "shape_filename": "29-rounded.svg",
+            "word1": "maduma",
+            "word2": "madoma"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#da4948",
+            "shape_filename": "32-rounded.svg",
+            "word1": "musu",
+            "word2": "sumu"
+        },
+        {
+            "rgb1": "#db493d",
+            "rgb2": "#da3743",
+            "shape_filename": "38-rounded.svg",
+            "word1": "gagumi",
+            "word2": "gagomi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#dc4931",
+            "shape_filename": "124-rounded.svg",
+            "word1": "gono",
+            "word2": "nogo"
+        },
+        {
+            "rgb1": "#df405e",
+            "rgb2": "#da3743",
+            "shape_filename": "21-rounded.svg",
+            "word1": "mupu",
+            "word2": "pumu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e14054",
+            "shape_filename": "12-rounded.svg",
+            "word1": "gago",
+            "word2": "goga"
+        },
+        {
+            "rgb1": "#e23f49",
+            "rgb2": "#da3743",
+            "shape_filename": "82-rounded.svg",
+            "word1": "nonu",
+            "word2": "nuno"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e33e3e",
+            "shape_filename": "54-rounded.svg",
+            "word1": "dadola",
+            "word2": "dadula"
+        },
+        {
+            "rgb1": "#e43e32",
+            "rgb2": "#da3743",
+            "shape_filename": "87-rounded.svg",
+            "word1": "lidubi",
+            "word2": "ladubi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e7335f",
+            "shape_filename": "27-rounded.svg",
+            "word1": "gadumi",
+            "word2": "gadomi"
+        },
+        {
+            "rgb1": "#e93254",
+            "rgb2": "#da3743",
+            "shape_filename": "126-rounded.svg",
+            "word1": "gulu",
+            "word2": "lugu"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#ea3249",
+            "shape_filename": "100-rounded.svg",
+            "word1": "masusi",
+            "word2": "masosi"
+        },
+        {
+            "rgb1": "#eb313e",
+            "rgb2": "#da3743",
+            "shape_filename": "125-rounded.svg",
+            "word1": "damola",
+            "word2": "damula"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#da3743",
+            "shape_filename": "10-rounded.svg",
+            "word1": "kivi",
+            "word2": "viki"
+        },
+        {
+            "rgb1": "#ec3033",
+            "rgb2": "#da3743",
+            "shape_filename": "131-rounded.svg",
+            "word1": "kaki",
+            "word2": "kika"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#ef205f",
+            "shape_filename": "113-rounded.svg",
+            "word1": "akivu",
+            "word2": "akivo"
+        },
+        {
+            "rgb1": "#f01e55",
+            "rgb2": "#da3743",
+            "shape_filename": "90-rounded.svg",
+            "word1": "akizu",
+            "word2": "akizo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#f21d4a",
+            "shape_filename": "44-rounded.svg",
+            "word1": "tekete",
+            "word2": "takete"
+        },
+        {
+            "rgb1": "#f31c3f",
+            "rgb2": "#da3743",
+            "shape_filename": "106-rounded.svg",
+            "word1": "zazu",
+            "word2": "zuza"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#f41b34",
+            "shape_filename": "24-rounded.svg",
+            "word1": "vuzu",
+            "word2": "zuvu"
+        },
+        {
+            "rgb1": "#d65a63",
+            "rgb2": "#da3743",
+            "shape_filename": "117-rounded.svg",
+            "word1": "vovu",
+            "word2": "vuvo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#d85959",
+            "shape_filename": "37-rounded.svg",
+            "word1": "kikitu",
+            "word2": "kikito"
+        },
+        {
+            "rgb1": "#da594e",
+            "rgb2": "#da3743",
+            "shape_filename": "97-rounded.svg",
+            "word1": "kizazi",
+            "word2": "kazazi"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#db5842",
+            "shape_filename": "85-rounded.svg",
+            "word1": "zizavo",
+            "word2": "zizavu"
+        },
+        {
+            "rgb1": "#dc5836",
+            "rgb2": "#da3743",
+            "shape_filename": "115-rounded.svg",
+            "word1": "tatu",
+            "word2": "tuta"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#df5164",
+            "shape_filename": "26-rounded.svg",
+            "word1": "kikatu",
+            "word2": "kikato"
+        },
+        {
+            "rgb1": "#e05159",
+            "rgb2": "#da3743",
+            "shape_filename": "60-rounded.svg",
+            "word1": "tatea",
+            "word2": "tatia"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e2504e",
+            "shape_filename": "75-rounded.svg",
+            "word1": "tizaku",
+            "word2": "tizako"
+        },
+        {
+            "rgb1": "#e35043",
+            "rgb2": "#da3743",
+            "shape_filename": "46-rounded.svg",
+            "word1": "tizi",
+            "word2": "ziti"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e45037",
+            "shape_filename": "23-rounded.svg",
+            "word1": "tizaki",
+            "word2": "tazaki"
+        },
+        {
+            "rgb1": "#e74864",
+            "rgb2": "#da3743",
+            "shape_filename": "40-rounded.svg",
+            "word1": "keveke",
+            "word2": "kaveke"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#e84759",
+            "shape_filename": "6-rounded.svg",
+            "word1": "tuzu",
+            "word2": "zutu"
+        },
+        {
+            "rgb1": "#ea474f",
+            "rgb2": "#da3743",
+            "shape_filename": "102-rounded.svg",
+            "word1": "vozo",
+            "word2": "zovo"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#eb4643",
+            "shape_filename": "7-rounded.svg",
+            "word1": "tivaki",
+            "word2": "taviki"
+        },
+        {
+            "rgb1": "#ec4638",
+            "rgb2": "#da3743",
+            "shape_filename": "22-rounded.svg",
+            "word1": "veze",
+            "word2": "zeve"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#ef3c65",
+            "shape_filename": "14-rounded.svg",
+            "word1": "vizi",
+            "word2": "zivi"
+        },
+        {
+            "rgb1": "#f13b5a",
+            "rgb2": "#da3743",
+            "shape_filename": "67-rounded.svg",
+            "word1": "kakitu",
+            "word2": "kakito"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#f23a4f",
+            "shape_filename": "108-rounded.svg",
+            "word1": "kete",
+            "word2": "teke"
+        },
+        {
+            "rgb1": "#f33a44",
+            "rgb2": "#da3743",
+            "shape_filename": "78-rounded.svg",
+            "word1": "kikiku",
+            "word2": "kikiko"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#f43939",
+            "shape_filename": "129-rounded.svg",
+            "word1": "kikaku",
+            "word2": "kikako"
+        },
+        {
+            "rgb1": "#f72c65",
+            "rgb2": "#da3743",
+            "shape_filename": "98-rounded.svg",
+            "word1": "kiko",
+            "word2": "koki"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#f82b5a",
+            "shape_filename": "114-rounded.svg",
+            "word1": "kitazi",
+            "word2": "katazi"
+        },
+        {
+            "rgb1": "#fa2a50",
+            "rgb2": "#da3743",
+            "shape_filename": "111-rounded.svg",
+            "word1": "kaziti",
+            "word2": "keziti"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#fb2945",
+            "shape_filename": "20-rounded.svg",
+            "word1": "koku",
+            "word2": "kuko"
+        },
+        {
+            "rgb1": "#fc283a",
+            "rgb2": "#da3743",
+            "shape_filename": "107-rounded.svg",
+            "word1": "kikivu",
+            "word2": "kikivo"
+        }
+    ],
+    "practiceTrials": [
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#da3743",
+            "shape_filename": "56-spiky.svg",
+            "word1": "titu",
+            "word2": "tuti"
+        },
+        {
+            "rgb1": "#b83e4c",
+            "rgb2": "#da3743",
+            "shape_filename": "19-spiky.svg",
+            "word1": "baloma",
+            "word2": "baluma"
+        },
+        {
+            "rgb1": "#da3743",
+            "rgb2": "#ba3e41",
+            "shape_filename": "8-rounded.svg",
+            "word1": "momubi",
+            "word2": "mamubi"
+        },
+        {
+            "rgb1": "#bb3e36",
+            "rgb2": "#da3743",
+            "shape_filename": "122-rounded.svg",
+            "word1": "kikizu",
+            "word2": "kikizo"
+        }
+    ]
 }

@@ -1,71 +1,134 @@
+'''
+* Please ignore the horrendous ugliness that is this code
+* I realize I broke a ton of programming no-nos, but I was in a rush
+* I will come back and modularize it when I have time.
+'''
+
+
 import json
-from lab import rgb2lab, lab2rgb
-from random import randint
+import random
+from lab import getOpenTableMatrix
 from researchWords import getWordList
 
+# Constant declarations
+NUM_SHAPES = 132
+NUM_TRIALS = 128
+NUM_INSTRUCTIONS = 4
+
 def main():
-    makeInverseJSONFiles(4, 125)
+    (instructShapeIndices, trialShapeIndices) = getIndexLists()
+    (practiceSpiky, spiky) = getRandWordList("spiky")
+    (practiceRounded, rounded) = getRandWordList("rounded")
 
-def makeInverseJSONFiles(instructNum, trialNum):
-    instructShapeIndices = randIndexArr(instructNum)
-    trialShapeIndices = randIndexArr(trialNum, instructShapeIndices)
+    openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpiky, practiceRounded, spiky, rounded,  0)
+    openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpiky, practiceRounded, spiky, rounded, 1)
 
-    for i in range(0, 2):
-        instructionsHolder = setInstructionsHolder(instructShapeIndices, i)
-        trialsHolder = setTrialsHolder(trialShapeIndices, i)
-        data = dict()
+def getRandWordList(wordList):
+    list = getWordList(wordList)
+    practiceList = []
+    trialList = []
 
-        data["instructionsHolder"] = instructionsHolder
-        data["trialsHolder"] = trialsHolder
+    for i in range(0, int(NUM_INSTRUCTIONS / 2)):
+        randChoice = random.choice(list)
+        practiceList.append(randChoice)
+        list.remove(randChoice)
+    for i in range(0, int(NUM_TRIALS / 2)):
+        randChoice = random.choice(list)
+        trialList.append(randChoice)
+        list.remove(randChoice)
 
-        with open('../colorExp/static/json/trial-set-' + str(i) + '.json', 'w') as f:
-            json.dump(data, f, indent=4, sort_keys=True)
+    random.shuffle(practiceList)
+    random.shuffle(trialList)
 
-# Returns an array of unique random indices that aren't in the passed restrictedIndices array.
-def randIndexArr(numIndices, restrictedIndices = []):
-    indices = []
-    while len(indices) < numIndices:
-        index = randint(0, 130)
-        if ((index not in indices) and (index not in restrictedIndices)):
-            indices.append(index)
-    return indices
+    return (practiceList, trialList)
 
-# Returns an array of instruction case dictionaries
-def setInstructionsHolder(indexList, isEven):
+# Returns a randomized instructions and trial index list.
+def getIndexLists():
+    instructShapeIndices = list()
+    trialShapeIndices = list(range(0, NUM_SHAPES))
+
+    for i in range(0, NUM_INSTRUCTIONS):
+        randChoice = random.choice(trialShapeIndices)
+        instructShapeIndices.append(randChoice)
+        trialShapeIndices.remove(randChoice)
+
+    random.shuffle(instructShapeIndices)
+    random.shuffle(trialShapeIndices)
+
+    return (instructShapeIndices, trialShapeIndices)
+
+def openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpikyWords, practiceRoundedWords, spikyWords, roundedWords, jsonFileId):
+    data = dict()
+    data["practiceTrials"] = setTrialHolder(instructShapeIndices, practiceSpikyWords, practiceRoundedWords, jsonFileId)
+    data["expTrials"] = setTrialHolder(trialShapeIndices, spikyWords, roundedWords, jsonFileId)
+
+    assert(len(data["practiceTrials"]) == 4)
+    assert (len(data["expTrials"]) == 128)
+
+    with open('../colorExp/static/json/trial-set-' + str(jsonFileId) + '.json', 'w') as f:
+        json.dump(data, f, indent=4, sort_keys=True)
+
+# Returns an array of trials dictionaries
+def setTrialHolder(indexList, spikyWords, roundedWords, jsonFileId):
     holder = []
+    colorMatrix = getOpenTableMatrix()
+    si = 0
+    ri = 0
 
-    for i in indexList:
+    for i in range(0, len(indexList)):
         trial = dict()
-        trial["word1"] = "word %d.1" % i
-        trial["word2"] = "word %d.2" % i
-        trial["rgb1"] = "#da3743"
-        trial["rgb2"] = "#da3743"
-        if i % 2 == isEven:
-            trial["shape_filename"] = "%d-spiky.svg" % i
+
+        if jsonFileId % 2 == 0:
+            if i in range(0, int(len(indexList) / 4)):
+                trial["shape_filename"] = "%d-spiky.svg" % indexList[i]
+                trial["word1"] = spikyWords[si][0]
+                trial["word2"] = spikyWords[si][1]
+                si += 1
+            elif i in range(int(len(indexList) / 4), int(len(indexList) / 2)):
+                trial["shape_filename"] = "%d-spiky.svg" % indexList[i]
+                trial["word1"] = roundedWords[ri][0]
+                trial["word2"] = roundedWords[ri][1]
+                ri += 1
+            elif i in range(int(len(indexList) / 2), int((3 * len(indexList)) / 4)):
+                trial["shape_filename"] = "%d-rounded.svg" % indexList[i]
+                trial["word1"] = roundedWords[ri][0]
+                trial["word2"] = roundedWords[ri][1]
+                ri += 1
+            else:
+                trial["shape_filename"] = "%d-rounded.svg" % indexList[i]
+                trial["word1"] = spikyWords[si][0]
+                trial["word2"] = spikyWords[si][1]
+                si += 1
         else:
-            trial["shape_filename"] = "%d-rounded.svg" % i
+            if i in range(0, int(len(indexList) / 4)):
+                trial["shape_filename"] = "%d-rounded.svg" % indexList[i]
+                trial["word1"] = spikyWords[si][0]
+                trial["word2"] = spikyWords[si][1]
+                si += 1
+            elif i in range(int(len(indexList) / 4), int(len(indexList) / 2)):
+                trial["shape_filename"] = "%d-rounded.svg" % indexList[i]
+                trial["word1"] = roundedWords[ri][0]
+                trial["word2"] = roundedWords[ri][1]
+                ri += 1
+            elif i in range(int(len(indexList) / 2), int((3 * len(indexList)) / 4)):
+                trial["shape_filename"] = "%d-spiky.svg" % indexList[i]
+                trial["word1"] = roundedWords[ri][0]
+                trial["word2"] = roundedWords[ri][1]
+                ri += 1
+            else:
+                trial["shape_filename"] = "%d-spiky.svg" % indexList[i]
+                trial["word1"] = spikyWords[si][0]
+                trial["word2"] = spikyWords[si][1]
+                si += 1
+
+        if i % 2 == 0:
+            trial["rgb1"] = "#da3743"
+            trial["rgb2"] = colorMatrix[i]
+        else:
+            trial["rgb1"] = colorMatrix[i]
+            trial["rgb2"] = "#da3743"
 
         holder.append(trial)
-
-    return holder
-
-# Returns an array of trial dictionaries
-def setTrialsHolder(indexList, isEven):
-    holder = []
-
-    for i in indexList:
-        for j in range(0, 2):
-            trial = dict()
-            trial["word1"] = "word %d.1" %(i)
-            trial["word2"] = "word %d.2" %(i)
-            trial["rgb1"] = "#da3743"
-            trial["rgb2"] = "#da3743"
-            if j % 2 == isEven:
-                trial["shape_filename"] = "%d-spiky.svg" % i
-            else:
-                trial["shape_filename"] = "%d-rounded.svg" % i
-
-            holder.append(trial)
 
     return holder
 
