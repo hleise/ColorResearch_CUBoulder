@@ -1,10 +1,3 @@
-'''
-* Please ignore the horrendous ugliness that is this code
-* I realize I broke a ton of programming no-nos, but I was in a rush
-* I will come back and modularize it when I have time.
-'''
-
-
 import json
 import random
 from lab import getOpenTableMatrix
@@ -17,8 +10,8 @@ NUM_INSTRUCTIONS = 4
 
 def main():
     (instructShapeIndices, trialShapeIndices) = getIndexLists()
-    (practiceSpiky, spiky) = getRandWordList("spiky")
-    (practiceRounded, rounded) = getRandWordList("rounded")
+    (practiceSpiky, spiky) = getRandWordList("mixed_spiky")
+    (practiceRounded, rounded) = getRandWordList("mixed_rounded")
 
     openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpiky, practiceRounded, spiky, rounded,  0)
     openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpiky, practiceRounded, spiky, rounded, 1)
