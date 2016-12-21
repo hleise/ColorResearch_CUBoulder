@@ -76,6 +76,20 @@ def getOpenTableMatrix():
 
     return colorMatrix
 
+def getVariationMatrix():
+    variationMatrix = []
+    for l in [-5, -2.5, 0, 2.5, 5]:
+        for a in [-5, -2.5, 0, 2.5, 5]:
+            for b in [-5, -2.5, 0, 2.5, 5]:
+                variationMatrix.append({'l': l, 'a': a, 'b': b})
+
+    # Inserts the 3 extra instances of openTableRed so len(colorMatrix) is divisible by 4
+    variationMatrix.insert(0, {'l': 0, 'a': 0, 'b': 0})
+    variationMatrix.insert(32, {'l': 0, 'a': 0, 'b': 0})
+    variationMatrix.insert(96, {'l': 0, 'a': 0, 'b': 0})
+
+    return variationMatrix
+
 # Returns a given rgb value as its corresponding hex value
 def toHex(r,g,b):
     return ("#%02X%02X%02X" % (r, g, b)).lower()

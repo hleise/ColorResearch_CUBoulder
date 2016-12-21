@@ -61,7 +61,7 @@ function optionClicked(optionID) {
             'lVar': $c.expTrials[expIterator].lVar,
             'aVar': $c.expTrials[expIterator].aVar,
             'bVar': $c.expTrials[expIterator].bVar,
-            'perturbedSide': $("#left-option").css("background-color") === "rgb(218, 55, 67)" ? 'left' : 'right',
+            'perturbedSide': $("#left-option").css("background-color") === "rgb(218, 55, 67)" ? 'right' : 'left',
             'selectedWord': $(optionID).html(),
             'selectedColor': $(optionID).css("background-color"),
             'selectedSide': optionID === "#left-option" ? 'left' : 'right',

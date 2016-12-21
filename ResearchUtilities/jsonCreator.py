@@ -1,6 +1,6 @@
 import json
 import random
-from lab import getOpenTableMatrix
+from lab import getOpenTableMatrix, getVariationMatrix
 from researchWords import getWordList
 
 # Constant declarations
@@ -65,6 +65,7 @@ def openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpikyWor
 def setTrialHolder(indexList, spikyWords, roundedWords, jsonFileId):
     holder = []
     colorMatrix = getOpenTableMatrix()
+    variationMatrix = getVariationMatrix()
     si = 0
     ri = 0
 
@@ -73,53 +74,75 @@ def setTrialHolder(indexList, spikyWords, roundedWords, jsonFileId):
 
         if jsonFileId % 2 == 0:
             if i in range(0, int(len(indexList) / 4)):
-                trial["shape_filename"] = "%d-spiky.svg" % indexList[i]
+                trial["shapeFilename"] = "%d-spiky.svg" % indexList[i]
                 trial["word1"] = spikyWords[si][0]
                 trial["word2"] = spikyWords[si][1]
+                trial["shapeType"] = "spiky"
+                trial["wordType"] = "spiky"
                 si += 1
             elif i in range(int(len(indexList) / 4), int(len(indexList) / 2)):
-                trial["shape_filename"] = "%d-spiky.svg" % indexList[i]
+                trial["shapeFilename"] = "%d-spiky.svg" % indexList[i]
                 trial["word1"] = roundedWords[ri][0]
                 trial["word2"] = roundedWords[ri][1]
+                trial["shapeType"] = "spiky"
+                trial["wordType"] = "rounded"
                 ri += 1
             elif i in range(int(len(indexList) / 2), int((3 * len(indexList)) / 4)):
-                trial["shape_filename"] = "%d-rounded.svg" % indexList[i]
+                trial["shapeFilename"] = "%d-rounded.svg" % indexList[i]
                 trial["word1"] = roundedWords[ri][0]
                 trial["word2"] = roundedWords[ri][1]
+                trial["shapeType"] = "rounded"
+                trial["wordType"] = "rounded"
                 ri += 1
             else:
-                trial["shape_filename"] = "%d-rounded.svg" % indexList[i]
+                trial["shapeFilename"] = "%d-rounded.svg" % indexList[i]
                 trial["word1"] = spikyWords[si][0]
                 trial["word2"] = spikyWords[si][1]
+                trial["shapeType"] = "rounded"
+                trial["wordType"] = "spiky"
                 si += 1
         else:
             if i in range(0, int(len(indexList) / 4)):
-                trial["shape_filename"] = "%d-rounded.svg" % indexList[i]
+                trial["shapeFilename"] = "%d-rounded.svg" % indexList[i]
                 trial["word1"] = spikyWords[si][0]
                 trial["word2"] = spikyWords[si][1]
+                trial["shapeType"] = "rounded"
+                trial["wordType"] = "spiky"
                 si += 1
             elif i in range(int(len(indexList) / 4), int(len(indexList) / 2)):
-                trial["shape_filename"] = "%d-rounded.svg" % indexList[i]
+                trial["shapeFilename"] = "%d-rounded.svg" % indexList[i]
                 trial["word1"] = roundedWords[ri][0]
                 trial["word2"] = roundedWords[ri][1]
+                trial["shapeType"] = "rounded"
+                trial["wordType"] = "rounded"
                 ri += 1
             elif i in range(int(len(indexList) / 2), int((3 * len(indexList)) / 4)):
-                trial["shape_filename"] = "%d-spiky.svg" % indexList[i]
+                trial["shapeFilename"] = "%d-spiky.svg" % indexList[i]
                 trial["word1"] = roundedWords[ri][0]
                 trial["word2"] = roundedWords[ri][1]
+                trial["shapeType"] = "spiky"
+                trial["wordType"] = "rounded"
                 ri += 1
             else:
-                trial["shape_filename"] = "%d-spiky.svg" % indexList[i]
+                trial["shapeFilename"] = "%d-spiky.svg" % indexList[i]
                 trial["word1"] = spikyWords[si][0]
                 trial["word2"] = spikyWords[si][1]
+                trial["shapeType"] = "spiky"
+                trial["wordType"] = "spiky"
                 si += 1
 
         if i % 2 == 0:
             trial["rgb1"] = "#da3743"
             trial["rgb2"] = colorMatrix[i]
+            trial["lVar"] = variationMatrix[i].get('l')
+            trial["aVar"] = variationMatrix[i].get('a')
+            trial["bVar"] = variationMatrix[i].get('b')
         else:
             trial["rgb1"] = colorMatrix[i]
             trial["rgb2"] = "#da3743"
+            trial["lVar"] = variationMatrix[i].get('l')
+            trial["aVar"] = variationMatrix[i].get('a')
+            trial["bVar"] = variationMatrix[i].get('b')
 
         holder.append(trial)
 
