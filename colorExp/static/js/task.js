@@ -53,17 +53,23 @@ function optionClicked(optionID) {
     if (isTrial) {
         psiTurk.recordTrialData({ // Record the response for this trial
             'trialNum': expIterator,
-            'word': $(optionID + "-text").html(),
-            'color': $(optionID).css("background-color")
-            // start time,end time for the trial and for the experiment as a whole
-            // trialID
-            //
+            'shapeFilename': $c.expTrials[expIterator].shape_filename,
+            'leftWord': $("#left-option").html(),
+            'rightWord': $("#right-option").html(),
+            'leftColor': $("#left-option").css("background-color"),
+            'rightColor': $("#right-option").css("background-color"),
+            'perturbedSide': $("#left-option").css("background-color") === "rgb(218, 55, 67)" ? 'left' : 'right',
+            'selectedWord': $(optionID).html(),
+            'selectedColor': $(optionID).css("background-color"),
+            'selectedSide': optionID === "#left-option" ? 'left' : 'right'
+            // Now I just need to record lab variations and trial start and end times
         });
 
         expIterator++;
 
         if (expIterator >= $c.expTrials.length) {
             currentview = new Debriefing();
+            psiTurk.recordUnstructuredData('endTime', Math.floor(Date.now() / 1000));
         } else {
             updateProgress(expIterator, $c.expTrials.length);
             setTestCase();
@@ -89,10 +95,11 @@ function resetPage() {
 /* Changes the size of the recenter shape filling */
 function setCenterFilling(fillingRadius) {
     var fillingDiameter = fillingRadius * 2;
-    $("#recenter-shape-filling").css("top", (9 - fillingRadius) + "px");
-    $("#recenter-shape-filling").css("height", fillingDiameter + "px");
-    $("#recenter-shape-filling").css("width", fillingDiameter + "px");
-    $("#recenter-shape-filling").css("borderRadius", fillingRadius + "px");
+    $("#recenter-shape-filling")
+        .css("top", (9 - fillingRadius) + "px")
+        .css("height", fillingDiameter + "px")
+        .css("width", fillingDiameter + "px")
+        .css("borderRadius", fillingRadius + "px");
 }
 
 /* Changes the display settings for either the "recenter" or "testCase" state */
@@ -146,28 +153,36 @@ function setTestCase() {
 
         switch(counterbalance) {
             case "0":
-                $("#left-option").css("background-color", $c.practiceTrials[i].rgb1);
-                $("#right-option").css("background-color", $c.practiceTrials[i].rgb2);
-                $("#left-option").html($c.practiceTrials[i].word1);
-                $("#right-option").html($c.practiceTrials[i].word2);
+                $("#left-option")
+                    .css("background-color", $c.practiceTrials[i].rgb1)
+                    .html($c.practiceTrials[i].word1);
+                $("#right-option")
+                    .css("background-color", $c.practiceTrials[i].rgb2)
+                    .html($c.practiceTrials[i].word2);
                 break;
             case "1":
-                $("#left-option").css("background-color", $c.practiceTrials[i].rgb2);
-                $("#right-option").css("background-color", $c.practiceTrials[i].rgb1);
-                $("#left-option").html($c.practiceTrials[i].word1);
-                $("#right-option").html($c.practiceTrials[i].word2);
+                $("#left-option")
+                    .css("background-color", $c.practiceTrials[i].rgb2)
+                    .html($c.practiceTrials[i].word1);
+                $("#right-option")
+                    .css("background-color", $c.practiceTrials[i].rgb1)
+                    .html($c.practiceTrials[i].word2);
                 break;
             case "2":
-                $("#left-option").css("background-color", $c.practiceTrials[i].rgb1);
-                $("#right-option").css("background-color", $c.practiceTrials[i].rgb2);
-                $("#left-option").html($c.practiceTrials[i].word2);
-                $("#right-option").html($c.practiceTrials[i].word1);
+                $("#left-option")
+                    .css("background-color", $c.practiceTrials[i].rgb1)
+                    .html($c.practiceTrials[i].word2);
+                $("#right-option")
+                    .css("background-color", $c.practiceTrials[i].rgb2)
+                    .html($c.practiceTrials[i].word1);
                 break;
             case "3":
-                $("#left-option").css("background-color", $c.practiceTrials[i].rgb2);
-                $("#right-option").css("background-color", $c.practiceTrials[i].rgb1);
-                $("#left-option").html($c.practiceTrials[i].word2);
-                $("#right-option").html($c.practiceTrials[i].word1);
+                $("#left-option")
+                    .css("background-color", $c.practiceTrials[i].rgb2)
+                    .html($c.practiceTrials[i].word2);
+                $("#right-option")
+                    .css("background-color", $c.practiceTrials[i].rgb1)
+                    .html($c.practiceTrials[i].word1);
                 break;
             default:
                 console.log("counterbalance is " + counterbalance + " and not in range (0, 3) as expected.");
@@ -178,28 +193,36 @@ function setTestCase() {
 
         switch(counterbalance) {
             case "0":
-                $("#left-option").css("background-color", $c.expTrials[i].rgb1);
-                $("#right-option").css("background-color", $c.expTrials[i].rgb2);
-                $("#left-option").html($c.expTrials[i].word1);
-                $("#right-option").html($c.expTrials[i].word2);
+                $("#left-option")
+                    .css("background-color", $c.expTrials[i].rgb1)
+                    .html($c.expTrials[i].word1);
+                $("#right-option")
+                    .css("background-color", $c.expTrials[i].rgb2)
+                    .html($c.expTrials[i].word2);
                 break;
             case "1":
-                $("#left-option").css("background-color", $c.expTrials[i].rgb2);
-                $("#right-option").css("background-color", $c.expTrials[i].rgb1);
-                $("#left-option").html($c.expTrials[i].word1);
-                $("#right-option").html($c.expTrials[i].word2);
+                $("#left-option")
+                    .css("background-color", $c.expTrials[i].rgb2)
+                    .html($c.expTrials[i].word1);
+                $("#right-option")
+                    .css("background-color", $c.expTrials[i].rgb1)
+                    .html($c.expTrials[i].word2);
                 break;
             case "2":
-                $("#left-option").css("background-color", $c.expTrials[i].rgb1);
-                $("#right-option").css("background-color", $c.expTrials[i].rgb2);
-                $("#left-option").html($c.expTrials[i].word2);
-                $("#right-option").html($c.expTrials[i].word1);
+                $("#left-option")
+                    .css("background-color", $c.expTrials[i].rgb1)
+                    .html($c.expTrials[i].word2);
+                $("#right-option")
+                    .css("background-color", $c.expTrials[i].rgb2)
+                    .html($c.expTrials[i].word1);
                 break;
             case "3":
-                $("#left-option").css("background-color", $c.expTrials[i].rgb2);
-                $("#right-option").css("background-color", $c.expTrials[i].rgb1);
-                $("#left-option").html($c.expTrials[i].word2);
-                $("#right-option").html($c.expTrials[i].word1);
+                $("#left-option")
+                    .css("background-color", $c.expTrials[i].rgb2)
+            .html($c.expTrials[i].word2);
+                $("#right-option")
+                    .css("background-color", $c.expTrials[i].rgb1)
+                    .html($c.expTrials[i].word1);
                 break;
             default:
                 console.log("counterbalance is " + counterbalance + " and not in range (0, 3) as expected.");
@@ -270,7 +293,7 @@ var Debriefing = function() {
             error: prompt_resubmit
         });
     });
-}
+};
 
 // --------------------------------------------------------------------
 // --------------------------------------------------------------------
@@ -286,8 +309,9 @@ var Debriefing = function() {
 };
 
 $(window).load(function() {
-    psiTurk.recordUnstructuredData("condition", condition);
-    psiTurk.recordUnstructuredData("counterbalance", counterbalance);
+    psiTurk.recordUnstructuredData('condition', condition);
+    psiTurk.recordUnstructuredData('counterbalance', counterbalance);
+    psiTurk.recordUnstructuredData('startTime', Math.floor(Date.now() / 1000));
 
     psiTurk.doInstructions(
         instructionPages,

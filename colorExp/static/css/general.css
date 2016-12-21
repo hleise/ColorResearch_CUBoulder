@@ -16,7 +16,6 @@
     cursor: default;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-    -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -79,7 +78,7 @@ span.warn {
 }
 
 span.consent {
-    font-color: red;
+    color: red;
 }
 
 /********************************************************************/
@@ -91,7 +90,6 @@ button, .nextButton, .backButton {
     box-shadow: 1px 1px 3px;
     border: 1px solid black;
     display: inline-block;
-    float: center;
     margin: 1%;
     padding: 1% 2% 1% 2%;
     font-family: 'Open Sans', 'Roboto', sans-serif;
@@ -100,7 +98,7 @@ button, .nextButton, .backButton {
 
 button:active, .nextButton:active, .backButton:active {
     background-color: #c9c9c9;
-    box-shadow: 0px 0px 3px;
+    box-shadow: 0 0 3px;
 }
 
 /********************************************************************/
