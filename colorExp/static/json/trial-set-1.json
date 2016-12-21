@@ -1,930 +1,1590 @@
 {
     "expTrials": [
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#da3743",
-            "shape_filename": "27-rounded.svg",
-            "word1": "kaziti",
-            "word2": "kikato"
+            "shapeFilename": "9-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tozo",
+            "word2": "zivi",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": -5,
+            "lVar": -5,
             "rgb1": "#b83e4c",
             "rgb2": "#da3743",
-            "shape_filename": "73-rounded.svg",
-            "word1": "tuvu",
-            "word2": "ziza"
+            "shapeFilename": "13-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tazea",
+            "word2": "tezaza",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": -2.5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#ba3e41",
-            "shape_filename": "53-rounded.svg",
-            "word1": "kivazi",
-            "word2": "kikako"
+            "shapeFilename": "6-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tuvu",
+            "word2": "ziza",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 0,
+            "lVar": -5,
             "rgb1": "#bb3e36",
             "rgb2": "#da3743",
-            "shape_filename": "67-rounded.svg",
-            "word1": "kakizu",
-            "word2": "kaveke"
+            "shapeFilename": "22-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "akiku",
+            "word2": "tekaza",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 2.5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#bc3d2b",
-            "shape_filename": "90-rounded.svg",
-            "word1": "kozo",
-            "word2": "vuvi"
+            "shapeFilename": "61-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "vikiki",
+            "word2": "katazi",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 5,
+            "lVar": -5,
             "rgb1": "#bd3d1f",
             "rgb2": "#da3743",
-            "shape_filename": "107-rounded.svg",
-            "word1": "viku",
-            "word2": "zakazo"
+            "shapeFilename": "104-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "akitu",
+            "word2": "taviki",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": -5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#c0344c",
-            "shape_filename": "91-rounded.svg",
-            "word1": "kiko",
-            "word2": "vuvo"
+            "shapeFilename": "41-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kaki",
+            "word2": "vuku",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": -2.5,
+            "lVar": -5,
             "rgb1": "#c13442",
             "rgb2": "#da3743",
-            "shape_filename": "44-rounded.svg",
-            "word1": "titaza",
-            "word2": "akivo"
+            "shapeFilename": "68-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kava",
+            "word2": "zata",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": 0,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#c33337",
-            "shape_filename": "127-rounded.svg",
-            "word1": "kiku",
-            "word2": "veke"
+            "shapeFilename": "114-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tizaku",
+            "word2": "kazeke",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": 2.5,
+            "lVar": -5,
             "rgb1": "#c4332c",
             "rgb2": "#da3743",
-            "shape_filename": "56-rounded.svg",
-            "word1": "zizo",
-            "word2": "tita"
+            "shapeFilename": "46-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kakitu",
+            "word2": "kakizo",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": 5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#c43320",
-            "shape_filename": "101-rounded.svg",
-            "word1": "kakivu",
-            "word2": "kavazi"
+            "shapeFilename": "45-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "titaku",
+            "word2": "kakeke",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": -5,
+            "lVar": -5,
             "rgb1": "#c8274c",
             "rgb2": "#da3743",
-            "shape_filename": "124-rounded.svg",
-            "word1": "kaku",
-            "word2": "zuzi"
+            "shapeFilename": "42-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tovo",
+            "word2": "toti",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": -2.5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#c92642",
-            "shape_filename": "69-rounded.svg",
-            "word1": "tatea",
-            "word2": "kakivo"
+            "shapeFilename": "1-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kazio",
+            "word2": "tizako",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": -5,
             "rgb1": "#ca2638",
             "rgb2": "#da3743",
-            "shape_filename": "3-rounded.svg",
-            "word1": "tivaku",
-            "word2": "tevaza"
+            "shapeFilename": "57-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "vovu",
+            "word2": "zuzo",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": 2.5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#cb252d",
-            "shape_filename": "99-rounded.svg",
-            "word1": "terazi",
-            "word2": "tarazi"
+            "shapeFilename": "99-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tizi",
+            "word2": "teke",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": 5,
+            "lVar": -5,
             "rgb1": "#cc2421",
             "rgb2": "#da3743",
-            "shape_filename": "114-rounded.svg",
-            "word1": "zizato",
-            "word2": "zizatu"
+            "shapeFilename": "44-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "akivu",
+            "word2": "kekiti",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": -5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#cf104d",
-            "shape_filename": "37-rounded.svg",
-            "word1": "kakio",
-            "word2": "kezio"
+            "shapeFilename": "126-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "keve",
+            "word2": "zuku",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": -2.5,
+            "lVar": -5,
             "rgb1": "#d10e43",
             "rgb2": "#da3743",
-            "shape_filename": "48-rounded.svg",
-            "word1": "tevete",
-            "word2": "tavete"
+            "shapeFilename": "74-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "akizu",
+            "word2": "akizo",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": 0,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#d20c38",
-            "shape_filename": "24-rounded.svg",
-            "word1": "kakiti",
-            "word2": "takia"
+            "shapeFilename": "105-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tekete",
+            "word2": "tatia",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": 2.5,
+            "lVar": -5,
             "rgb1": "#d30b2e",
             "rgb2": "#da3743",
-            "shape_filename": "76-rounded.svg",
-            "word1": "vizu",
-            "word2": "vizo"
+            "shapeFilename": "110-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tato",
+            "word2": "koka",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": 5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#d30a22",
-            "shape_filename": "74-rounded.svg",
-            "word1": "kikizu",
-            "word2": "kazazi"
+            "shapeFilename": "116-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kikazu",
+            "word2": "kikazo",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": -5,
+            "lVar": -5,
             "rgb1": "#d7004d",
             "rgb2": "#da3743",
-            "shape_filename": "86-rounded.svg",
-            "word1": "keze",
-            "word2": "zete"
+            "shapeFilename": "108-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "vitiki",
+            "word2": "veziki",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": -2.5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#d80043",
-            "shape_filename": "60-rounded.svg",
-            "word1": "tizaki",
-            "word2": "kikibo"
+            "shapeFilename": "43-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kikatu",
+            "word2": "kikiko",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 0,
+            "lVar": -5,
             "rgb1": "#d90039",
             "rgb2": "#da3743",
-            "shape_filename": "49-rounded.svg",
-            "word1": "vavo",
-            "word2": "zeke"
+            "shapeFilename": "21-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kezeke",
+            "word2": "tikako",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 2.5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#da002e",
-            "shape_filename": "119-rounded.svg",
-            "word1": "kikitu",
-            "word2": "akiko"
+            "shapeFilename": "130-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "vavu",
+            "word2": "tota",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 5,
+            "lVar": -5,
             "rgb1": "#db0023",
             "rgb2": "#da3743",
-            "shape_filename": "55-rounded.svg",
-            "word1": "keveke",
-            "word2": "tivako"
+            "shapeFilename": "51-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "viziki",
+            "word2": "kikito",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": -5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#c04551",
-            "shape_filename": "63-rounded.svg",
-            "word1": "koku",
-            "word2": "zoto"
+            "shapeFilename": "115-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kaku",
+            "word2": "zuzi",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": -2.5,
+            "lVar": -2.5,
             "rgb1": "#c14547",
             "rgb2": "#da3743",
-            "shape_filename": "13-rounded.svg",
-            "word1": "zatazu",
-            "word2": "tavia"
+            "shapeFilename": "27-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "zizo",
+            "word2": "tita",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 0,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#c3443c",
-            "shape_filename": "109-rounded.svg",
-            "word1": "vaza",
-            "word2": "voto"
+            "shapeFilename": "60-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tikaza",
+            "word2": "takazi",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 2.5,
+            "lVar": -2.5,
             "rgb1": "#c44431",
             "rgb2": "#da3743",
-            "shape_filename": "103-rounded.svg",
-            "word1": "kava",
-            "word2": "zata"
+            "shapeFilename": "56-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "tizaki",
+            "word2": "kikibo",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#c54425",
-            "shape_filename": "97-rounded.svg",
-            "word1": "tekete",
-            "word2": "tatia"
+            "shapeFilename": "11-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "teze",
+            "word2": "vova",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": -5,
+            "lVar": -2.5,
             "rgb1": "#c83c52",
             "rgb2": "#da3743",
-            "shape_filename": "121-rounded.svg",
-            "word1": "vozo",
-            "word2": "vaka"
+            "shapeFilename": "85-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "zizavo",
+            "word2": "kikivo",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#da3743",
-            "shape_filename": "23-rounded.svg",
-            "word1": "momubi",
-            "word2": "babuma"
+            "shapeFilename": "95-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "basoma",
+            "word2": "pagomo",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": -2.5,
+            "lVar": -2.5,
             "rgb1": "#c93b47",
             "rgb2": "#da3743",
-            "shape_filename": "7-rounded.svg",
-            "word1": "pamumo",
-            "word2": "bagoba"
+            "shapeFilename": "5-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "nusu",
+            "word2": "somo",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 0,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#ca3b3d",
-            "shape_filename": "79-rounded.svg",
-            "word1": "balota",
-            "word2": "bapuma"
+            "shapeFilename": "37-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "lumu",
+            "word2": "sapa",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 2.5,
+            "lVar": -2.5,
             "rgb1": "#cb3a32",
             "rgb2": "#da3743",
-            "shape_filename": "2-rounded.svg",
-            "word1": "nodegi",
-            "word2": "gadomi"
+            "shapeFilename": "124-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "popu",
+            "word2": "dobo",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#cc3a26",
-            "shape_filename": "18-rounded.svg",
-            "word1": "dusu",
-            "word2": "pomo"
+            "shapeFilename": "58-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "dumu",
+            "word2": "nibi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": -5,
+            "lVar": -2.5,
             "rgb1": "#cf3052",
             "rgb2": "#da3743",
-            "shape_filename": "34-rounded.svg",
-            "word1": "lomo",
-            "word2": "guga"
+            "shapeFilename": "102-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "gumu",
+            "word2": "pumu",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": -2.5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#d12f48",
-            "shape_filename": "66-rounded.svg",
-            "word1": "gusu",
-            "word2": "punu"
+            "shapeFilename": "32-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "bapoma",
+            "word2": "lasubi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": -2.5,
             "rgb1": "#d22f3d",
             "rgb2": "#da3743",
-            "shape_filename": "59-rounded.svg",
-            "word1": "lasa",
-            "word2": "mugu"
+            "shapeFilename": "34-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "dapola",
+            "word2": "dadula",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 2.5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#d32e32",
-            "shape_filename": "0-rounded.svg",
-            "word1": "dadola",
-            "word2": "gemana"
+            "shapeFilename": "23-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "nosegi",
+            "word2": "gasomi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 5,
+            "lVar": -2.5,
             "rgb1": "#d42e27",
             "rgb2": "#da3743",
-            "shape_filename": "78-rounded.svg",
-            "word1": "megudo",
-            "word2": "bagubi"
+            "shapeFilename": "14-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "boso",
+            "word2": "pudu",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": -5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#d71f53",
-            "shape_filename": "58-rounded.svg",
-            "word1": "gono",
-            "word2": "sudu"
+            "shapeFilename": "54-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "gabana",
+            "word2": "dasolo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": -2.5,
+            "lVar": -2.5,
             "rgb1": "#d91d48",
             "rgb2": "#da3743",
-            "shape_filename": "118-rounded.svg",
-            "word1": "gogu",
-            "word2": "bobi"
+            "shapeFilename": "77-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "nopo",
+            "word2": "lodo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": 0,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#da1c3e",
-            "shape_filename": "22-rounded.svg",
-            "word1": "lunu",
-            "word2": "sala"
+            "shapeFilename": "103-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "lasa",
+            "word2": "mugu",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": 2.5,
+            "lVar": -2.5,
             "rgb1": "#db1b33",
             "rgb2": "#da3743",
-            "shape_filename": "39-rounded.svg",
-            "word1": "galana",
-            "word2": "ladubi"
+            "shapeFilename": "48-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "badota",
+            "word2": "pamomo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": 5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#db1b28",
-            "shape_filename": "4-rounded.svg",
-            "word1": "masugi",
-            "word2": "bamuta"
+            "shapeFilename": "71-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "bopo",
+            "word2": "lugu",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": -5,
+            "lVar": -2.5,
             "rgb1": "#df0053",
             "rgb2": "#da3743",
-            "shape_filename": "20-rounded.svg",
-            "word1": "basa",
-            "word2": "lola"
+            "shapeFilename": "117-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "molubi",
+            "word2": "lamubi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": -2.5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#e00049",
-            "shape_filename": "102-rounded.svg",
-            "word1": "baduba",
-            "word2": "damono"
+            "shapeFilename": "112-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "gagi",
+            "word2": "muma",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": 0,
+            "lVar": -2.5,
             "rgb1": "#e1003f",
             "rgb2": "#da3743",
-            "shape_filename": "71-rounded.svg",
-            "word1": "bagoma",
-            "word2": "dagula"
+            "shapeFilename": "10-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "poso",
+            "word2": "sogo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": 2.5,
+            "lVar": -2.5,
             "rgb1": "#da3743",
             "rgb2": "#e20034",
-            "shape_filename": "96-rounded.svg",
-            "word1": "masubi",
-            "word2": "mamubi"
+            "shapeFilename": "15-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "musu",
+            "word2": "nuni",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": 5,
+            "lVar": -2.5,
             "rgb1": "#e30029",
             "rgb2": "#da3743",
-            "shape_filename": "126-rounded.svg",
-            "word1": "goso",
-            "word2": "lubu"
+            "shapeFilename": "101-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "nanu",
+            "word2": "laba",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": -5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#c74c57",
-            "shape_filename": "33-rounded.svg",
-            "word1": "bunu",
-            "word2": "nudu"
+            "shapeFilename": "8-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "pusu",
+            "word2": "pupo",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": -2.5,
+            "lVar": 0,
             "rgb1": "#c94c4d",
             "rgb2": "#da3743",
-            "shape_filename": "110-rounded.svg",
-            "word1": "gapana",
-            "word2": "gebana"
+            "shapeFilename": "20-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "manuma",
+            "word2": "nadegi",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#ca4b42",
-            "shape_filename": "29-rounded.svg",
-            "word1": "bupu",
-            "word2": "nuno"
+            "shapeFilename": "128-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "bumu",
+            "word2": "gugi",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": 2.5,
+            "lVar": 0,
             "rgb1": "#cb4b37",
             "rgb2": "#da3743",
-            "shape_filename": "95-rounded.svg",
-            "word1": "dagola",
-            "word2": "genana"
+            "shapeFilename": "113-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "sasu",
+            "word2": "dudo",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": 5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#cc4b2b",
-            "shape_filename": "131-rounded.svg",
-            "word1": "panumo",
-            "word2": "maludo"
+            "shapeFilename": "83-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "gadumi",
+            "word2": "maloma",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": -5,
+            "lVar": 0,
             "rgb1": "#cf4358",
             "rgb2": "#da3743",
-            "shape_filename": "87-rounded.svg",
-            "word1": "gunu",
-            "word2": "migi"
+            "shapeFilename": "64-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "dagola",
+            "word2": "genana",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": -2.5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#d1434d",
-            "shape_filename": "129-rounded.svg",
-            "word1": "bala",
-            "word2": "paba"
+            "shapeFilename": "89-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "panumo",
+            "word2": "maludo",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#d24242",
             "rgb2": "#da3743",
-            "shape_filename": "68-rounded.svg",
-            "word1": "dolo",
-            "word2": "nogo"
+            "shapeFilename": "96-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "pamumo",
+            "word2": "bagoba",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 2.5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#d34237",
-            "shape_filename": "125-rounded.svg",
-            "word1": "bapa",
-            "word2": "lula"
+            "shapeFilename": "73-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "gono",
+            "word2": "sudu",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 5,
+            "lVar": 0,
             "rgb1": "#d4412b",
             "rgb2": "#da3743",
-            "shape_filename": "65-rounded.svg",
-            "word1": "lusu",
-            "word2": "nugu"
+            "shapeFilename": "0-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "gapumi",
+            "word2": "padomo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": -5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#d73858",
-            "shape_filename": "43-rounded.svg",
-            "word1": "moso",
-            "word2": "paga"
+            "shapeFilename": "123-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "bomo",
+            "word2": "luli",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": -2.5,
+            "lVar": 0,
             "rgb1": "#d9384e",
             "rgb2": "#da3743",
-            "shape_filename": "104-rounded.svg",
-            "word1": "mogubi",
-            "word2": "badoba"
+            "shapeFilename": "92-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "dabola",
+            "word2": "dagolo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#da3743",
-            "shape_filename": "82-spiky.svg",
-            "word1": "poso",
-            "word2": "sogo"
+            "shapeFilename": "7-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "megudo",
+            "word2": "bagubi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 2.5,
+            "lVar": 0,
             "rgb1": "#db3738",
             "rgb2": "#da3743",
-            "shape_filename": "36-spiky.svg",
-            "word1": "sasu",
-            "word2": "dudo"
+            "shapeFilename": "118-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "dolo",
+            "word2": "nogo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#dc362c",
-            "shape_filename": "85-spiky.svg",
-            "word1": "gago",
-            "word2": "mumi"
+            "shapeFilename": "109-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "pasumo",
+            "word2": "masudo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": -5,
+            "lVar": 0,
             "rgb1": "#df2a59",
             "rgb2": "#da3743",
-            "shape_filename": "15-spiky.svg",
-            "word1": "bopo",
-            "word2": "lugu"
+            "shapeFilename": "72-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "gamana",
+            "word2": "dapula",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": -2.5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#e1294e",
-            "shape_filename": "38-spiky.svg",
-            "word1": "nosegi",
-            "word2": "gasomi"
+            "shapeFilename": "33-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "lomo",
+            "word2": "guga",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#e22844",
             "rgb2": "#da3743",
-            "shape_filename": "115-spiky.svg",
-            "word1": "masuni",
-            "word2": "nabegi"
+            "shapeFilename": "119-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "dala",
+            "word2": "mudu",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": 2.5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#e32739",
-            "shape_filename": "89-spiky.svg",
-            "word1": "dulu",
-            "word2": "sada"
+            "shapeFilename": "4-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "bodo",
+            "word2": "sulu",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": 5,
+            "lVar": 0,
             "rgb1": "#e4262d",
             "rgb2": "#da3743",
-            "shape_filename": "106-spiky.svg",
-            "word1": "degolo",
-            "word2": "magudo"
+            "shapeFilename": "100-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "dono",
+            "word2": "pono",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": -5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#e70f59",
-            "shape_filename": "10-spiky.svg",
-            "word1": "gomo",
-            "word2": "mibi"
+            "shapeFilename": "55-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "gigo",
+            "word2": "lada",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": -2.5,
+            "lVar": 0,
             "rgb1": "#e80d4f",
             "rgb2": "#da3743",
-            "shape_filename": "19-spiky.svg",
-            "word1": "pagumo",
-            "word2": "gagomi"
+            "shapeFilename": "127-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "gupu",
+            "word2": "sobo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#e90b44",
-            "shape_filename": "117-spiky.svg",
-            "word1": "dala",
-            "word2": "mudu"
+            "shapeFilename": "19-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "gago",
+            "word2": "mumi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": 2.5,
+            "lVar": 0,
             "rgb1": "#ea0839",
             "rgb2": "#da3743",
-            "shape_filename": "81-spiky.svg",
-            "word1": "dono",
-            "word2": "pono"
+            "shapeFilename": "38-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "desolo",
+            "word2": "gapomi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 5,
+            "bVar": 5,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#eb072e",
-            "shape_filename": "92-spiky.svg",
-            "word1": "masumi",
-            "word2": "baluta"
+            "shapeFilename": "47-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "lupu",
+            "word2": "sumu",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": -5,
+            "lVar": 2.5,
             "rgb1": "#cf535d",
             "rgb2": "#da3743",
-            "shape_filename": "21-spiky.svg",
-            "word1": "babo",
-            "word2": "nubu"
+            "shapeFilename": "31-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "ganana",
+            "word2": "masobi",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": -2.5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#d15253",
-            "shape_filename": "41-spiky.svg",
-            "word1": "gapumi",
-            "word2": "padomo"
+            "shapeFilename": "91-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "masusi",
+            "word2": "masoma",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": 0,
+            "lVar": 2.5,
             "rgb1": "#d25248",
             "rgb2": "#da3743",
-            "shape_filename": "75-spiky.svg",
-            "word1": "maduma",
-            "word2": "masoni"
+            "shapeFilename": "62-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "linubi",
+            "word2": "masosi",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": 2.5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#d3523c",
-            "shape_filename": "31-spiky.svg",
-            "word1": "pasa",
-            "word2": "nuna"
+            "shapeFilename": "18-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "lusu",
+            "word2": "nugu",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": 5,
+            "lVar": 2.5,
             "rgb1": "#d45130",
             "rgb2": "#da3743",
-            "shape_filename": "28-spiky.svg",
-            "word1": "budu",
-            "word2": "podo"
+            "shapeFilename": "87-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "maluma",
+            "word2": "baluma",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": -5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#d74a5e",
-            "shape_filename": "46-spiky.svg",
-            "word1": "meludo",
-            "word2": "nasegi"
+            "shapeFilename": "52-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "dasa",
+            "word2": "susa",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": -2.5,
+            "lVar": 2.5,
             "rgb1": "#d94a53",
             "rgb2": "#da3743",
-            "shape_filename": "40-spiky.svg",
-            "word1": "lolu",
-            "word2": "gugo"
+            "shapeFilename": "79-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "dulu",
+            "word2": "sada",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 0,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#da4948",
-            "shape_filename": "25-spiky.svg",
-            "word1": "dapola",
-            "word2": "dadula"
+            "shapeFilename": "82-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "depolo",
+            "word2": "baloba",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 2.5,
+            "lVar": 2.5,
             "rgb1": "#db493d",
             "rgb2": "#da3743",
-            "shape_filename": "6-spiky.svg",
-            "word1": "lalu",
-            "word2": "sosi"
+            "shapeFilename": "49-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "bini",
+            "word2": "mubu",
+            "wordType": "rounded"
         },
         {
+            "aVar": -2.5,
+            "bVar": 5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#dc4931",
-            "shape_filename": "51-spiky.svg",
-            "word1": "masuma",
-            "word2": "manoma"
+            "shapeFilename": "30-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "mabuma",
+            "word2": "baduta",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": -5,
+            "lVar": 2.5,
             "rgb1": "#df405e",
             "rgb2": "#da3743",
-            "shape_filename": "122-spiky.svg",
-            "word1": "dopo",
-            "word2": "mulu"
+            "shapeFilename": "59-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "bupu",
+            "word2": "nuno",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": -2.5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#e14054",
-            "shape_filename": "16-spiky.svg",
-            "word1": "gadumi",
-            "word2": "maloma"
+            "shapeFilename": "35-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "masuma",
+            "word2": "manoma",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": 2.5,
             "rgb1": "#e23f49",
             "rgb2": "#da3743",
-            "shape_filename": "94-spiky.svg",
-            "word1": "denono",
-            "word2": "galomi"
+            "shapeFilename": "107-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "gagu",
+            "word2": "sunu",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 2.5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#e33e3e",
-            "shape_filename": "57-spiky.svg",
-            "word1": "munu",
-            "word2": "pimi"
+            "shapeFilename": "121-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "lini",
+            "word2": "numu",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 5,
+            "lVar": 2.5,
             "rgb1": "#e43e32",
             "rgb2": "#da3743",
-            "shape_filename": "113-spiky.svg",
-            "word1": "badota",
-            "word2": "pamomo"
+            "shapeFilename": "120-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "nobegi",
+            "word2": "masogi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": -5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#e7335f",
-            "shape_filename": "108-spiky.svg",
-            "word1": "depolo",
-            "word2": "baloba"
+            "shapeFilename": "70-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "lalu",
+            "word2": "sosi",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": -2.5,
+            "lVar": 2.5,
             "rgb1": "#e93254",
             "rgb2": "#da3743",
-            "shape_filename": "72-spiky.svg",
-            "word1": "lini",
-            "word2": "numu"
+            "shapeFilename": "39-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "padumo",
+            "word2": "pabomo",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": 0,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#ea3249",
-            "shape_filename": "17-spiky.svg",
-            "word1": "baguba",
-            "word2": "babuta"
+            "shapeFilename": "3-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "bulu",
+            "word2": "nili",
+            "wordType": "rounded"
         },
         {
+            "aVar": 2.5,
+            "bVar": 2.5,
+            "lVar": 2.5,
             "rgb1": "#eb313e",
             "rgb2": "#da3743",
-            "shape_filename": "93-spiky.svg",
-            "word1": "bumu",
-            "word2": "gugi"
+            "shapeFilename": "66-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "pabumo",
+            "word2": "danono",
+            "wordType": "rounded"
         },
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#da3743",
-            "shape_filename": "120-spiky.svg",
-            "word1": "totu",
-            "word2": "tuku"
+            "shapeFilename": "111-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kikitu",
+            "word2": "akiko",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": 5,
+            "lVar": 2.5,
             "rgb1": "#ec3033",
             "rgb2": "#da3743",
-            "shape_filename": "98-spiky.svg",
-            "word1": "tazea",
-            "word2": "tezaza"
+            "shapeFilename": "78-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kizazi",
+            "word2": "tazia",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": -5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#ef205f",
-            "shape_filename": "45-spiky.svg",
-            "word1": "tivaki",
-            "word2": "zatazo"
+            "shapeFilename": "40-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zazu",
+            "word2": "koki",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": -2.5,
+            "lVar": 2.5,
             "rgb1": "#f01e55",
             "rgb2": "#da3743",
-            "shape_filename": "105-spiky.svg",
-            "word1": "kizi",
-            "word2": "toko"
+            "shapeFilename": "131-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "tava",
+            "word2": "vutu",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 0,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#f21d4a",
-            "shape_filename": "32-spiky.svg",
-            "word1": "veze",
-            "word2": "vete"
+            "shapeFilename": "86-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "tevazi",
+            "word2": "veviki",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 2.5,
+            "lVar": 2.5,
             "rgb1": "#f31c3f",
             "rgb2": "#da3743",
-            "shape_filename": "26-spiky.svg",
-            "word1": "kikatu",
-            "word2": "kikiko"
+            "shapeFilename": "81-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "titu",
+            "word2": "viki",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 5,
+            "lVar": 2.5,
             "rgb1": "#da3743",
             "rgb2": "#f41b34",
-            "shape_filename": "62-spiky.svg",
-            "word1": "tezete",
-            "word2": "kekio"
+            "shapeFilename": "63-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zazazu",
+            "word2": "vekiki",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": -5,
+            "lVar": 5,
             "rgb1": "#d65a63",
             "rgb2": "#da3743",
-            "shape_filename": "80-spiky.svg",
-            "word1": "tikaza",
-            "word2": "takazi"
+            "shapeFilename": "125-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kovo",
+            "word2": "zeve",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": -2.5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#d85959",
-            "shape_filename": "1-spiky.svg",
-            "word1": "kikiku",
-            "word2": "kikizo"
+            "shapeFilename": "80-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zozu",
+            "word2": "tuta",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 0,
+            "lVar": 5,
             "rgb1": "#da594e",
             "rgb2": "#da3743",
-            "shape_filename": "84-spiky.svg",
-            "word1": "kekeke",
-            "word2": "kakito"
+            "shapeFilename": "75-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "totu",
+            "word2": "tuku",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 2.5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#db5842",
-            "shape_filename": "9-spiky.svg",
-            "word1": "tavea",
-            "word2": "zavazo"
+            "shapeFilename": "50-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zakazu",
+            "word2": "tezazi",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": 5,
+            "lVar": 5,
             "rgb1": "#dc5836",
             "rgb2": "#da3743",
-            "shape_filename": "12-spiky.svg",
-            "word1": "kutu",
-            "word2": "voko"
+            "shapeFilename": "24-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zazo",
+            "word2": "tuto",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": -5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#df5164",
-            "shape_filename": "88-spiky.svg",
-            "word1": "tuzu",
-            "word2": "zutu"
+            "shapeFilename": "84-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kaza",
+            "word2": "kuko",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": -2.5,
+            "lVar": 5,
             "rgb1": "#e05159",
             "rgb2": "#da3743",
-            "shape_filename": "111-spiky.svg",
-            "word1": "tizi",
-            "word2": "teke"
+            "shapeFilename": "122-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zizazo",
+            "word2": "zizavu",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": 0,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#e2504e",
-            "shape_filename": "61-spiky.svg",
-            "word1": "teze",
-            "word2": "vova"
+            "shapeFilename": "25-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "vivu",
+            "word2": "tuti",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": 2.5,
+            "lVar": 5,
             "rgb1": "#e35043",
             "rgb2": "#da3743",
-            "shape_filename": "83-spiky.svg",
-            "word1": "keteke",
-            "word2": "takete"
+            "shapeFilename": "98-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zizako",
+            "word2": "keziti",
+            "wordType": "spiky"
         },
         {
+            "aVar": -2.5,
+            "bVar": 5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#e45037",
-            "shape_filename": "123-spiky.svg",
-            "word1": "vavu",
-            "word2": "tota"
+            "shapeFilename": "16-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kikizu",
+            "word2": "kazazi",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": -5,
+            "lVar": 5,
             "rgb1": "#e74864",
             "rgb2": "#da3743",
-            "shape_filename": "30-spiky.svg",
-            "word1": "tovo",
-            "word2": "toti"
+            "shapeFilename": "29-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "keteke",
+            "word2": "takete",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": -2.5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#e84759",
-            "shape_filename": "130-spiky.svg",
-            "word1": "kivi",
-            "word2": "vata"
+            "shapeFilename": "94-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kizi",
+            "word2": "toko",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": 5,
             "rgb1": "#ea474f",
             "rgb2": "#da3743",
-            "shape_filename": "42-spiky.svg",
-            "word1": "vuzu",
-            "word2": "kuki"
+            "shapeFilename": "69-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "titaza",
+            "word2": "akivo",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": 2.5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#eb4643",
-            "shape_filename": "35-spiky.svg",
-            "word1": "zozu",
-            "word2": "tuta"
+            "shapeFilename": "97-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "tivaza",
+            "word2": "kikavo",
+            "wordType": "spiky"
         },
         {
+            "aVar": 0,
+            "bVar": 5,
+            "lVar": 5,
             "rgb1": "#ec4638",
             "rgb2": "#da3743",
-            "shape_filename": "14-spiky.svg",
-            "word1": "zazu",
-            "word2": "koki"
+            "shapeFilename": "93-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "tatea",
+            "word2": "kakivo",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": -5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#ef3c65",
-            "shape_filename": "54-spiky.svg",
-            "word1": "viziki",
-            "word2": "kikito"
+            "shapeFilename": "106-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kutu",
+            "word2": "voko",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": -2.5,
+            "lVar": 5,
             "rgb1": "#f13b5a",
             "rgb2": "#da3743",
-            "shape_filename": "8-spiky.svg",
-            "word1": "tati",
-            "word2": "zoko"
+            "shapeFilename": "129-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kaviti",
+            "word2": "tetaza",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": 0,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#f23a4f",
-            "shape_filename": "77-spiky.svg",
-            "word1": "zakazu",
-            "word2": "tezazi"
+            "shapeFilename": "88-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kuvu",
+            "word2": "kika",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": 2.5,
+            "lVar": 5,
             "rgb1": "#f33a44",
             "rgb2": "#da3743",
-            "shape_filename": "100-spiky.svg",
-            "word1": "takea",
-            "word2": "viko"
+            "shapeFilename": "76-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kikibu",
+            "word2": "zizaku",
+            "wordType": "spiky"
         },
         {
+            "aVar": 2.5,
+            "bVar": 5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#f43939",
-            "shape_filename": "128-spiky.svg",
-            "word1": "kuzu",
-            "word2": "zava"
+            "shapeFilename": "28-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "kakio",
+            "word2": "kezio",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": -5,
+            "lVar": 5,
             "rgb1": "#f72c65",
             "rgb2": "#da3743",
-            "shape_filename": "52-spiky.svg",
-            "word1": "kikivu",
-            "word2": "titako"
+            "shapeFilename": "26-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "tivaku",
+            "word2": "tevaza",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": -2.5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#f82b5a",
-            "shape_filename": "64-spiky.svg",
-            "word1": "akiku",
-            "word2": "tekaza"
+            "shapeFilename": "67-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "taza",
+            "word2": "ziki",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 0,
+            "lVar": 5,
             "rgb1": "#fa2a50",
             "rgb2": "#da3743",
-            "shape_filename": "112-spiky.svg",
-            "word1": "kovo",
-            "word2": "zeve"
+            "shapeFilename": "53-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zatazu",
+            "word2": "tavia",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 2.5,
+            "lVar": 5,
             "rgb1": "#da3743",
             "rgb2": "#fb2945",
-            "shape_filename": "11-spiky.svg",
-            "word1": "viviki",
-            "word2": "tazaki"
+            "shapeFilename": "2-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "vaza",
+            "word2": "voto",
+            "wordType": "spiky"
         },
         {
+            "aVar": 5,
+            "bVar": 5,
+            "lVar": 5,
             "rgb1": "#fc283a",
             "rgb2": "#da3743",
-            "shape_filename": "47-spiky.svg",
-            "word1": "zizako",
-            "word2": "keziti"
+            "shapeFilename": "90-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zizu",
+            "word2": "vuva",
+            "wordType": "spiky"
         }
     ],
     "practiceTrials": [
         {
+            "aVar": 0,
+            "bVar": 0,
+            "lVar": 0,
             "rgb1": "#da3743",
             "rgb2": "#da3743",
-            "shape_filename": "50-rounded.svg",
-            "word1": "kikazu",
-            "word2": "kikazo"
+            "shapeFilename": "65-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "kikavu",
+            "word2": "tazete",
+            "wordType": "spiky"
         },
         {
+            "aVar": -5,
+            "bVar": -5,
+            "lVar": -5,
             "rgb1": "#b83e4c",
             "rgb2": "#da3743",
-            "shape_filename": "5-rounded.svg",
-            "word1": "nopo",
-            "word2": "lodo"
+            "shapeFilename": "36-rounded.svg",
+            "shapeType": "rounded",
+            "word1": "babi",
+            "word2": "giga",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": -2.5,
+            "lVar": -5,
             "rgb1": "#da3743",
             "rgb2": "#ba3e41",
-            "shape_filename": "70-spiky.svg",
-            "word1": "limubi",
-            "word2": "napegi"
+            "shapeFilename": "12-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "noso",
+            "word2": "supu",
+            "wordType": "rounded"
         },
         {
+            "aVar": -5,
+            "bVar": 0,
+            "lVar": -5,
             "rgb1": "#bb3e36",
             "rgb2": "#da3743",
-            "shape_filename": "116-spiky.svg",
-            "word1": "vitiki",
-            "word2": "veziki"
+            "shapeFilename": "17-spiky.svg",
+            "shapeType": "spiky",
+            "word1": "zizato",
+            "word2": "zizatu",
+            "wordType": "spiky"
         }
     ]
 }

@@ -53,16 +53,20 @@ function optionClicked(optionID) {
     if (isTrial) {
         psiTurk.recordTrialData({ // Record the response for this trial
             'trialNum': expIterator,
-            'shapeFilename': $c.expTrials[expIterator].shape_filename,
+            'shapeFilename': $c.expTrials[expIterator].shapeFilename,
             'leftWord': $("#left-option").html(),
             'rightWord': $("#right-option").html(),
             'leftColor': $("#left-option").css("background-color"),
             'rightColor': $("#right-option").css("background-color"),
+            'lVar': $c.expTrials[expIterator].lVar,
+            'aVar': $c.expTrials[expIterator].aVar,
+            'bVar': $c.expTrials[expIterator].bVar,
             'perturbedSide': $("#left-option").css("background-color") === "rgb(218, 55, 67)" ? 'left' : 'right',
             'selectedWord': $(optionID).html(),
             'selectedColor': $(optionID).css("background-color"),
-            'selectedSide': optionID === "#left-option" ? 'left' : 'right'
-            // Now I just need to record lab variations and trial start and end times
+            'selectedSide': optionID === "#left-option" ? 'left' : 'right',
+            'wordType': $c.expTrials[expIterator].wordType,
+            'shapeType': $c.expTrials[expIterator].shapeType
         });
 
         expIterator++;
@@ -149,7 +153,7 @@ function setTestCase() {
 
     if (!isTrial) { // when it is the instructions example
         i = instructionIterator;
-        $("#shape-image").attr("src", "/static/images/shapes/" + $c.practiceTrials[i].shape_filename);
+        $("#shape-image").attr("src", "/static/images/shapes/" + $c.practiceTrials[i].shapeFilename);
 
         switch(counterbalance) {
             case "0":
@@ -189,7 +193,7 @@ function setTestCase() {
         }
     } else { // when it is a real trial
         i = expIterator;
-        $("#shape-image").attr("src", "/static/images/shapes/" + $c.expTrials[i].shape_filename);
+        $("#shape-image").attr("src", "/static/images/shapes/" + $c.expTrials[i].shapeFilename);
 
         switch(counterbalance) {
             case "0":
