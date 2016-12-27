@@ -32,10 +32,10 @@ function setupExpEvents() {
         optionClicked("#right-option");
     });
     $(document).on("mouseenter", "#recenter-shape", function() {
-        startTimer();
+        startFillingTimer();
     });
     $(document).on("mouseleave", "#recenter-shape", function() {
-        stopTimer();
+        stopFillingTimer();
     });
 }
 

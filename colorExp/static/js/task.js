@@ -29,8 +29,10 @@ var instructionPages = [ // add as a list as many pages as you like
     "instructions/instruct-2.html"
 ];
 
-var timer = null;
-var time = 0;
+var fillingTimer = null;
+var trialTimer = null;
+var fillingTime = 0;
+var trialTime = 0.0;
 var isTrial = false;
 
 // Used to loop back around the instruction trials.
@@ -47,7 +49,8 @@ setupExpEvents();
 function optionClicked(optionID) {
     assert(optionID == "#left-option" || optionID == "#right-option", "optionID is set to " + optionID + "and not #left-option or #right-option as expected");
     assert(isTrial == true || isTrial ==false, "isTrial is set to " + isTrial + "not true or false as expected.");
-    
+
+    stopTrialTimer();
     setStateDisplay("recenter");
 
     if (isTrial) {
@@ -66,14 +69,14 @@ function optionClicked(optionID) {
             'selectedColor': $(optionID).css("background-color"),
             'selectedSide': optionID === "#left-option" ? 'left' : 'right',
             'wordType': $c.expTrials[expIterator].wordType,
-            'shapeType': $c.expTrials[expIterator].shapeType
+            'shapeType': $c.expTrials[expIterator].shapeType,
+            'trialTime': trialTime.toFixed(2)
         });
 
         expIterator++;
 
         if (expIterator >= $c.expTrials.length) {
             currentview = new Debriefing();
-            psiTurk.recordUnstructuredData('endTime', Math.floor(Date.now() / 1000));
         } else {
             updateProgress(expIterator, $c.expTrials.length);
             setTestCase();
@@ -139,6 +142,8 @@ function setStateDisplay(state) {
 
             // Fine tune layout
             $("#options-container").css("marginTop", "20px");
+
+            startTrialTimer();
 
             break;
         default:
@@ -234,31 +239,45 @@ function setTestCase() {
     }
 }
 
-/* Starts the timer */
-function startTimer() {
-    if (!timer) {
-        time = 0;
+/* Starts the filling timer */
+function startFillingTimer() {
+    if (!fillingTimer) {
+        fillingTime = 0;
         setCenterFilling(0);
-        timer = setInterval(tick, 50);
+        fillingTimer = setInterval(fillingTick, 50);
     }
 }
 
-/* Stops the timer */
-function stopTimer() {
-    clearInterval(timer);
-    timer = null;
+/* Stops the filling timer */
+function stopFillingTimer() {
+    clearInterval(fillingTimer);
+    fillingTimer = null;
     setCenterFilling(0);
 }
 
 /* Changes the recenter shape filling size during each tick. */
-function tick() {
-    if (time < 10) {
-        time++;
-        setCenterFilling(time);
+function fillingTick() {
+    if (fillingTime < 10) {
+        fillingTime++;
+        setCenterFilling(fillingTime);
     } else {
-        stopTimer();
+        stopFillingTimer();
         setStateDisplay("testCase");
     }
+}
+
+/* Starts the trial timer */
+function startTrialTimer() {
+    if (!trialTimer) {
+        trialTime = 0;
+        trialTimer = setInterval(function() { trialTime += 0.1 }, 100); // Increments the trial time every tenth of a second
+    }
+}
+
+/* Stops the trial timer */
+function stopTrialTimer() {
+    clearInterval(trialTimer);
+    trialTimer = null;
 }
 
 /*************************
@@ -280,7 +299,7 @@ var Debriefing = function() {
         
         psiTurk.saveData({
             success: function() {
-                clearInterval(reprompt); 
+                clearInterval(reprompt);
                 psiTurk.completeHIT();
             }, 
             error: prompt_resubmit
@@ -290,6 +309,7 @@ var Debriefing = function() {
     psiTurk.showPage('debriefing.html');
     
     $("#finishHit").click(function () {
+        psiTurk.recordUnstructuredData('endTime', Math.floor(Date.now() / 1000));
         psiTurk.saveData({
             success: function(){
                 psiTurk.completeHIT();
