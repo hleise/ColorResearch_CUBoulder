@@ -1,19 +1,19 @@
 [HIT Configuration]
-title = Rank three compressed images from best to worst.
-description = You will be shown several screens with three compressed images. Your task is to sort the images based on how well they reconstruct an original image. The experiment should take about 10 minutes. NOTE: you can only participate in ONE (1) experiment for credit.
-amt_keywords = psychology, shapes judgments
+title = Shape-Name Matching
+description = In this HIT, you will help us name shapes. On each trial, you will see a shape and two names. Your job is to select the name that you think best matches the given shape. NOTE: you can only participate in ONE (1) experiment for credit.
+amt_keywords = psychology, shape naming
 lifetime = 24
 us_only = true
 approve_requirement = 90
 contact_email_on_error = hunter.leise@colorado.edu
-ad_group = perceptuallyOptimized
-psiturk_keywords = visual similarity, decision making, preference judgments
+ad_group = shapeNaming
+psiturk_keywords = psychology, shape naming
 organization_name = University of Colorado Boulder
 browser_exclude_rule = MSIE, SeaMonkey, seamonkey, mobile, tablet
 
 [Database Parameters]
 database_url = sqlite:///liveparticipants.db
-table_name = perceptually-optimized-stage1
+table_name = shape-naming-stage1
 
 [Server Parameters]
 host = 0.0.0.0
