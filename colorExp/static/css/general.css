@@ -43,7 +43,7 @@ div.spacer { clear: both; }
 
 div.blue {
     background-color: #CEECF5;
-    padding: 0 1em 0 1em;
+    padding: 0.5em 1em 0 1em;
     border: 1px solid #CEECF5;
     position: relative;
 }
