@@ -17,7 +17,7 @@ table_name = shape-naming-stage1
 
 [Server Parameters]
 host = 0.0.0.0
-port = 22362
+port = 22363
 cutoff_time = 120
 logfile = server.log
 loglevel = 0
