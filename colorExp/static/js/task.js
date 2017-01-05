@@ -86,6 +86,7 @@ function optionClicked(optionID) {
 
         if (instructionIterator >= $c.practiceTrials.length ) {
             instructionIterator = 0;
+            setStateDisplay("practiceFinished");
         }
 
         setTestCase();
@@ -111,7 +112,7 @@ function setCenterFilling(fillingRadius) {
 
 /* Changes the display settings for either the "recenter" or "testCase" state */
 function setStateDisplay(state) {
-    assert(state == "recenter" || state == "testCase", "State is set to " + state + "not recenter or testCase as expected");
+    assert(state == "recenter" || state == "testCase" || state == "practiceFinished", "State is set to " + state + "not recenter, testCase, practiceFinished as expected");
 
     switch (state) {
         case "recenter":
@@ -144,6 +145,19 @@ function setStateDisplay(state) {
             $("#options-container").css("marginTop", "20px");
 
             startTrialTimer();
+
+            break;
+        case "practiceFinished":
+            // Things to hide
+            $("#task-instructions").css("display", "none");
+            $("#shape-image").css("display", "none");
+            $("#left-option-container").css("display", "none");
+            $("#right-option-container").css("display", "none");
+            $("#recenter-instructions").css("display", "none");
+            $("#recenter-shape").css("display", "none");
+
+            // Things to show
+            $("#practice-finished").css("display", "block");
 
             break;
         default:
