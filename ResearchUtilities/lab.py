@@ -1,3 +1,5 @@
+from math import atan, sin, cos, sqrt, pow, pi
+
 # Converts a given rgb value to its corresponding lab value
 def rgb2lab(r, g, b):
     # Normalize the RGB values
@@ -58,15 +60,32 @@ def lab2rgb(l, a, b):
 
     return (max(0, min(255, r)), max(0, min(255, g)), max(0, min(255, b)))
 
+# Converts a given lab value to its corresponding hcl value
+def lab2hcl(l, a, b):
+    h = atan(b / a)
+    c = sqrt( pow(a, 2) + pow(b, 2) )
+    return (h, c, l)
+
+# Converts a given hcl value to its corresponding lab value
+def hcl2lab(h, c, l):
+    a = c * cos(h)
+    b = c * sin(h)
+    return (l, a, b)
+
 # Returns a list of variations of the open table red in rgb hex format
 def getOpenTableMatrix():
     colorMatrix = []
-    openTableRed = rgb2lab(218, 55, 67)
-    for l in [-5, -2.5, 0, 2.5, 5]:
-        for a in [-12.8, -6.4, 0, 6.4, 12.8]: # Still variations of 2.5%, just in a larger range
-            for b in [-12.8, -6.4, 0, 6.4, 12.8]:
-                # Makes the color matrix of hex values starting from lab(-5%, -5%, -5%)
-                (red, green, blue) = lab2rgb(openTableRed[0] + l, openTableRed[1] + a, openTableRed[2] + b)
+    OTL, OTA, OTB = rgb2lab(218, 55, 67)
+    openTableRed = lab2hcl(OTL, OTA, OTB)
+    C25 = 0.025 * sqrt(32768)
+    C5 = 0.05 * sqrt(32768)
+
+    for h in [-pi/10, -pi/20, 0, pi/20, pi/10]: # -5%, -2.5%, 0%, 2.5%, 5%
+        for c in [-C5, -C25, 0, C25, C5]:
+            for l in [-5, -2.5, 0, 2.5, 5]:
+                # Makes the color matrix of hex values starting from hcl(-5%, -5%, -5%)
+                labL, labA, labB = hcl2lab(openTableRed[0] + h, openTableRed[1] + c, openTableRed[2] + l)
+                red, green, blue = lab2rgb(labL, labA, labB)
                 colorMatrix.append(toHex(red, green, blue))
 
     # Inserts the 3 extra instances of openTableRed so len(colorMatrix) is divisible by 4
@@ -76,20 +95,48 @@ def getOpenTableMatrix():
 
     return colorMatrix
 
+def getOpenTableDict():
+    colorMatrix = []
+    OTL, OTA, OTB = rgb2lab(218, 55, 67)
+    openTableRed = lab2hcl(OTL, OTA, OTB)
+    C25 = 0.025 * sqrt(32768)
+    C5 = 0.05 * sqrt(32768)
+
+    for h in [-pi / 10, -pi / 20, 0, pi / 20, pi / 10]:  # -5%, -2.5%, 0%, 2.5%, 5%
+        for c in [-C5, -C25, 0, C25, C5]:
+            for l in [-5, -2.5, 0, 2.5, 5]:
+                labL, labA, labB = hcl2lab(openTableRed[0] + h, openTableRed[1] + c, openTableRed[2] + l)
+                red, green, blue = lab2rgb(labL, labA, labB)
+                colorMatrix.append({'L': openTableRed[2] + l, 'a': labA, 'b': labB, 'c': openTableRed[1] + c,
+                                    'h': openTableRed[0] + h, 'r': red, 'g': green, 'b2': blue})
+
+    return colorMatrix
+
 def getVariationMatrix():
     variationMatrix = []
-    for l in [-5, -2.5, 0, 2.5, 5]:
-        for a in [-5, -2.5, 0, 2.5, 5]:
-            for b in [-5, -2.5, 0, 2.5, 5]:
-                variationMatrix.append({'l': l, 'a': a, 'b': b})
+    for h in [-5, -2.5, 0, 2.5, 5]:
+        for c in [-5, -2.5, 0, 2.5, 5]:
+            for l in [-5, -2.5, 0, 2.5, 5]:
+                variationMatrix.append({'h': h, 'c': c, 'l': l})
 
     # Inserts the 3 extra instances of openTableRed so len(colorMatrix) is divisible by 4
-    variationMatrix.insert(0, {'l': 0, 'a': 0, 'b': 0})
-    variationMatrix.insert(32, {'l': 0, 'a': 0, 'b': 0})
-    variationMatrix.insert(96, {'l': 0, 'a': 0, 'b': 0})
+    variationMatrix.insert(0, {'h': 0, 'c': 0, 'l': 0})
+    variationMatrix.insert(32, {'h': 0, 'c': 0, 'l': 0})
+    variationMatrix.insert(96, {'h': 0, 'c': 0, 'l': 0})
 
     return variationMatrix
 
 # Returns a given rgb value as its corresponding hex value
 def toHex(r,g,b):
     return ("#%02X%02X%02X" % (r, g, b)).lower()
+
+def createCSV():
+    import csv
+    with open('colors.csv', 'w') as csvfile:
+        fieldnames = ['L', 'a', 'b', 'c', 'h', 'r', 'g', 'b2']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        colorDict = getOpenTableDict()
+        writer.writeheader()
+
+        for row in colorDict:
+            writer.writerow(row)
