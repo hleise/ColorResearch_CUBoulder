@@ -258,7 +258,7 @@ function startFillingTimer() {
     if (!fillingTimer) {
         fillingTime = 0;
         setCenterFilling(0);
-        fillingTimer = setInterval(fillingTick, 50);
+        fillingTimer = setInterval(fillingTick, 25);
     }
 }
 
