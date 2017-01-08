@@ -115,7 +115,7 @@ def getOpenTableDict():
 def getVariationMatrix():
     variationMatrix = []
     for h in [-5, -2.5, 0, 2.5, 5]:
-        for c in [-5, -2.5, 0, 2.5, 5]:
+        for c in [-10, -5, 0, 5, 10]:
             for l in [-5, -2.5, 0, 2.5, 5]:
                 variationMatrix.append({'h': h, 'c': c, 'l': l})
 
