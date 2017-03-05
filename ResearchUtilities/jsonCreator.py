@@ -4,8 +4,8 @@ from lab import getOpenTableMatrix, getVariationMatrix
 from researchWords import getWordList
 
 # Constant declarations
-NUM_SHAPES = 132
-NUM_TRIALS = 128
+NUM_SHAPES = 154
+NUM_TRIALS = 150
 NUM_INSTRUCTIONS = 4
 
 def main():
