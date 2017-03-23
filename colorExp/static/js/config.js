@@ -29,7 +29,7 @@ var Config = function (condition, counterbalance) {
         var that = this;
         $.ajax({
             dataType: "json",
-            url: "/static/json/trial-set-" + condition + ".json",
+            url: "/static/json/trial-set-0.json",
             async: false,
             success: function (data) { 
                 if (that.debug) {
