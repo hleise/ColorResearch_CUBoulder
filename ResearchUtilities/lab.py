@@ -96,7 +96,7 @@ def getOpenTableMatrix():
 
     # Inserts the 2 extra instances of openTableRed so len(colorMatrix) is divisible by 4
     colorMatrix.insert(50, "#da3743")
-    colorMatrix.insert(101, "#da3743")
+    colorMatrix.insert(151, "#da3743")
 
     return colorMatrix
 
@@ -129,7 +129,7 @@ def getVariationMatrix():
 
     # Inserts the 2 extra instances of openTableRed so len(colorMatrix) is divisible by 4
     variationMatrix.insert(50, {'h': 0, 'c': 0, 'l': 0})
-    variationMatrix.insert(101, {'h': 0, 'c': 0, 'l': 0})
+    variationMatrix.insert(151, {'h': 0, 'c': 0, 'l': 0})
 
     return variationMatrix
 
