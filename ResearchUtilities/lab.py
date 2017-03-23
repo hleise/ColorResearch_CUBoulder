@@ -80,18 +80,23 @@ def getOpenTableMatrix():
     C10 = 0.1 * sqrt(32768)
     C5 = 0.05 * sqrt(32768)
 
-    for h in [-pi/10, -pi/20, 0, pi/20, pi/10]: # -5%, -2.5%, 0%, 2.5%, 5%
+    for x in range(0, 3):
         for c in [-C10, -C5, 0, C5, C10]:
             for l in [-5, -2.5, 0, 2.5, 5]:
                 # Makes the color matrix of hex values starting from hcl(-5%, -5%, -5%)
-                labL, labA, labB = hcl2lab(openTableRed[0] + h, openTableRed[1] + c, openTableRed[2] + l)
+                labL, labA, labB = hcl2lab(openTableRed[0] + 0, openTableRed[1] + c, openTableRed[2] + l)
+                red, green, blue = lab2rgb(labL, labA, labB)
+                colorMatrix.append(toHex(red, green, blue))
+        for h in [-pi / 10, -pi / 20, 0, pi / 20, pi / 10]:  # -5%, -2.5%, 0%, 2.5%, 5%
+            for l in [-5, -2.5, 0, 2.5, 5]:
+                # Makes the color matrix of hex values starting from hcl(-5%, -5%, -5%)
+                labL, labA, labB = hcl2lab(openTableRed[0] + h, openTableRed[1] + 0, openTableRed[2] + l)
                 red, green, blue = lab2rgb(labL, labA, labB)
                 colorMatrix.append(toHex(red, green, blue))
 
-    # Inserts the 3 extra instances of openTableRed so len(colorMatrix) is divisible by 4
-    colorMatrix.insert(0, "#da3743")
-    colorMatrix.insert(32, "#da3743")
-    colorMatrix.insert(96, "#da3743")
+    # Inserts the 2 extra instances of openTableRed so len(colorMatrix) is divisible by 4
+    colorMatrix.insert(50, "#da3743")
+    colorMatrix.insert(101, "#da3743")
 
     return colorMatrix
 
@@ -114,15 +119,17 @@ def getOpenTableDict():
 
 def getVariationMatrix():
     variationMatrix = []
-    for h in [-5, -2.5, 0, 2.5, 5]:
+    for x in range(0, 3):
         for c in [-10, -5, 0, 5, 10]:
             for l in [-5, -2.5, 0, 2.5, 5]:
-                variationMatrix.append({'h': h, 'c': c, 'l': l})
+                variationMatrix.append({'h': 0, 'c': c, 'l': l})
+        for h in [-5, -2.5, 0, 2.5, 5]:
+            for l in [-5, -2.5, 0, 2.5, 5]:
+                variationMatrix.append({'h': h, 'c': 0, 'l': l})
 
-    # Inserts the 3 extra instances of openTableRed so len(colorMatrix) is divisible by 4
-    variationMatrix.insert(0, {'h': 0, 'c': 0, 'l': 0})
-    variationMatrix.insert(32, {'h': 0, 'c': 0, 'l': 0})
-    variationMatrix.insert(96, {'h': 0, 'c': 0, 'l': 0})
+    # Inserts the 2 extra instances of openTableRed so len(colorMatrix) is divisible by 4
+    variationMatrix.insert(50, {'h': 0, 'c': 0, 'l': 0})
+    variationMatrix.insert(101, {'h': 0, 'c': 0, 'l': 0})
 
     return variationMatrix
 

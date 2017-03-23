@@ -4,8 +4,8 @@ from lab import getOpenTableMatrix, getVariationMatrix
 from researchWords import getWordList
 
 # Constant declarations
-NUM_SHAPES = 154
-NUM_TRIALS = 150
+NUM_SHAPES = 156
+NUM_TRIALS = 152
 NUM_INSTRUCTIONS = 4
 
 def main():
@@ -14,7 +14,6 @@ def main():
     (practiceRounded, rounded) = getRandWordList("mixed_rounded")
 
     openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpiky, practiceRounded, spiky, rounded,  0)
-    openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpiky, practiceRounded, spiky, rounded, 1)
 
 def getRandWordList(wordList):
     list = getWordList(wordList)
@@ -54,9 +53,6 @@ def openTableJSONFiles(instructShapeIndices, trialShapeIndices, practiceSpikyWor
     data = dict()
     data["practiceTrials"] = setTrialHolder(instructShapeIndices, practiceSpikyWords, practiceRoundedWords, jsonFileId)
     data["expTrials"] = setTrialHolder(trialShapeIndices, spikyWords, roundedWords, jsonFileId)
-
-    assert(len(data["practiceTrials"]) == 4)
-    assert (len(data["expTrials"]) == 128)
 
     with open('../colorExp/static/json/trial-set-' + str(jsonFileId) + '.json', 'w') as f:
         json.dump(data, f, indent=4, sort_keys=True)
