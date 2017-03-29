@@ -128,14 +128,14 @@ def setTrialHolder(indexList, spikyWords, roundedWords, jsonFileId):
                 si += 1
 
         if i % 2 == 0:
-            trial["rgb1"] = "#da3743"
+            trial["rgb1"] = "#0090ab"
             trial["rgb2"] = colorMatrix[i]
             trial["hVar"] = variationMatrix[i].get('h')
             trial["cVar"] = variationMatrix[i].get('c')
             trial["lVar"] = variationMatrix[i].get('l')
         else:
             trial["rgb1"] = colorMatrix[i]
-            trial["rgb2"] = "#da3743"
+            trial["rgb2"] = "#0090ab"
             trial["hVar"] = variationMatrix[i].get('h')
             trial["cVar"] = variationMatrix[i].get('c')
             trial["lVar"] = variationMatrix[i].get('l')

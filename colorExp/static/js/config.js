@@ -21,7 +21,10 @@ var Config = function (condition, counterbalance) {
     this.parse_config = function (data) {
         this.experimentName = "colorExperiment";
         this.practiceTrials = _.shuffle(data["practiceTrials"]);
-        this.expTrials = _.shuffle(data["expTrials"]);
+        this.expTrials1 = _.shuffle(data["expTrials"].slice(0, 52));
+        this.expTrials2 = _.shuffle(data["expTrials"].slice(52, 103));
+        this.expTrials3 = _.shuffle(data["expTrials"].slice(103, 153));
+        this.expTrials = this.expTrials1.concat(this.expTrials2.concat(this.expTrials3))
     };
 
     // Load the experiment configuration from the server

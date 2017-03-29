@@ -13,7 +13,7 @@ browser_exclude_rule = MSIE, SeaMonkey, seamonkey, mobile, tablet
 
 [Database Parameters]
 database_url = sqlite:///liveparticipants.db
-table_name = shape-naming-stage1
+table_name = shape-naming-stage2
 
 [Server Parameters]
 host = 0.0.0.0

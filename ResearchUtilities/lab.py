@@ -75,7 +75,7 @@ def hcl2lab(h, c, l):
 # Returns a list of variations of the open table red in rgb hex format
 def getOpenTableMatrix():
     colorMatrix = []
-    OTL, OTA, OTB = rgb2lab(218, 55, 67)
+    OTL, OTA, OTB = rgb2lab(0, 144, 171)
     openTableRed = lab2hcl(OTL, OTA, OTB)
     C10 = 0.1 * sqrt(32768)
     C5 = 0.05 * sqrt(32768)
@@ -84,36 +84,45 @@ def getOpenTableMatrix():
         for c in [-C10, -C5, 0, C5, C10]:
             for l in [-5, -2.5, 0, 2.5, 5]:
                 # Makes the color matrix of hex values starting from hcl(-5%, -5%, -5%)
-                labL, labA, labB = hcl2lab(openTableRed[0] + 0, openTableRed[1] + c, openTableRed[2] + l)
+                tempLabL, tempLabA, tempLabB = hcl2lab(openTableRed[0], openTableRed[1] + c, openTableRed[2] + l)
+                labL, labA, labB = tempLabL, -tempLabA, -tempLabB
                 red, green, blue = lab2rgb(labL, labA, labB)
                 colorMatrix.append(toHex(red, green, blue))
         for h in [-pi / 10, -pi / 20, 0, pi / 20, pi / 10]:  # -5%, -2.5%, 0%, 2.5%, 5%
             for l in [-5, -2.5, 0, 2.5, 5]:
                 # Makes the color matrix of hex values starting from hcl(-5%, -5%, -5%)
-                labL, labA, labB = hcl2lab(openTableRed[0] + h, openTableRed[1] + 0, openTableRed[2] + l)
+                tempLabL, tempLabA, tempLabB = hcl2lab(openTableRed[0] + h, openTableRed[1], openTableRed[2] + l)
+                labL, labA, labB = tempLabL, -tempLabA, -tempLabB
                 red, green, blue = lab2rgb(labL, labA, labB)
                 colorMatrix.append(toHex(red, green, blue))
 
     # Inserts the 2 extra instances of openTableRed so len(colorMatrix) is divisible by 4
-    colorMatrix.insert(50, "#da3743")
-    colorMatrix.insert(151, "#da3743")
+    colorMatrix.insert(50, "#0090ab")
+    colorMatrix.insert(151, "#0090ab")
 
     return colorMatrix
 
 def getOpenTableDict():
     colorMatrix = []
-    OTL, OTA, OTB = rgb2lab(218, 55, 67)
+    OTL, OTA, OTB = rgb2lab(0, 144, 171)
     openTableRed = lab2hcl(OTL, OTA, OTB)
     C10 = 0.1 * sqrt(32768)
     C5 = 0.05 * sqrt(32768)
 
+    for c in [-C10, -C5, 0, C5, C10]:
+        for l in [-5, -2.5, 0, 2.5, 5]:
+            tempLabL, tempLabA, tempLabB = hcl2lab(openTableRed[0], openTableRed[1] + c, openTableRed[2] + l)
+            labL, labA, labB = tempLabL, -tempLabA, -tempLabB
+            red, green, blue = lab2rgb(labL, labA, labB)
+            colorMatrix.append({'L': openTableRed[2] + l, 'a': labA, 'b': labB, 'c': openTableRed[1] + c,
+                                'h': openTableRed[0], 'r': red, 'g': green, 'b2': blue})
     for h in [-pi / 10, -pi / 20, 0, pi / 20, pi / 10]:  # -5%, -2.5%, 0%, 2.5%, 5%
-        for c in [-C10, -C5, 0, C5, C10]:
-            for l in [-5, -2.5, 0, 2.5, 5]:
-                labL, labA, labB = hcl2lab(openTableRed[0] + h, openTableRed[1] + c, openTableRed[2] + l)
-                red, green, blue = lab2rgb(labL, labA, labB)
-                colorMatrix.append({'L': openTableRed[2] + l, 'a': labA, 'b': labB, 'c': openTableRed[1] + c,
-                                    'h': openTableRed[0] + h, 'r': red, 'g': green, 'b2': blue})
+        for l in [-5, -2.5, 0, 2.5, 5]:
+            tempLabL, tempLabA, tempLabB = hcl2lab(openTableRed[0] + h, openTableRed[1], openTableRed[2] + l)
+            labL, labA, labB = tempLabL, -tempLabA, -tempLabB
+            red, green, blue = lab2rgb(labL, labA, labB)
+            colorMatrix.append({'L': openTableRed[2] + l, 'a': labA, 'b': labB, 'c': openTableRed[1],
+                                'h': openTableRed[0] + h, 'r': red, 'g': green, 'b2': blue})
 
     return colorMatrix
 
@@ -139,7 +148,7 @@ def toHex(r,g,b):
 
 def createCSV():
     import csv
-    with open('colors2.csv', 'w') as csvfile:
+    with open('colors.csv', 'w') as csvfile:
         fieldnames = ['L', 'a', 'b', 'c', 'h', 'r', 'g', 'b2']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         colorDict = getOpenTableDict()
