@@ -82,15 +82,15 @@ def getOpenTableMatrix():
 
     for x in range(0, 3):
         for c in [-C10, -C5, 0, C5, C10]:
-            for l in [-5, -2.5, 0, 2.5, 5]:
+            for l in [-10, -5, 0, 5, 10]:
                 # Makes the color matrix of hex values starting from hcl(-5%, -5%, -5%)
                 tempLabL, tempLabA, tempLabB = hcl2lab(openTableRed[0], openTableRed[1] + c, openTableRed[2] + l)
                 labL, labA, labB = tempLabL, -tempLabA, -tempLabB
                 red, green, blue = lab2rgb(labL, labA, labB)
                 colorMatrix.append(toHex(red, green, blue))
-        for h in [-pi / 10, -pi / 20, 0, pi / 20, pi / 10]:  # -5%, -2.5%, 0%, 2.5%, 5%
-            for l in [-5, -2.5, 0, 2.5, 5]:
-                # Makes the color matrix of hex values starting from hcl(-5%, -5%, -5%)
+        for h in [-pi / 5, -pi / 10, 0, pi / 10, pi / 5]:  # -10%, -5%, 0%, 5%, 10%
+            for l in [-10, -5, 0, 5, 10]:
+                # Makes the color matrix of hex values starting from hcl(-10%, -10%, -10%)
                 tempLabL, tempLabA, tempLabB = hcl2lab(openTableRed[0] + h, openTableRed[1], openTableRed[2] + l)
                 labL, labA, labB = tempLabL, -tempLabA, -tempLabB
                 red, green, blue = lab2rgb(labL, labA, labB)
@@ -110,14 +110,14 @@ def getOpenTableDict():
     C5 = 0.05 * sqrt(32768)
 
     for c in [-C10, -C5, 0, C5, C10]:
-        for l in [-5, -2.5, 0, 2.5, 5]:
+        for l in [-10, -5, 0, 5, 10]:
             tempLabL, tempLabA, tempLabB = hcl2lab(openTableRed[0], openTableRed[1] + c, openTableRed[2] + l)
             labL, labA, labB = tempLabL, -tempLabA, -tempLabB
             red, green, blue = lab2rgb(labL, labA, labB)
             colorMatrix.append({'L': openTableRed[2] + l, 'a': labA, 'b': labB, 'c': openTableRed[1] + c,
                                 'h': openTableRed[0], 'r': red, 'g': green, 'b2': blue})
-    for h in [-pi / 10, -pi / 20, 0, pi / 20, pi / 10]:  # -5%, -2.5%, 0%, 2.5%, 5%
-        for l in [-5, -2.5, 0, 2.5, 5]:
+    for h in [-pi / 5, -pi / 10, 0, pi / 10, pi / 5]:  # -10%, -5%, 0%, 5%, 10%
+        for l in [-10, -5, 0, 5, 10]:
             tempLabL, tempLabA, tempLabB = hcl2lab(openTableRed[0] + h, openTableRed[1], openTableRed[2] + l)
             labL, labA, labB = tempLabL, -tempLabA, -tempLabB
             red, green, blue = lab2rgb(labL, labA, labB)
@@ -130,10 +130,10 @@ def getVariationMatrix():
     variationMatrix = []
     for x in range(0, 3):
         for c in [-10, -5, 0, 5, 10]:
-            for l in [-5, -2.5, 0, 2.5, 5]:
+            for l in [-10, -5, 0, 5, 10]:
                 variationMatrix.append({'h': 0, 'c': c, 'l': l})
-        for h in [-5, -2.5, 0, 2.5, 5]:
-            for l in [-5, -2.5, 0, 2.5, 5]:
+        for h in [-10, -5, 0, 5, 10]:
+            for l in [-10, -5, 0, 5, 10]:
                 variationMatrix.append({'h': h, 'c': 0, 'l': l})
 
     # Inserts the 2 extra instances of openTableRed so len(colorMatrix) is divisible by 4
@@ -148,7 +148,7 @@ def toHex(r,g,b):
 
 def createCSV():
     import csv
-    with open('colors.csv', 'w') as csvfile:
+    with open('colors2.csv', 'w') as csvfile:
         fieldnames = ['L', 'a', 'b', 'c', 'h', 'r', 'g', 'b2']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         colorDict = getOpenTableDict()
